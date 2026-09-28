@@ -1,0 +1,639 @@
+[
+  {
+    "id": "ram-corsair-vengeance-rgb-ddr5-6000-cl30-32gb",
+    "name": "Corsair Vengeance RGB DDR5-6000 32GB (2x16GB)",
+    "manufacturer": "Corsair",
+    "price_usd": 115,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 6000,
+      "modules": 2,
+      "latency": "CL30"
+    }
+  },
+  {
+    "id": "ram-gskill-trident-z5-rgb-ddr5-6000-cl30-32gb",
+    "name": "G.Skill Trident Z5 RGB DDR5-6000 32GB (2x16GB)",
+    "manufacturer": "G.Skill",
+    "price_usd": 124,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 6000,
+      "modules": 2,
+      "latency": "CL30"
+    }
+  },
+  {
+    "id": "ram-kingston-fury-beast-rgb-ddr5-6000-cl30-32gb",
+    "name": "Kingston FURY Beast RGB DDR5-6000 32GB (2x16GB)",
+    "manufacturer": "Kingston",
+    "price_usd": 108,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 6000,
+      "modules": 2,
+      "latency": "CL30"
+    }
+  },
+  {
+    "id": "ram-crucial-pro-ddr5-6000-cl30-32gb",
+    "name": "Crucial Pro DDR5-6000 32GB (2x16GB)",
+    "manufacturer": "Crucial",
+    "price_usd": 95,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 6000,
+      "modules": 2,
+      "latency": "CL30"
+    }
+  },
+  {
+    "id": "ram-teamgroup-tforce-delta-rgb-ddr5-6000-cl30-32gb",
+    "name": "TeamGroup T-Force Delta RGB DDR5-6000 32GB (2x16GB)",
+    "manufacturer": "TeamGroup",
+    "price_usd": 102,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 6000,
+      "modules": 2,
+      "latency": "CL30"
+    }
+  },
+  {
+    "id": "ram-corsair-vengeance-ddr5-6400-cl32-32gb",
+    "name": "Corsair Vengeance DDR5-6400 32GB (2x16GB)",
+    "manufacturer": "Corsair",
+    "price_usd": 145,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 6400,
+      "modules": 2,
+      "latency": "CL32"
+    }
+  },
+  {
+    "id": "ram-gskill-trident-z5-ddr5-6400-cl32-32gb",
+    "name": "G.Skill Trident Z5 DDR5-6400 32GB (2x16GB)",
+    "manufacturer": "G.Skill",
+    "price_usd": 158,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 6400,
+      "modules": 2,
+      "latency": "CL32"
+    }
+  },
+  {
+    "id": "ram-kingston-fury-renegade-ddr5-6400-cl32-32gb",
+    "name": "Kingston FURY Renegade DDR5-6400 32GB (2x16GB)",
+    "manufacturer": "Kingston",
+    "price_usd": 152,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 6400,
+      "modules": 2,
+      "latency": "CL32"
+    }
+  },
+  {
+    "id": "ram-crucial-pro-ddr5-6400-cl32-32gb",
+    "name": "Crucial Pro DDR5-6400 32GB (2x16GB)",
+    "manufacturer": "Crucial",
+    "price_usd": 138,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 6400,
+      "modules": 2,
+      "latency": "CL32"
+    }
+  },
+  {
+    "id": "ram-teamgroup-tforce-vulcan-ddr5-6400-cl32-32gb",
+    "name": "TeamGroup T-Force Vulcan DDR5-6400 32GB (2x16GB)",
+    "manufacturer": "TeamGroup",
+    "price_usd": 128,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 6400,
+      "modules": 2,
+      "latency": "CL32"
+    }
+  },
+  {
+    "id": "ram-corsair-vengeance-ddr5-5600-cl36-32gb",
+    "name": "Corsair Vengeance DDR5-5600 32GB (2x16GB)",
+    "manufacturer": "Corsair",
+    "price_usd": 88,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 5600,
+      "modules": 2,
+      "latency": "CL36"
+    }
+  },
+  {
+    "id": "ram-gskill-ripjaws-s5-ddr5-5600-cl36-32gb",
+    "name": "G.Skill Ripjaws S5 DDR5-5600 32GB (2x16GB)",
+    "manufacturer": "G.Skill",
+    "price_usd": 82,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 5600,
+      "modules": 2,
+      "latency": "CL36"
+    }
+  },
+  {
+    "id": "ram-kingston-fury-beast-ddr5-5600-cl36-32gb",
+    "name": "Kingston FURY Beast DDR5-5600 32GB (2x16GB)",
+    "manufacturer": "Kingston",
+    "price_usd": 79,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 5600,
+      "modules": 2,
+      "latency": "CL36"
+    }
+  },
+  {
+    "id": "ram-crucial-ddr5-5600-cl36-32gb",
+    "name": "Crucial DDR5-5600 32GB (2x16GB)",
+    "manufacturer": "Crucial",
+    "price_usd": 72,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 5600,
+      "modules": 2,
+      "latency": "CL36"
+    }
+  },
+  {
+    "id": "ram-teamgroup-tforce-classic-ddr5-5600-cl36-32gb",
+    "name": "TeamGroup T-Force Classic DDR5-5600 32GB (2x16GB)",
+    "manufacturer": "TeamGroup",
+    "price_usd": 75,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 5600,
+      "modules": 2,
+      "latency": "CL36"
+    }
+  },
+  {
+    "id": "ram-corsair-vengeance-ddr5-6000-cl30-64gb",
+    "name": "Corsair Vengeance DDR5-6000 64GB (2x32GB)",
+    "manufacturer": "Corsair",
+    "price_usd": 245,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 64,
+      "speed_mhz": 6000,
+      "modules": 2,
+      "latency": "CL30"
+    }
+  },
+  {
+    "id": "ram-gskill-trident-z5-ddr5-6000-cl30-64gb",
+    "name": "G.Skill Trident Z5 DDR5-6000 64GB (2x32GB)",
+    "manufacturer": "G.Skill",
+    "price_usd": 268,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 64,
+      "speed_mhz": 6000,
+      "modules": 2,
+      "latency": "CL30"
+    }
+  },
+  {
+    "id": "ram-kingston-fury-beast-ddr5-6000-cl30-64gb",
+    "name": "Kingston FURY Beast DDR5-6000 64GB (2x32GB)",
+    "manufacturer": "Kingston",
+    "price_usd": 229,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 64,
+      "speed_mhz": 6000,
+      "modules": 2,
+      "latency": "CL30"
+    }
+  },
+  {
+    "id": "ram-crucial-pro-ddr5-6000-cl30-64gb",
+    "name": "Crucial Pro DDR5-6000 64GB (2x32GB)",
+    "manufacturer": "Crucial",
+    "price_usd": 218,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 64,
+      "speed_mhz": 6000,
+      "modules": 2,
+      "latency": "CL30"
+    }
+  },
+  {
+    "id": "ram-teamgroup-tforce-delta-rgb-ddr5-6000-cl30-64gb",
+    "name": "TeamGroup T-Force Delta RGB DDR5-6000 64GB (2x32GB)",
+    "manufacturer": "TeamGroup",
+    "price_usd": 239,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 64,
+      "speed_mhz": 6000,
+      "modules": 2,
+      "latency": "CL30"
+    }
+  },
+  {
+    "id": "ram-corsair-value-ddr5-4800-cl40-32gb",
+    "name": "Corsair Value DDR5-4800 32GB (2x16GB)",
+    "manufacturer": "Corsair",
+    "price_usd": 72,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 4800,
+      "modules": 2,
+      "latency": "CL40"
+    }
+  },
+  {
+    "id": "ram-gskill-ripjaws-s5-ddr5-4800-cl40-32gb",
+    "name": "G.Skill Ripjaws S5 DDR5-4800 32GB (2x16GB)",
+    "manufacturer": "G.Skill",
+    "price_usd": 68,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 4800,
+      "modules": 2,
+      "latency": "CL40"
+    }
+  },
+  {
+    "id": "ram-kingston-ddr5-4800-cl40-32gb",
+    "name": "Kingston DDR5-4800 32GB (2x16GB)",
+    "manufacturer": "Kingston",
+    "price_usd": 65,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 4800,
+      "modules": 2,
+      "latency": "CL40"
+    }
+  },
+  {
+    "id": "ram-crucial-ddr5-4800-cl40-32gb",
+    "name": "Crucial DDR5-4800 32GB (2x16GB)",
+    "manufacturer": "Crucial",
+    "price_usd": 58,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 4800,
+      "modules": 2,
+      "latency": "CL40"
+    }
+  },
+  {
+    "id": "ram-teamgroup-classic-ddr5-4800-cl40-32gb",
+    "name": "TeamGroup Classic DDR5-4800 32GB (2x16GB)",
+    "manufacturer": "TeamGroup",
+    "price_usd": 62,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 4800,
+      "modules": 2,
+      "latency": "CL40"
+    }
+  },
+  {
+    "id": "ram-corsair-vengeance-lpx-ddr4-3600-cl16-32gb",
+    "name": "Corsair Vengeance LPX DDR4-3600 32GB (2x16GB)",
+    "manufacturer": "Corsair",
+    "price_usd": 72,
+    "specs": {
+      "memory_type": "DDR4",
+      "capacity_gb": 32,
+      "speed_mhz": 3600,
+      "modules": 2,
+      "latency": "CL16"
+    }
+  },
+  {
+    "id": "ram-gskill-ripjaws-v-ddr4-3600-cl16-32gb",
+    "name": "G.Skill Ripjaws V DDR4-3600 32GB (2x16GB)",
+    "manufacturer": "G.Skill",
+    "price_usd": 68,
+    "specs": {
+      "memory_type": "DDR4",
+      "capacity_gb": 32,
+      "speed_mhz": 3600,
+      "modules": 2,
+      "latency": "CL16"
+    }
+  },
+  {
+    "id": "ram-kingston-fury-beast-ddr4-3600-cl16-32gb",
+    "name": "Kingston FURY Beast DDR4-3600 32GB (2x16GB)",
+    "manufacturer": "Kingston",
+    "price_usd": 64,
+    "specs": {
+      "memory_type": "DDR4",
+      "capacity_gb": 32,
+      "speed_mhz": 3600,
+      "modules": 2,
+      "latency": "CL16"
+    }
+  },
+  {
+    "id": "ram-crucial-ballistix-ddr4-3600-cl16-32gb",
+    "name": "Crucial Ballistix DDR4-3600 32GB (2x16GB)",
+    "manufacturer": "Crucial",
+    "price_usd": 59,
+    "specs": {
+      "memory_type": "DDR4",
+      "capacity_gb": 32,
+      "speed_mhz": 3600,
+      "modules": 2,
+      "latency": "CL16"
+    }
+  },
+  {
+    "id": "ram-teamgroup-tforce-vulcan-z-ddr4-3600-cl16-32gb",
+    "name": "TeamGroup T-Force Vulcan Z DDR4-3600 32GB (2x16GB)",
+    "manufacturer": "TeamGroup",
+    "price_usd": 62,
+    "specs": {
+      "memory_type": "DDR4",
+      "capacity_gb": 32,
+      "speed_mhz": 3600,
+      "modules": 2,
+      "latency": "CL16"
+    }
+  },
+  {
+    "id": "ram-corsair-vengeance-lpx-ddr4-3200-cl16-32gb",
+    "name": "Corsair Vengeance LPX DDR4-3200 32GB (2x16GB)",
+    "manufacturer": "Corsair",
+    "price_usd": 54,
+    "specs": {
+      "memory_type": "DDR4",
+      "capacity_gb": 32,
+      "speed_mhz": 3200,
+      "modules": 2,
+      "latency": "CL16"
+    }
+  },
+  {
+    "id": "ram-gskill-ripjaws-v-ddr4-3200-cl16-32gb",
+    "name": "G.Skill Ripjaws V DDR4-3200 32GB (2x16GB)",
+    "manufacturer": "G.Skill",
+    "price_usd": 51,
+    "specs": {
+      "memory_type": "DDR4",
+      "capacity_gb": 32,
+      "speed_mhz": 3200,
+      "modules": 2,
+      "latency": "CL16"
+    }
+  },
+  {
+    "id": "ram-kingston-fury-beast-ddr4-3200-cl16-32gb",
+    "name": "Kingston FURY Beast DDR4-3200 32GB (2x16GB)",
+    "manufacturer": "Kingston",
+    "price_usd": 49,
+    "specs": {
+      "memory_type": "DDR4",
+      "capacity_gb": 32,
+      "speed_mhz": 3200,
+      "modules": 2,
+      "latency": "CL16"
+    }
+  },
+  {
+    "id": "ram-crucial-ddr4-3200-cl16-32gb",
+    "name": "Crucial DDR4-3200 32GB (2x16GB)",
+    "manufacturer": "Crucial",
+    "price_usd": 46,
+    "specs": {
+      "memory_type": "DDR4",
+      "capacity_gb": 32,
+      "speed_mhz": 3200,
+      "modules": 2,
+      "latency": "CL16"
+    }
+  },
+  {
+    "id": "ram-teamgroup-tclassic-ddr4-3200-cl16-32gb",
+    "name": "TeamGroup T-Create Classic DDR4-3200 32GB (2x16GB)",
+    "manufacturer": "TeamGroup",
+    "price_usd": 48,
+    "specs": {
+      "memory_type": "DDR4",
+      "capacity_gb": 32,
+      "speed_mhz": 3200,
+      "modules": 2,
+      "latency": "CL16"
+    }
+  },
+  {
+    "id": "ram-corsair-vengeance-lpx-ddr4-3200-cl16-16gb",
+    "name": "Corsair Vengeance LPX DDR4-3200 16GB (2x8GB)",
+    "manufacturer": "Corsair",
+    "price_usd": 38,
+    "specs": {
+      "memory_type": "DDR4",
+      "capacity_gb": 16,
+      "speed_mhz": 3200,
+      "modules": 2,
+      "latency": "CL16"
+    }
+  },
+  {
+    "id": "ram-gskill-ripjaws-v-ddr4-3200-cl16-16gb",
+    "name": "G.Skill Ripjaws V DDR4-3200 16GB (2x8GB)",
+    "manufacturer": "G.Skill",
+    "price_usd": 35,
+    "specs": {
+      "memory_type": "DDR4",
+      "capacity_gb": 16,
+      "speed_mhz": 3200,
+      "modules": 2,
+      "latency": "CL16"
+    }
+  },
+  {
+    "id": "ram-kingston-fury-beast-ddr4-3200-cl16-16gb",
+    "name": "Kingston FURY Beast DDR4-3200 16GB (2x8GB)",
+    "manufacturer": "Kingston",
+    "price_usd": 33,
+    "specs": {
+      "memory_type": "DDR4",
+      "capacity_gb": 16,
+      "speed_mhz": 3200,
+      "modules": 2,
+      "latency": "CL16"
+    }
+  },
+  {
+    "id": "ram-crucial-ddr4-3200-cl16-16gb",
+    "name": "Crucial DDR4-3200 16GB (2x8GB)",
+    "manufacturer": "Crucial",
+    "price_usd": 32,
+    "specs": {
+      "memory_type": "DDR4",
+      "capacity_gb": 16,
+      "speed_mhz": 3200,
+      "modules": 2,
+      "latency": "CL16"
+    }
+  },
+  {
+    "id": "ram-teamgroup-vulcan-z-ddr4-3200-cl16-16gb",
+    "name": "TeamGroup Vulcan Z DDR4-3200 16GB (2x8GB)",
+    "manufacturer": "TeamGroup",
+    "price_usd": 34,
+    "specs": {
+      "memory_type": "DDR4",
+      "capacity_gb": 16,
+      "speed_mhz": 3200,
+      "modules": 2,
+      "latency": "CL16"
+    }
+  },
+  {
+    "id": "ram-corsair-vengeance-lpx-ddr4-3600-cl18-64gb",
+    "name": "Corsair Vengeance LPX DDR4-3600 64GB (2x32GB)",
+    "manufacturer": "Corsair",
+    "price_usd": 108,
+    "specs": {
+      "memory_type": "DDR4",
+      "capacity_gb": 64,
+      "speed_mhz": 3600,
+      "modules": 2,
+      "latency": "CL18"
+    }
+  },
+  {
+    "id": "ram-gskill-ripjaws-v-ddr4-3600-cl18-64gb",
+    "name": "G.Skill Ripjaws V DDR4-3600 64GB (2x32GB)",
+    "manufacturer": "G.Skill",
+    "price_usd": 102,
+    "specs": {
+      "memory_type": "DDR4",
+      "capacity_gb": 64,
+      "speed_mhz": 3600,
+      "modules": 2,
+      "latency": "CL18"
+    }
+  },
+  {
+    "id": "ram-kingston-fury-beast-ddr4-3600-cl18-64gb",
+    "name": "Kingston FURY Beast DDR4-3600 64GB (2x32GB)",
+    "manufacturer": "Kingston",
+    "price_usd": 98,
+    "specs": {
+      "memory_type": "DDR4",
+      "capacity_gb": 64,
+      "speed_mhz": 3600,
+      "modules": 2,
+      "latency": "CL18"
+    }
+  },
+  {
+    "id": "ram-crucial-ddr4-3600-cl18-64gb",
+    "name": "Crucial DDR4-3600 64GB (2x32GB)",
+    "manufacturer": "Crucial",
+    "price_usd": 88,
+    "specs": {
+      "memory_type": "DDR4",
+      "capacity_gb": 64,
+      "speed_mhz": 3600,
+      "modules": 2,
+      "latency": "CL18"
+    }
+  },
+  {
+    "id": "ram-teamgroup-tcreate-expert-ddr4-3600-cl18-64gb",
+    "name": "TeamGroup T-Create Expert DDR4-3600 64GB (2x32GB)",
+    "manufacturer": "TeamGroup",
+    "price_usd": 92,
+    "specs": {
+      "memory_type": "DDR4",
+      "capacity_gb": 64,
+      "speed_mhz": 3600,
+      "modules": 2,
+      "latency": "CL18"
+    }
+  },
+  {
+    "id": "ram-gskill-trident-z5-rgb-ddr5-7200-cl34-32gb",
+    "name": "G.Skill Trident Z5 RGB DDR5-7200 32GB (2x16GB)",
+    "manufacturer": "G.Skill",
+    "price_usd": 219,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 7200,
+      "modules": 2,
+      "latency": "CL34"
+    }
+  },
+  {
+    "id": "ram-corsair-dominator-titanium-ddr5-7200-cl34-32gb",
+    "name": "Corsair Dominator Titanium DDR5-7200 32GB (2x16GB)",
+    "manufacturer": "Corsair",
+    "price_usd": 249,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 7200,
+      "modules": 2,
+      "latency": "CL34"
+    }
+  },
+  {
+    "id": "ram-kingston-fury-renegade-ddr5-7600-cl36-32gb",
+    "name": "Kingston FURY Renegade DDR5-7600 32GB (2x16GB)",
+    "manufacturer": "Kingston",
+    "price_usd": 269,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 7600,
+      "modules": 2,
+      "latency": "CL36"
+    }
+  },
+  {
+    "id": "ram-teamgroup-tforce-xtreem-ddr5-8000-cl38-32gb",
+    "name": "TeamGroup T-Force Xtreem DDR5-8000 32GB (2x16GB)",
+    "manufacturer": "TeamGroup",
+    "price_usd": 289,
+    "specs": {
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "speed_mhz": 8000,
+      "modules": 2,
+      "latency": "CL38"
+    }
+  }
+]

@@ -1,0 +1,166 @@
+import fs from "fs";
+import path from "path";
+
+const USE_CATALOG = process.env.USE_CATALOG !== "false";
+const catalogDir = path.join(process.cwd(), "data", "catalog");
+const seedDir = path.join(process.cwd(), "data", "seed");
+const pricingCachePath = path.join(process.cwd(), "data", "pricing-cache.json");
+
+function safeReadJson(filePath: string): unknown {
+  const raw = fs.readFileSync(filePath, "utf-8");
+  return JSON.parse(raw);
+}
+
+/**
+ * Load JSON array from catalog or seed.
+ * Prefer catalog when USE_CATALOG is true and file exists with >0 entries.
+ */
+function loadJSONFile<T = any>(filename: string): T[] {
+  try {
+    if (USE_CATALOG) {
+      const catalogPath = path.join(catalogDir, filename);
+      if (fs.existsSync(catalogPath)) {
+        const parsed = safeReadJson(catalogPath) as T[];
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          console.log(
+            `✅ Loaded ${parsed.length} items from catalog/${filename}`
+          );
+          return parsed;
+        }
+        console.warn(
+          `⚠️  catalog/${filename} is empty, falling back to seed/${filename}`
+        );
+      }
+    }
+
+    const seedPath = path.join(seedDir, filename);
+    if (fs.existsSync(seedPath)) {
+      const parsed = safeReadJson(seedPath) as T[];
+      if (Array.isArray(parsed)) {
+        console.log(
+          `⚠️  Loaded ${parsed.length} items from seed/${filename} (catalog missing or empty)`
+        );
+        return parsed;
+      }
+    }
+
+    console.error(`❌ File not found or invalid: ${filename}`);
+    return [];
+  } catch (err) {
+    console.error(`❌ Error loading ${filename}:`, err);
+    return [];
+  }
+}
+
+/**
+ * Load cached pricing overlay. Returns a map of component_id → price_usd
+ * for entries that are still within their 24-hour TTL.
+ */
+function loadPricingOverlay(): Record<string, number> {
+  try {
+    if (!fs.existsSync(pricingCachePath)) return {};
+    const cache = JSON.parse(fs.readFileSync(pricingCachePath, "utf-8"));
+    if (!cache?.entries) return {};
+
+    const now = Date.now();
+    const TTL = 24 * 60 * 60 * 1000;
+    const result: Record<string, number> = {};
+
+    for (const [id, entry] of Object.entries(cache.entries)) {
+      const e = entry as { price_usd: number; fetched_at: string };
+      const age = now - new Date(e.fetched_at).getTime();
+      if (age <= TTL && e.price_usd > 0) {
+        result[id] = e.price_usd;
+      }
+    }
+
+    if (Object.keys(result).length > 0) {
+      console.log(`💰 Loaded ${Object.keys(result).length} cached prices`);
+    }
+    return result;
+  } catch {
+    return {};
+  }
+}
+
+/**
+ * Apply pricing cache overlay to a component array.
+ * If a cached price exists for a component, it overrides the catalog price.
+ */
+function applyPricing<T extends { id?: string; price_usd?: number }>(
+  items: T[],
+  pricingMap: Record<string, number>
+): T[] {
+  if (Object.keys(pricingMap).length === 0) return items;
+  return items.map((item) => {
+    if (item.id && pricingMap[item.id]) {
+      return { ...item, price_usd: pricingMap[item.id] };
+    }
+    return item;
+  });
+}
+
+export function loadCPUs() {
+  return loadJSONFile("cpus.json");
+}
+
+export function loadGPUs() {
+  return loadJSONFile("gpus.json");
+}
+
+export function loadMotherboards() {
+  return loadJSONFile("motherboards.json");
+}
+
+export function loadRAM() {
+  return loadJSONFile("ram.json");
+}
+
+export function loadStorage() {
+  return loadJSONFile("storage.json");
+}
+
+export function loadPSUs() {
+  return loadJSONFile("psus.json");
+}
+
+export function loadCoolers() {
+  return loadJSONFile("coolers.json");
+}
+
+export function loadCases() {
+  return loadJSONFile("cases.json");
+}
+
+export function loadAllComponents() {
+  const pricingMap = loadPricingOverlay();
+
+  const components = {
+    cpus: applyPricing(loadCPUs(), pricingMap),
+    gpus: applyPricing(loadGPUs(), pricingMap),
+    motherboards: applyPricing(loadMotherboards(), pricingMap),
+    ram: applyPricing(loadRAM(), pricingMap),
+    storage: applyPricing(loadStorage(), pricingMap),
+    psus: applyPricing(loadPSUs(), pricingMap),
+    coolers: applyPricing(loadCoolers(), pricingMap),
+    cases: applyPricing(loadCases(), pricingMap),
+  };
+
+  const total = Object.values(components).reduce(
+    (sum, arr) => sum + (Array.isArray(arr) ? arr.length : 0),
+    0
+  );
+
+  console.log("\n📦 Component catalog loaded");
+  console.log(`  CPUs: ${components.cpus.length}`);
+  console.log(`  GPUs: ${components.gpus.length}`);
+  console.log(`  Motherboards: ${components.motherboards.length}`);
+  console.log(`  RAM: ${components.ram.length}`);
+  console.log(`  Storage: ${components.storage.length}`);
+  console.log(`  PSUs: ${components.psus.length}`);
+  console.log(`  Coolers: ${components.coolers.length}`);
+  console.log(`  Cases: ${components.cases.length}`);
+  console.log(`  TOTAL: ${total} components\n`);
+
+  return components;
+}

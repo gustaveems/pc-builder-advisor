@@ -1,0 +1,572 @@
+[
+  {
+    "id": "cooler-noctua-nh-d15-chromax",
+    "name": "Noctua NH-D15 chromax.black",
+    "manufacturer": "Noctua",
+    "price_usd": 110,
+    "specs": {
+      "type": "Air",
+      "tdp_rating_w": 250,
+      "radiator_size_mm": null,
+      "height_mm": 165,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 2,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-noctua-nh-d15-g2",
+    "name": "Noctua NH-D15 G2",
+    "manufacturer": "Noctua",
+    "price_usd": 130,
+    "specs": {
+      "type": "Air",
+      "tdp_rating_w": 260,
+      "radiator_size_mm": null,
+      "height_mm": 165,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 2,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-noctua-nh-u12s-chromax",
+    "name": "Noctua NH-U12S chromax.black",
+    "manufacturer": "Noctua",
+    "price_usd": 80,
+    "specs": {
+      "type": "Air",
+      "tdp_rating_w": 180,
+      "radiator_size_mm": null,
+      "height_mm": 158,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 1,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-noctua-nh-l9i-l9a-chromax",
+    "name": "Noctua NH-L9i / NH-L9a chromax.black",
+    "manufacturer": "Noctua",
+    "price_usd": 45,
+    "specs": {
+      "type": "Air",
+      "tdp_rating_w": 65,
+      "radiator_size_mm": null,
+      "height_mm": 37,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 1,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-be-quiet-dark-rock-pro-5",
+    "name": "be quiet! Dark Rock Pro 5",
+    "manufacturer": "be quiet!",
+    "price_usd": 90,
+    "specs": {
+      "type": "Air",
+      "tdp_rating_w": 270,
+      "radiator_size_mm": null,
+      "height_mm": 168,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 2,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-be-quiet-dark-rock-4",
+    "name": "be quiet! Dark Rock 4",
+    "manufacturer": "be quiet!",
+    "price_usd": 75,
+    "specs": {
+      "type": "Air",
+      "tdp_rating_w": 200,
+      "radiator_size_mm": null,
+      "height_mm": 159,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 1,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-deepcool-ak620",
+    "name": "DeepCool AK620",
+    "manufacturer": "DeepCool",
+    "price_usd": 55,
+    "specs": {
+      "type": "Air",
+      "tdp_rating_w": 260,
+      "radiator_size_mm": null,
+      "height_mm": 160,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 2,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-deepcool-assassin-iv",
+    "name": "DeepCool Assassin IV",
+    "manufacturer": "DeepCool",
+    "price_usd": 100,
+    "specs": {
+      "type": "Air",
+      "tdp_rating_w": 280,
+      "radiator_size_mm": null,
+      "height_mm": 164,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 2,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-thermalright-peerless-assassin-120-se",
+    "name": "Thermalright Peerless Assassin 120 SE",
+    "manufacturer": "Thermalright",
+    "price_usd": 35,
+    "specs": {
+      "type": "Air",
+      "tdp_rating_w": 260,
+      "radiator_size_mm": null,
+      "height_mm": 155,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 2,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-arctic-freezer-36",
+    "name": "Arctic Freezer 36",
+    "manufacturer": "Arctic",
+    "price_usd": 30,
+    "specs": {
+      "type": "Air",
+      "tdp_rating_w": 250,
+      "radiator_size_mm": null,
+      "height_mm": 159,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 2,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-cooler-master-hyper-212",
+    "name": "Cooler Master Hyper 212",
+    "manufacturer": "Cooler Master",
+    "price_usd": 30,
+    "specs": {
+      "type": "Air",
+      "tdp_rating_w": 150,
+      "radiator_size_mm": null,
+      "height_mm": 159,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 1,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-noctua-nh-u14s",
+    "name": "Noctua NH-U14S",
+    "manufacturer": "Noctua",
+    "price_usd": 90,
+    "specs": {
+      "type": "Air",
+      "tdp_rating_w": 200,
+      "radiator_size_mm": null,
+      "height_mm": 165,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 1,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-corsair-a115",
+    "name": "Corsair A115",
+    "manufacturer": "Corsair",
+    "price_usd": 100,
+    "specs": {
+      "type": "Air",
+      "tdp_rating_w": 250,
+      "radiator_size_mm": null,
+      "height_mm": 164,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 2,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-nzxt-t120",
+    "name": "NZXT T120",
+    "manufacturer": "NZXT",
+    "price_usd": 50,
+    "specs": {
+      "type": "Air",
+      "tdp_rating_w": 180,
+      "radiator_size_mm": null,
+      "height_mm": 158,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 1,
+      "rgb_type": "5v_argb"
+    }
+  },
+  {
+    "id": "cooler-be-quiet-pure-rock-2",
+    "name": "be quiet! Pure Rock 2",
+    "manufacturer": "be quiet!",
+    "price_usd": 45,
+    "specs": {
+      "type": "Air",
+      "tdp_rating_w": 150,
+      "radiator_size_mm": null,
+      "height_mm": 155,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 1,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-deepcool-ak400",
+    "name": "DeepCool AK400",
+    "manufacturer": "DeepCool",
+    "price_usd": 35,
+    "specs": {
+      "type": "Air",
+      "tdp_rating_w": 220,
+      "radiator_size_mm": null,
+      "height_mm": 152,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 1,
+      "rgb_type": "5v_argb"
+    }
+  },
+  {
+    "id": "cooler-thermalright-phantom-spirit-120",
+    "name": "Thermalright Phantom Spirit 120",
+    "manufacturer": "Thermalright",
+    "price_usd": 40,
+    "specs": {
+      "type": "Air",
+      "tdp_rating_w": 250,
+      "radiator_size_mm": null,
+      "height_mm": 157,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 2,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-lian-li-galahad-ii-air",
+    "name": "Lian Li Galahad II Air",
+    "manufacturer": "Lian Li",
+    "price_usd": 85,
+    "specs": {
+      "type": "Air",
+      "tdp_rating_w": 240,
+      "radiator_size_mm": null,
+      "height_mm": 162,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 2,
+      "rgb_type": "5v_argb"
+    }
+  },
+  {
+    "id": "cooler-cooler-master-hyper-212-black-rgb",
+    "name": "Cooler Master Hyper 212 Black RGB",
+    "manufacturer": "Cooler Master",
+    "price_usd": 35,
+    "specs": {
+      "type": "Air",
+      "tdp_rating_w": 150,
+      "radiator_size_mm": null,
+      "height_mm": 159,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 1,
+      "rgb_type": "5v_argb"
+    }
+  },
+  {
+    "id": "cooler-arctic-freezer-34-esports-duo",
+    "name": "Arctic Freezer 34 eSports DUO",
+    "manufacturer": "Arctic",
+    "price_usd": 45,
+    "specs": {
+      "type": "Air",
+      "tdp_rating_w": 210,
+      "radiator_size_mm": null,
+      "height_mm": 157,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 2,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-corsair-icue-h150i-elite",
+    "name": "Corsair iCUE H150i ELITE CAPELLIX XT",
+    "manufacturer": "Corsair",
+    "price_usd": 170,
+    "specs": {
+      "type": "AIO",
+      "tdp_rating_w": 350,
+      "radiator_size_mm": 360,
+      "height_mm": null,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 3,
+      "rgb_type": "5v_argb"
+    }
+  },
+  {
+    "id": "cooler-corsair-icue-h100i-elite",
+    "name": "Corsair iCUE H100i ELITE CAPELLIX XT",
+    "manufacturer": "Corsair",
+    "price_usd": 130,
+    "specs": {
+      "type": "AIO",
+      "tdp_rating_w": 320,
+      "radiator_size_mm": 240,
+      "height_mm": null,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 2,
+      "rgb_type": "5v_argb"
+    }
+  },
+  {
+    "id": "cooler-nzxt-kraken-x73",
+    "name": "NZXT Kraken X73",
+    "manufacturer": "NZXT",
+    "price_usd": 150,
+    "specs": {
+      "type": "AIO",
+      "tdp_rating_w": 350,
+      "radiator_size_mm": 360,
+      "height_mm": null,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 3,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-nzxt-kraken-x63",
+    "name": "NZXT Kraken X63",
+    "manufacturer": "NZXT",
+    "price_usd": 130,
+    "specs": {
+      "type": "AIO",
+      "tdp_rating_w": 330,
+      "radiator_size_mm": 280,
+      "height_mm": null,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 2,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-nzxt-kraken-240",
+    "name": "NZXT Kraken 240",
+    "manufacturer": "NZXT",
+    "price_usd": 120,
+    "specs": {
+      "type": "AIO",
+      "tdp_rating_w": 320,
+      "radiator_size_mm": 240,
+      "height_mm": null,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 2,
+      "rgb_type": "5v_argb"
+    }
+  },
+  {
+    "id": "cooler-lian-li-galahad-ii-trinity-360",
+    "name": "Lian Li Galahad II Trinity 360",
+    "manufacturer": "Lian Li",
+    "price_usd": 160,
+    "specs": {
+      "type": "AIO",
+      "tdp_rating_w": 350,
+      "radiator_size_mm": 360,
+      "height_mm": null,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 3,
+      "rgb_type": "5v_argb"
+    }
+  },
+  {
+    "id": "cooler-be-quiet-silent-loop-2-360",
+    "name": "be quiet! Silent Loop 2 360",
+    "manufacturer": "be quiet!",
+    "price_usd": 140,
+    "specs": {
+      "type": "AIO",
+      "tdp_rating_w": 340,
+      "radiator_size_mm": 360,
+      "height_mm": null,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 3,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-arctic-liquid-freezer-ii-360",
+    "name": "Arctic Liquid Freezer II 360",
+    "manufacturer": "Arctic",
+    "price_usd": 100,
+    "specs": {
+      "type": "AIO",
+      "tdp_rating_w": 360,
+      "radiator_size_mm": 360,
+      "height_mm": null,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 3,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-arctic-liquid-freezer-ii-280",
+    "name": "Arctic Liquid Freezer II 280",
+    "manufacturer": "Arctic",
+    "price_usd": 85,
+    "specs": {
+      "type": "AIO",
+      "tdp_rating_w": 330,
+      "radiator_size_mm": 280,
+      "height_mm": null,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 2,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-arctic-liquid-freezer-ii-240",
+    "name": "Arctic Liquid Freezer II 240",
+    "manufacturer": "Arctic",
+    "price_usd": 70,
+    "specs": {
+      "type": "AIO",
+      "tdp_rating_w": 300,
+      "radiator_size_mm": 240,
+      "height_mm": null,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 2,
+      "rgb_type": "none"
+    }
+  },
+  {
+    "id": "cooler-cooler-master-masterliquid-ml360",
+    "name": "Cooler Master MasterLiquid ML360L V2",
+    "manufacturer": "Cooler Master",
+    "price_usd": 120,
+    "specs": {
+      "type": "AIO",
+      "tdp_rating_w": 340,
+      "radiator_size_mm": 360,
+      "height_mm": null,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 3,
+      "rgb_type": "5v_argb"
+    }
+  },
+  {
+    "id": "cooler-deepcool-lt720",
+    "name": "DeepCool LT720",
+    "manufacturer": "DeepCool",
+    "price_usd": 110,
+    "specs": {
+      "type": "AIO",
+      "tdp_rating_w": 340,
+      "radiator_size_mm": 360,
+      "height_mm": null,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 3,
+      "rgb_type": "5v_argb"
+    }
+  },
+  {
+    "id": "cooler-cooler-master-ek-aio-elite-360",
+    "name": "EK AIO Elite 360 D-RGB",
+    "manufacturer": "Cooler Master",
+    "price_usd": 180,
+    "specs": {
+      "type": "AIO",
+      "tdp_rating_w": 360,
+      "radiator_size_mm": 360,
+      "height_mm": null,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 3,
+      "rgb_type": "5v_argb"
+    }
+  },
+  {
+    "id": "cooler-nzxt-kraken-elite-360",
+    "name": "NZXT Kraken Elite 360",
+    "manufacturer": "NZXT",
+    "price_usd": 200,
+    "specs": {
+      "type": "AIO",
+      "tdp_rating_w": 360,
+      "radiator_size_mm": 360,
+      "height_mm": null,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 3,
+      "rgb_type": "5v_argb"
+    }
+  },
+  {
+    "id": "cooler-deepcool-ls720",
+    "name": "DeepCool LS720",
+    "manufacturer": "DeepCool",
+    "price_usd": 100,
+    "specs": {
+      "type": "AIO",
+      "tdp_rating_w": 340,
+      "radiator_size_mm": 360,
+      "height_mm": null,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 3,
+      "rgb_type": "5v_argb"
+    }
+  },
+  {
+    "id": "cooler-lian-li-galahad-ii-trinity-240",
+    "name": "Lian Li Galahad II Trinity 240",
+    "manufacturer": "Lian Li",
+    "price_usd": 120,
+    "specs": {
+      "type": "AIO",
+      "tdp_rating_w": 320,
+      "radiator_size_mm": 240,
+      "height_mm": null,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 2,
+      "rgb_type": "5v_argb"
+    }
+  },
+  {
+    "id": "cooler-be-quiet-pure-loop-2-fx-360",
+    "name": "be quiet! Pure Loop 2 FX 360",
+    "manufacturer": "be quiet!",
+    "price_usd": 125,
+    "specs": {
+      "type": "AIO",
+      "tdp_rating_w": 340,
+      "radiator_size_mm": 360,
+      "height_mm": null,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 3,
+      "rgb_type": "5v_argb"
+    }
+  },
+  {
+    "id": "cooler-nzxt-kraken-x53",
+    "name": "NZXT Kraken X53",
+    "manufacturer": "NZXT",
+    "price_usd": 110,
+    "specs": {
+      "type": "AIO",
+      "tdp_rating_w": 310,
+      "radiator_size_mm": 240,
+      "height_mm": null,
+      "sockets": ["LGA1700", "LGA1851", "AM5", "AM4"],
+      "fan_count": 2,
+      "rgb_type": "none"
+    }
+  }
+]

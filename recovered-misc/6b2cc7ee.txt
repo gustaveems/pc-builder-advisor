@@ -1,0 +1,705 @@
+[
+  {
+    "id": "case-fractal-design-north",
+    "name": "Fractal Design North",
+    "manufacturer": "Fractal Design",
+    "price_usd": 130,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 355,
+      "max_cooler_height_mm": 170,
+      "max_psu_length_mm": 210,
+      "drive_bays_2_5": 4,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 2,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-fractal-design-torrent",
+    "name": "Fractal Design Torrent",
+    "manufacturer": "Fractal Design",
+    "price_usd": 190,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 461,
+      "max_cooler_height_mm": 188,
+      "max_psu_length_mm": 230,
+      "drive_bays_2_5": 4,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360, 420],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 4,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-fractal-design-pop-air",
+    "name": "Fractal Design Pop Air",
+    "manufacturer": "Fractal Design",
+    "price_usd": 100,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 405,
+      "max_cooler_height_mm": 170,
+      "max_psu_length_mm": 210,
+      "drive_bays_2_5": 3,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 2,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-nzxt-h7-flow",
+    "name": "NZXT H7 Flow",
+    "manufacturer": "NZXT",
+    "price_usd": 130,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 400,
+      "max_cooler_height_mm": 185,
+      "max_psu_length_mm": 220,
+      "drive_bays_2_5": 4,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 2,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-nzxt-h5-flow",
+    "name": "NZXT H5 Flow",
+    "manufacturer": "NZXT",
+    "price_usd": 95,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 365,
+      "max_cooler_height_mm": 165,
+      "max_psu_length_mm": 210,
+      "drive_bays_2_5": 3,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 2,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-corsair-4000d-airflow",
+    "name": "Corsair 4000D Airflow",
+    "manufacturer": "Corsair",
+    "price_usd": 105,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 360,
+      "max_cooler_height_mm": 170,
+      "max_psu_length_mm": 200,
+      "drive_bays_2_5": 2,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 2,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-corsair-5000d-airflow",
+    "name": "Corsair 5000D Airflow",
+    "manufacturer": "Corsair",
+    "price_usd": 175,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 420,
+      "max_cooler_height_mm": 170,
+      "max_psu_length_mm": 220,
+      "drive_bays_2_5": 4,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 3,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-lian-li-lancool-iii",
+    "name": "Lian Li Lancool III",
+    "manufacturer": "Lian Li",
+    "price_usd": 150,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 435,
+      "max_cooler_height_mm": 187,
+      "max_psu_length_mm": 220,
+      "drive_bays_2_5": 4,
+      "drive_bays_3_5": 3,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 3,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-lian-li-o11-dynamic-evo",
+    "name": "Lian Li O11 Dynamic EVO",
+    "manufacturer": "Lian Li",
+    "price_usd": 170,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 420,
+      "max_cooler_height_mm": 167,
+      "max_psu_length_mm": 220,
+      "drive_bays_2_5": 4,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 0,
+      "mesh_front": false
+    }
+  },
+  {
+    "id": "case-phanteks-eclipse-g360a",
+    "name": "Phanteks Eclipse G360A",
+    "manufacturer": "Phanteks",
+    "price_usd": 90,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 400,
+      "max_cooler_height_mm": 165,
+      "max_psu_length_mm": 210,
+      "drive_bays_2_5": 3,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 3,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-be-quiet-pure-base-500dx",
+    "name": "be quiet! Pure Base 500DX",
+    "manufacturer": "be quiet!",
+    "price_usd": 110,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 369,
+      "max_cooler_height_mm": 190,
+      "max_psu_length_mm": 215,
+      "drive_bays_2_5": 3,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 3,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-be-quiet-silent-base-802",
+    "name": "be quiet! Silent Base 802",
+    "manufacturer": "be quiet!",
+    "price_usd": 170,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 432,
+      "max_cooler_height_mm": 185,
+      "max_psu_length_mm": 220,
+      "drive_bays_2_5": 4,
+      "drive_bays_3_5": 3,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360, 420],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 3,
+      "mesh_front": false
+    }
+  },
+  {
+    "id": "case-cooler-master-masterbox-q500l",
+    "name": "Cooler Master MasterBox Q500L",
+    "manufacturer": "Cooler Master",
+    "price_usd": 60,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 360,
+      "max_cooler_height_mm": 160,
+      "max_psu_length_mm": 210,
+      "drive_bays_2_5": 2,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 1,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-corsair-7000d-airflow",
+    "name": "Corsair 7000D Airflow",
+    "manufacturer": "Corsair",
+    "price_usd": 270,
+    "specs": {
+      "form_factor": "E-ATX",
+      "max_gpu_length_mm": 450,
+      "max_cooler_height_mm": 190,
+      "max_psu_length_mm": 230,
+      "drive_bays_2_5": 6,
+      "drive_bays_3_5": 3,
+      "expansion_slots": 8,
+      "supports_radiator_mm": [120, 240, 280, 360, 420],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 3,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-phanteks-enthoo-pro-2",
+    "name": "Phanteks Enthoo Pro 2",
+    "manufacturer": "Phanteks",
+    "price_usd": 160,
+    "specs": {
+      "form_factor": "E-ATX",
+      "max_gpu_length_mm": 503,
+      "max_cooler_height_mm": 190,
+      "max_psu_length_mm": 220,
+      "drive_bays_2_5": 4,
+      "drive_bays_3_5": 4,
+      "expansion_slots": 8,
+      "supports_radiator_mm": [120, 240, 280, 360, 420],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 2,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-fractal-design-define-mini-c",
+    "name": "Fractal Design Define Mini C",
+    "manufacturer": "Fractal Design",
+    "price_usd": 80,
+    "specs": {
+      "form_factor": "Micro-ATX",
+      "max_gpu_length_mm": 315,
+      "max_cooler_height_mm": 170,
+      "max_psu_length_mm": 180,
+      "drive_bays_2_5": 2,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 4,
+      "supports_radiator_mm": [120, 240, 280],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 2,
+      "mesh_front": false
+    }
+  },
+  {
+    "id": "case-cooler-master-masterbox-q300l",
+    "name": "Cooler Master MasterBox Q300L",
+    "manufacturer": "Cooler Master",
+    "price_usd": 50,
+    "specs": {
+      "form_factor": "Micro-ATX",
+      "max_gpu_length_mm": 360,
+      "max_cooler_height_mm": 159,
+      "max_psu_length_mm": 180,
+      "drive_bays_2_5": 2,
+      "drive_bays_3_5": 1,
+      "expansion_slots": 4,
+      "supports_radiator_mm": [120, 240],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 1,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-corsair-2500x",
+    "name": "Corsair 2500X",
+    "manufacturer": "Corsair",
+    "price_usd": 110,
+    "specs": {
+      "form_factor": "Micro-ATX",
+      "max_gpu_length_mm": 400,
+      "max_cooler_height_mm": 180,
+      "max_psu_length_mm": 200,
+      "drive_bays_2_5": 3,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 4,
+      "supports_radiator_mm": [120, 240, 280, 360],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 2,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-nzxt-h1-v2",
+    "name": "NZXT H1 V2",
+    "manufacturer": "NZXT",
+    "price_usd": 350,
+    "specs": {
+      "form_factor": "Mini-ITX",
+      "max_gpu_length_mm": 325,
+      "max_cooler_height_mm": 72,
+      "max_psu_length_mm": 180,
+      "drive_bays_2_5": 2,
+      "drive_bays_3_5": 0,
+      "expansion_slots": 3,
+      "supports_radiator_mm": [140],
+      "max_psu_form_factor": "SFX",
+      "preinstalled_fans": 2,
+      "mesh_front": false
+    }
+  },
+  {
+    "id": "case-lian-li-a4-h2o",
+    "name": "Lian Li A4-H2O",
+    "manufacturer": "Lian Li",
+    "price_usd": 130,
+    "specs": {
+      "form_factor": "Mini-ITX",
+      "max_gpu_length_mm": 322,
+      "max_cooler_height_mm": 55,
+      "max_psu_length_mm": 180,
+      "drive_bays_2_5": 1,
+      "drive_bays_3_5": 0,
+      "expansion_slots": 3,
+      "supports_radiator_mm": [120, 240],
+      "max_psu_form_factor": "SFX",
+      "preinstalled_fans": 0,
+      "mesh_front": false
+    }
+  },
+  {
+    "id": "case-fractal-design-terra",
+    "name": "Fractal Design Terra",
+    "manufacturer": "Fractal Design",
+    "price_usd": 170,
+    "specs": {
+      "form_factor": "Mini-ITX",
+      "max_gpu_length_mm": 322,
+      "max_cooler_height_mm": 77,
+      "max_psu_length_mm": 180,
+      "drive_bays_2_5": 2,
+      "drive_bays_3_5": 0,
+      "expansion_slots": 3,
+      "supports_radiator_mm": [120, 240],
+      "max_psu_form_factor": "SFX",
+      "preinstalled_fans": 0,
+      "mesh_front": false
+    }
+  },
+  {
+    "id": "case-cooler-master-nr200p",
+    "name": "Cooler Master NR200P",
+    "manufacturer": "Cooler Master",
+    "price_usd": 90,
+    "specs": {
+      "form_factor": "Mini-ITX",
+      "max_gpu_length_mm": 330,
+      "max_cooler_height_mm": 155,
+      "max_psu_length_mm": 180,
+      "drive_bays_2_5": 2,
+      "drive_bays_3_5": 1,
+      "expansion_slots": 3,
+      "supports_radiator_mm": [120, 240, 280],
+      "max_psu_form_factor": "SFX",
+      "preinstalled_fans": 2,
+      "mesh_front": false
+    }
+  },
+  {
+    "id": "case-phanteks-evolv-shift-xt",
+    "name": "Phanteks Evolv Shift XT",
+    "manufacturer": "Phanteks",
+    "price_usd": 130,
+    "specs": {
+      "form_factor": "Mini-ITX",
+      "max_gpu_length_mm": 335,
+      "max_cooler_height_mm": 72,
+      "max_psu_length_mm": 180,
+      "drive_bays_2_5": 1,
+      "drive_bays_3_5": 0,
+      "expansion_slots": 3,
+      "supports_radiator_mm": [120, 240],
+      "max_psu_form_factor": "SFX",
+      "preinstalled_fans": 0,
+      "mesh_front": false
+    }
+  },
+  {
+    "id": "case-fractal-design-meshify-2",
+    "name": "Fractal Design Meshify 2",
+    "manufacturer": "Fractal Design",
+    "price_usd": 150,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 467,
+      "max_cooler_height_mm": 185,
+      "max_psu_length_mm": 220,
+      "drive_bays_2_5": 4,
+      "drive_bays_3_5": 3,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360, 420],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 3,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-nzxt-h6-flow",
+    "name": "NZXT H6 Flow",
+    "manufacturer": "NZXT",
+    "price_usd": 140,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 395,
+      "max_cooler_height_mm": 180,
+      "max_psu_length_mm": 220,
+      "drive_bays_2_5": 3,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 3,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-corsair-6500x",
+    "name": "Corsair 6500X",
+    "manufacturer": "Corsair",
+    "price_usd": 200,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 400,
+      "max_cooler_height_mm": 175,
+      "max_psu_length_mm": 220,
+      "drive_bays_2_5": 4,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 0,
+      "mesh_front": false
+    }
+  },
+  {
+    "id": "case-lian-li-o11-vision",
+    "name": "Lian Li O11 Vision",
+    "manufacturer": "Lian Li",
+    "price_usd": 190,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 420,
+      "max_cooler_height_mm": 167,
+      "max_psu_length_mm": 220,
+      "drive_bays_2_5": 4,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 0,
+      "mesh_front": false
+    }
+  },
+  {
+    "id": "case-phanteks-nv5",
+    "name": "Phanteks NV5",
+    "manufacturer": "Phanteks",
+    "price_usd": 120,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 415,
+      "max_cooler_height_mm": 170,
+      "max_psu_length_mm": 210,
+      "drive_bays_2_5": 3,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 0,
+      "mesh_front": false
+    }
+  },
+  {
+    "id": "case-be-quiet-shadow-base-800-dx",
+    "name": "be quiet! Shadow Base 800 DX",
+    "manufacturer": "be quiet!",
+    "price_usd": 160,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 430,
+      "max_cooler_height_mm": 180,
+      "max_psu_length_mm": 220,
+      "drive_bays_2_5": 4,
+      "drive_bays_3_5": 3,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360, 420],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 3,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-thermaltake-core-p3-tg",
+    "name": "Thermaltake Core P3 TG",
+    "manufacturer": "Thermaltake",
+    "price_usd": 140,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 450,
+      "max_cooler_height_mm": 180,
+      "max_psu_length_mm": 220,
+      "drive_bays_2_5": 2,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360, 420],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 0,
+      "mesh_front": false
+    }
+  },
+  {
+    "id": "case-cooler-master-td500-mesh-v2",
+    "name": "Cooler Master TD500 Mesh V2",
+    "manufacturer": "Cooler Master",
+    "price_usd": 100,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 410,
+      "max_cooler_height_mm": 165,
+      "max_psu_length_mm": 210,
+      "drive_bays_2_5": 3,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 3,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-fractal-design-ridge",
+    "name": "Fractal Design Ridge",
+    "manufacturer": "Fractal Design",
+    "price_usd": 140,
+    "specs": {
+      "form_factor": "Mini-ITX",
+      "max_gpu_length_mm": 335,
+      "max_cooler_height_mm": 70,
+      "max_psu_length_mm": 180,
+      "drive_bays_2_5": 2,
+      "drive_bays_3_5": 0,
+      "expansion_slots": 3,
+      "supports_radiator_mm": [120],
+      "max_psu_form_factor": "SFX",
+      "preinstalled_fans": 2,
+      "mesh_front": false
+    }
+  },
+  {
+    "id": "case-corsair-2000d-airflow",
+    "name": "Corsair 2000D Airflow",
+    "manufacturer": "Corsair",
+    "price_usd": 130,
+    "specs": {
+      "form_factor": "Mini-ITX",
+      "max_gpu_length_mm": 365,
+      "max_cooler_height_mm": 90,
+      "max_psu_length_mm": 180,
+      "drive_bays_2_5": 2,
+      "drive_bays_3_5": 0,
+      "expansion_slots": 3,
+      "supports_radiator_mm": [120, 240],
+      "max_psu_form_factor": "SFX",
+      "preinstalled_fans": 2,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-lian-li-o11-air-mini",
+    "name": "Lian Li O11 Air Mini",
+    "manufacturer": "Lian Li",
+    "price_usd": 120,
+    "specs": {
+      "form_factor": "Micro-ATX",
+      "max_gpu_length_mm": 362,
+      "max_cooler_height_mm": 170,
+      "max_psu_length_mm": 200,
+      "drive_bays_2_5": 3,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 4,
+      "supports_radiator_mm": [120, 240, 280, 360],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 2,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-phanteks-g500a",
+    "name": "Phanteks Eclipse G500A",
+    "manufacturer": "Phanteks",
+    "price_usd": 140,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 435,
+      "max_cooler_height_mm": 170,
+      "max_psu_length_mm": 220,
+      "drive_bays_2_5": 4,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 3,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-nzxt-h9-flow",
+    "name": "NZXT H9 Flow",
+    "manufacturer": "NZXT",
+    "price_usd": 160,
+    "specs": {
+      "form_factor": "E-ATX",
+      "max_gpu_length_mm": 435,
+      "max_cooler_height_mm": 185,
+      "max_psu_length_mm": 220,
+      "drive_bays_2_5": 4,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 3,
+      "mesh_front": true
+    }
+  },
+  {
+    "id": "case-thermaltake-ceres-500-tg",
+    "name": "Thermaltake Ceres 500 TG",
+    "manufacturer": "Thermaltake",
+    "price_usd": 110,
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 395,
+      "max_cooler_height_mm": 170,
+      "max_psu_length_mm": 210,
+      "drive_bays_2_5": 3,
+      "drive_bays_3_5": 2,
+      "expansion_slots": 7,
+      "supports_radiator_mm": [120, 240, 280, 360],
+      "max_psu_form_factor": "ATX",
+      "preinstalled_fans": 3,
+      "mesh_front": true
+    }
+  }
+]

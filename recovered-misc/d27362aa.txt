@@ -1,0 +1,686 @@
+[
+  {
+    "id": "mobo-asus-rog-strix-z890-e-gaming-wifi",
+    "name": "ASUS ROG Strix Z890-E Gaming WiFi",
+    "manufacturer": "ASUS",
+    "price_usd": 399,
+    "specs": {
+      "socket": "LGA1851",
+      "chipset": "Z890",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 5,
+      "sata_ports": 6,
+      "pcie_version": "5.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-msi-mpg-z890-carbon-wifi",
+    "name": "MSI MPG Z890 Carbon WiFi",
+    "manufacturer": "MSI",
+    "price_usd": 349,
+    "specs": {
+      "socket": "LGA1851",
+      "chipset": "Z890",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 4,
+      "sata_ports": 6,
+      "pcie_version": "5.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-gigabyte-z890-aorus-elite-wifi7",
+    "name": "Gigabyte Z890 AORUS Elite WiFi7",
+    "manufacturer": "Gigabyte",
+    "price_usd": 279,
+    "specs": {
+      "socket": "LGA1851",
+      "chipset": "Z890",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 4,
+      "sata_ports": 4,
+      "pcie_version": "5.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-asrock-z890-taichi-lite",
+    "name": "ASRock Z890 Taichi Lite",
+    "manufacturer": "ASRock",
+    "price_usd": 299,
+    "specs": {
+      "socket": "LGA1851",
+      "chipset": "Z890",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 5,
+      "sata_ports": 8,
+      "pcie_version": "5.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-asus-tuf-gaming-z890-plus-wifi",
+    "name": "ASUS TUF Gaming Z890-Plus WiFi",
+    "manufacturer": "ASUS",
+    "price_usd": 249,
+    "specs": {
+      "socket": "LGA1851",
+      "chipset": "Z890",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 4,
+      "sata_ports": 4,
+      "pcie_version": "5.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-asus-rog-strix-z790-e-gaming-wifi-ii",
+    "name": "ASUS ROG Strix Z790-E Gaming WiFi II",
+    "manufacturer": "ASUS",
+    "price_usd": 399,
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "Z790",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 5,
+      "sata_ports": 6,
+      "pcie_version": "5.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-msi-mpg-z790-carbon-wifi",
+    "name": "MSI MPG Z790 Carbon WiFi",
+    "manufacturer": "MSI",
+    "price_usd": 329,
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "Z790",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 4,
+      "sata_ports": 6,
+      "pcie_version": "5.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-gigabyte-z790-aorus-elite-ax",
+    "name": "Gigabyte Z790 AORUS Elite AX",
+    "manufacturer": "Gigabyte",
+    "price_usd": 259,
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "Z790",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 4,
+      "sata_ports": 6,
+      "pcie_version": "5.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-asrock-z790-steel-legend-wifi",
+    "name": "ASRock Z790 Steel Legend WiFi",
+    "manufacturer": "ASRock",
+    "price_usd": 219,
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "Z790",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 3,
+      "sata_ports": 8,
+      "pcie_version": "5.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-asus-prime-z790-p-wifi",
+    "name": "ASUS Prime Z790-P WiFi",
+    "manufacturer": "ASUS",
+    "price_usd": 199,
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "Z790",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 3,
+      "sata_ports": 4,
+      "pcie_version": "5.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-msi-pro-z790-a-wifi",
+    "name": "MSI PRO Z790-A WiFi",
+    "manufacturer": "MSI",
+    "price_usd": 189,
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "Z790",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 4,
+      "sata_ports": 6,
+      "pcie_version": "5.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-msi-pro-b760m-a-wifi",
+    "name": "MSI PRO B760M-A WiFi",
+    "manufacturer": "MSI",
+    "price_usd": 139,
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "B760",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 2,
+      "sata_ports": 4,
+      "pcie_version": "4.0",
+      "has_bios_flashback": false
+    }
+  },
+  {
+    "id": "mobo-gigabyte-b760-gaming-x-ax",
+    "name": "Gigabyte B760 Gaming X AX",
+    "manufacturer": "Gigabyte",
+    "price_usd": 129,
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "B760",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 3,
+      "sata_ports": 4,
+      "pcie_version": "4.0",
+      "has_bios_flashback": false
+    }
+  },
+  {
+    "id": "mobo-asus-prime-b760m-a-wifi",
+    "name": "ASUS Prime B760M-A WiFi",
+    "manufacturer": "ASUS",
+    "price_usd": 119,
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "B760",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 2,
+      "sata_ports": 4,
+      "pcie_version": "4.0",
+      "has_bios_flashback": false
+    }
+  },
+  {
+    "id": "mobo-asrock-b760-pro-rs",
+    "name": "ASRock B760 Pro RS",
+    "manufacturer": "ASRock",
+    "price_usd": 109,
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "B760",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 3,
+      "sata_ports": 4,
+      "pcie_version": "4.0",
+      "has_bios_flashback": false
+    }
+  },
+  {
+    "id": "mobo-msi-b760m-gaming-wifi",
+    "name": "MSI B760M Gaming WiFi",
+    "manufacturer": "MSI",
+    "price_usd": 149,
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "B760",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 2,
+      "sata_ports": 4,
+      "pcie_version": "5.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-asus-rog-crosshair-x670e-hero",
+    "name": "ASUS ROG Crosshair X670E Hero",
+    "manufacturer": "ASUS",
+    "price_usd": 449,
+    "specs": {
+      "socket": "AM5",
+      "chipset": "X670E",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 5,
+      "sata_ports": 6,
+      "pcie_version": "5.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-msi-mpg-x670e-carbon-wifi",
+    "name": "MSI MPG X670E Carbon WiFi",
+    "manufacturer": "MSI",
+    "price_usd": 399,
+    "specs": {
+      "socket": "AM5",
+      "chipset": "X670E",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 4,
+      "sata_ports": 6,
+      "pcie_version": "5.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-gigabyte-x670e-aorus-master",
+    "name": "Gigabyte X670E AORUS Master",
+    "manufacturer": "Gigabyte",
+    "price_usd": 429,
+    "specs": {
+      "socket": "AM5",
+      "chipset": "X670E",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 5,
+      "sata_ports": 4,
+      "pcie_version": "5.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-asrock-x670e-steel-legend",
+    "name": "ASRock X670E Steel Legend",
+    "manufacturer": "ASRock",
+    "price_usd": 279,
+    "specs": {
+      "socket": "AM5",
+      "chipset": "X670E",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 3,
+      "sata_ports": 8,
+      "pcie_version": "5.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-asus-tuf-gaming-b650-plus-wifi",
+    "name": "ASUS TUF Gaming B650-Plus WiFi",
+    "manufacturer": "ASUS",
+    "price_usd": 199,
+    "specs": {
+      "socket": "AM5",
+      "chipset": "B650",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 3,
+      "sata_ports": 4,
+      "pcie_version": "4.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-msi-mag-b650-tomahawk-wifi",
+    "name": "MSI MAG B650 Tomahawk WiFi",
+    "manufacturer": "MSI",
+    "price_usd": 189,
+    "specs": {
+      "socket": "AM5",
+      "chipset": "B650",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 3,
+      "sata_ports": 6,
+      "pcie_version": "4.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-gigabyte-b650-aorus-elite-ax",
+    "name": "Gigabyte B650 AORUS Elite AX",
+    "manufacturer": "Gigabyte",
+    "price_usd": 179,
+    "specs": {
+      "socket": "AM5",
+      "chipset": "B650",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 3,
+      "sata_ports": 4,
+      "pcie_version": "4.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-asrock-b650-pg-riptide",
+    "name": "ASRock B650 PG Riptide",
+    "manufacturer": "ASRock",
+    "price_usd": 139,
+    "specs": {
+      "socket": "AM5",
+      "chipset": "B650",
+      "form_factor": "ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 2,
+      "sata_ports": 4,
+      "pcie_version": "4.0",
+      "has_bios_flashback": false
+    }
+  },
+  {
+    "id": "mobo-asus-prime-b650m-a-wifi",
+    "name": "ASUS Prime B650M-A WiFi",
+    "manufacturer": "ASUS",
+    "price_usd": 129,
+    "specs": {
+      "socket": "AM5",
+      "chipset": "B650",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 2,
+      "sata_ports": 4,
+      "pcie_version": "4.0",
+      "has_bios_flashback": false
+    }
+  },
+  {
+    "id": "mobo-msi-b650m-mortar-wifi",
+    "name": "MSI B650M Mortar WiFi",
+    "manufacturer": "MSI",
+    "price_usd": 169,
+    "specs": {
+      "socket": "AM5",
+      "chipset": "B650",
+      "form_factor": "Micro-ATX",
+      "memory_type": "DDR5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 2,
+      "sata_ports": 4,
+      "pcie_version": "4.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-msi-b550-a-pro",
+    "name": "MSI B550-A Pro",
+    "manufacturer": "MSI",
+    "price_usd": 99,
+    "specs": {
+      "socket": "AM4",
+      "chipset": "B550",
+      "form_factor": "ATX",
+      "memory_type": "DDR4",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 2,
+      "sata_ports": 6,
+      "pcie_version": "4.0",
+      "has_bios_flashback": false
+    }
+  },
+  {
+    "id": "mobo-asus-tuf-gaming-b550-plus",
+    "name": "ASUS TUF Gaming B550-Plus",
+    "manufacturer": "ASUS",
+    "price_usd": 119,
+    "specs": {
+      "socket": "AM4",
+      "chipset": "B550",
+      "form_factor": "ATX",
+      "memory_type": "DDR4",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 2,
+      "sata_ports": 6,
+      "pcie_version": "4.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-gigabyte-b550-aorus-elite-v2",
+    "name": "Gigabyte B550 AORUS Elite V2",
+    "manufacturer": "Gigabyte",
+    "price_usd": 109,
+    "specs": {
+      "socket": "AM4",
+      "chipset": "B550",
+      "form_factor": "ATX",
+      "memory_type": "DDR4",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 2,
+      "sata_ports": 4,
+      "pcie_version": "4.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-asrock-b550-steel-legend",
+    "name": "ASRock B550 Steel Legend",
+    "manufacturer": "ASRock",
+    "price_usd": 104,
+    "specs": {
+      "socket": "AM4",
+      "chipset": "B550",
+      "form_factor": "ATX",
+      "memory_type": "DDR4",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 2,
+      "sata_ports": 6,
+      "pcie_version": "4.0",
+      "has_bios_flashback": false
+    }
+  },
+  {
+    "id": "mobo-asus-rog-strix-x570-e-gaming-wifi-ii",
+    "name": "ASUS ROG Strix X570-E Gaming WiFi II",
+    "manufacturer": "ASUS",
+    "price_usd": 299,
+    "specs": {
+      "socket": "AM4",
+      "chipset": "X570",
+      "form_factor": "ATX",
+      "memory_type": "DDR4",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 3,
+      "sata_ports": 8,
+      "pcie_version": "4.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-msi-mpg-x570-gaming-pro-carbon-wifi",
+    "name": "MSI MPG X570 Gaming Pro Carbon WiFi",
+    "manufacturer": "MSI",
+    "price_usd": 189,
+    "specs": {
+      "socket": "AM4",
+      "chipset": "X570",
+      "form_factor": "ATX",
+      "memory_type": "DDR4",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 2,
+      "sata_ports": 6,
+      "pcie_version": "4.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-gigabyte-x570-aorus-elite",
+    "name": "Gigabyte X570 AORUS Elite",
+    "manufacturer": "Gigabyte",
+    "price_usd": 169,
+    "specs": {
+      "socket": "AM4",
+      "chipset": "X570",
+      "form_factor": "ATX",
+      "memory_type": "DDR4",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 2,
+      "sata_ports": 6,
+      "pcie_version": "4.0",
+      "has_bios_flashback": false
+    }
+  },
+  {
+    "id": "mobo-asrock-x570-taichi",
+    "name": "ASRock X570 Taichi",
+    "manufacturer": "ASRock",
+    "price_usd": 199,
+    "specs": {
+      "socket": "AM4",
+      "chipset": "X570",
+      "form_factor": "ATX",
+      "memory_type": "DDR4",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "m2_slots": 3,
+      "sata_ports": 8,
+      "pcie_version": "4.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-asus-rog-strix-b650e-i-gaming-wifi",
+    "name": "ASUS ROG Strix B650E-I Gaming WiFi",
+    "manufacturer": "ASUS",
+    "price_usd": 299,
+    "specs": {
+      "socket": "AM5",
+      "chipset": "B650E",
+      "form_factor": "Mini-ITX",
+      "memory_type": "DDR5",
+      "ram_slots": 2,
+      "max_ram_gb": 128,
+      "m2_slots": 3,
+      "sata_ports": 4,
+      "pcie_version": "5.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-msi-mpg-b650i-edge-wifi",
+    "name": "MSI MPG B650I Edge WiFi",
+    "manufacturer": "MSI",
+    "price_usd": 279,
+    "specs": {
+      "socket": "AM5",
+      "chipset": "B650",
+      "form_factor": "Mini-ITX",
+      "memory_type": "DDR5",
+      "ram_slots": 2,
+      "max_ram_gb": 128,
+      "m2_slots": 2,
+      "sata_ports": 4,
+      "pcie_version": "4.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-gigabyte-z790i-aorus-ultra-wifi",
+    "name": "Gigabyte Z790I AORUS Ultra WiFi",
+    "manufacturer": "Gigabyte",
+    "price_usd": 349,
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "Z790",
+      "form_factor": "Mini-ITX",
+      "memory_type": "DDR5",
+      "ram_slots": 2,
+      "max_ram_gb": 128,
+      "m2_slots": 3,
+      "sata_ports": 4,
+      "pcie_version": "5.0",
+      "has_bios_flashback": true
+    }
+  },
+  {
+    "id": "mobo-asrock-z890i-nova-wifi",
+    "name": "ASRock Z890I Nova WiFi",
+    "manufacturer": "ASRock",
+    "price_usd": 399,
+    "specs": {
+      "socket": "LGA1851",
+      "chipset": "Z890",
+      "form_factor": "Mini-ITX",
+      "memory_type": "DDR5",
+      "ram_slots": 2,
+      "max_ram_gb": 128,
+      "m2_slots": 3,
+      "sata_ports": 2,
+      "pcie_version": "5.0",
+      "has_bios_flashback": true
+    }
+  }
+]

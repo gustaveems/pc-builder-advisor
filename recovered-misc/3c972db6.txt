@@ -1,0 +1,87 @@
+/**
+ * Pricing update script
+ *
+ * Updates component pricing from enabled providers.
+ *
+ * Usage:
+ *   npx ts-node scripts/update-pricing.ts [--full]
+ *
+ * Modes:
+ *   (default)  Update top 500 popular components (daily)
+ *   --full     Update entire catalog (weekly)
+ *
+ * Environment variables:
+ *   ENABLE_PCPP_PRICING=1     Enable PCPartPicker scraping
+ *   ENABLE_NEWEGG_PRICING=1   Enable Newegg scraping
+ *   AMAZON_ACCESS_KEY=...     Enable Amazon PA-API
+ *   AMAZON_SECRET_KEY=...
+ *   AMAZON_PARTNER_TAG=...
+ */
+
+import { loadAllComponents } from "../lib/data-loader";
+import { updateTopComponentPricing, updateFullCatalogPricing } from "../lib/pricing";
+import { needsFullUpdate, needsTopUpdate } from "../lib/pricing/cache";
+
+type ComponentEntry = { id: string; name: string; category: string };
+
+function flattenComponents(
+  components: ReturnType<typeof loadAllComponents>
+): ComponentEntry[] {
+  const flat: ComponentEntry[] = [];
+
+  const categoryMap: Record<string, string> = {
+    cpus: "cpu",
+    gpus: "gpu",
+    motherboards: "motherboard",
+    ram: "ram",
+    storage: "storage",
+    psus: "psu",
+    coolers: "cooler",
+    cases: "case",
+  };
+
+  for (const [key, items] of Object.entries(components)) {
+    const category = categoryMap[key] || key;
+    for (const item of items as any[]) {
+      if (item.id && item.name) {
+        flat.push({ id: item.id, name: item.name, category });
+      }
+    }
+  }
+
+  // Sort by tier descending (popular/high-end first) for top-N selection
+  flat.sort((a: any, b: any) => {
+    const tierA = a.specs?.tier || a.tier || 5;
+    const tierB = b.specs?.tier || b.tier || 5;
+    return tierB - tierA;
+  });
+
+  return flat;
+}
+
+async function main() {
+  const isFullMode = process.argv.includes("--full");
+
+  console.log("💰 Pricing update script");
+  console.log(`  Mode: ${isFullMode ? "FULL catalog" : "Top 500"}`);
+  console.log(`  Full update needed: ${needsFullUpdate()}`);
+  console.log(`  Top update needed: ${needsTopUpdate()}\n`);
+
+  const components = loadAllComponents();
+  const flat = flattenComponents(components);
+
+  console.log(`  Total components: ${flat.length}\n`);
+
+  if (isFullMode) {
+    const result = await updateFullCatalogPricing(flat);
+    console.log(`\n✅ Full update: ${result.updated} updated, ${result.failed} failed`);
+  } else {
+    const result = await updateTopComponentPricing(flat, 500);
+    console.log(`\n✅ Top update: ${result.updated} updated, ${result.failed} failed`);
+  }
+}
+
+main().catch((err) => {
+  console.error("Pricing update failed:", err);
+  process.exit(1);
+});

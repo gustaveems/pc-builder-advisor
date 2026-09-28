@@ -1,0 +1,895 @@
+[
+  {
+    "id": "ram-gskill-trident-z5-6000-32gb",
+    "name": "G.Skill Trident Z5 RGB 32GB (2x16GB) DDR5-6000 CL30",
+    "manufacturer": "G.Skill",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 6000,
+      "cas_latency": 30,
+      "voltage": 1.35,
+      "height_mm": 44,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "5v_argb",
+      "price_usd": 149
+    }
+  },
+  {
+    "id": "ram-gskill-trident-z5-6400-32gb",
+    "name": "G.Skill Trident Z5 RGB 32GB (2x16GB) DDR5-6400 CL32",
+    "manufacturer": "G.Skill",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 6400,
+      "cas_latency": 32,
+      "voltage": 1.4,
+      "height_mm": 44,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "5v_argb",
+      "price_usd": 169
+    }
+  },
+  {
+    "id": "ram-gskill-trident-z5-7200-32gb",
+    "name": "G.Skill Trident Z5 RGB 32GB (2x16GB) DDR5-7200 CL34",
+    "manufacturer": "G.Skill",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 7200,
+      "cas_latency": 34,
+      "voltage": 1.45,
+      "height_mm": 44,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "5v_argb",
+      "price_usd": 199
+    }
+  },
+  {
+    "id": "ram-gskill-trident-z5-6000-64gb",
+    "name": "G.Skill Trident Z5 RGB 64GB (2x32GB) DDR5-6000 CL30",
+    "manufacturer": "G.Skill",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 64,
+      "sticks": 2,
+      "speed_mt": 6000,
+      "cas_latency": 30,
+      "voltage": 1.35,
+      "height_mm": 44,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "5v_argb",
+      "price_usd": 269
+    }
+  },
+  {
+    "id": "ram-corsair-vengeance-6000-32gb",
+    "name": "Corsair Vengeance RGB 32GB (2x16GB) DDR5-6000 CL30",
+    "manufacturer": "Corsair",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 6000,
+      "cas_latency": 30,
+      "voltage": 1.35,
+      "height_mm": 51,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "5v_argb",
+      "price_usd": 139
+    }
+  },
+  {
+    "id": "ram-corsair-vengeance-6400-32gb",
+    "name": "Corsair Vengeance RGB 32GB (2x16GB) DDR5-6400 CL32",
+    "manufacturer": "Corsair",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 6400,
+      "cas_latency": 32,
+      "voltage": 1.4,
+      "height_mm": 51,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "5v_argb",
+      "price_usd": 159
+    }
+  },
+  {
+    "id": "ram-corsair-vengeance-5600-32gb",
+    "name": "Corsair Vengeance 32GB (2x16GB) DDR5-5600 CL36",
+    "manufacturer": "Corsair",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 5600,
+      "cas_latency": 36,
+      "voltage": 1.25,
+      "height_mm": 34,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 119
+    }
+  },
+  {
+    "id": "ram-corsair-vengeance-5200-64gb",
+    "name": "Corsair Vengeance 64GB (2x32GB) DDR5-5200 CL40",
+    "manufacturer": "Corsair",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 64,
+      "sticks": 2,
+      "speed_mt": 5200,
+      "cas_latency": 40,
+      "voltage": 1.25,
+      "height_mm": 34,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 219
+    }
+  },
+  {
+    "id": "ram-kingston-fury-6000-32gb",
+    "name": "Kingston FURY Beast RGB 32GB (2x16GB) DDR5-6000 CL30",
+    "manufacturer": "Kingston",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 6000,
+      "cas_latency": 30,
+      "voltage": 1.35,
+      "height_mm": 42,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "5v_argb",
+      "price_usd": 144
+    }
+  },
+  {
+    "id": "ram-kingston-fury-5600-32gb",
+    "name": "Kingston FURY Beast 32GB (2x16GB) DDR5-5600 CL36",
+    "manufacturer": "Kingston",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 5600,
+      "cas_latency": 36,
+      "voltage": 1.25,
+      "height_mm": 41,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 119
+    }
+  },
+  {
+    "id": "ram-kingston-fury-6400-32gb",
+    "name": "Kingston FURY Renegade RGB 32GB (2x16GB) DDR5-6400 CL32",
+    "manufacturer": "Kingston",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 6400,
+      "cas_latency": 32,
+      "voltage": 1.35,
+      "height_mm": 56,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "5v_argb",
+      "price_usd": 164
+    }
+  },
+  {
+    "id": "ram-crucial-5600-32gb",
+    "name": "Crucial 32GB (2x16GB) DDR5-5600 CL46",
+    "manufacturer": "Crucial",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 5600,
+      "cas_latency": 46,
+      "voltage": 1.1,
+      "height_mm": 31,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 99
+    }
+  },
+  {
+    "id": "ram-crucial-5600-16gb",
+    "name": "Crucial 16GB (2x8GB) DDR5-5600 CL46",
+    "manufacturer": "Crucial",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 16,
+      "sticks": 2,
+      "speed_mt": 5600,
+      "cas_latency": 46,
+      "voltage": 1.1,
+      "height_mm": 31,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 59
+    }
+  },
+  {
+    "id": "ram-teamgroup-vulcan-6000-32gb",
+    "name": "Team T-Force Vulcan 32GB (2x16GB) DDR5-6000 CL30",
+    "manufacturer": "Team Group",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 6000,
+      "cas_latency": 30,
+      "voltage": 1.35,
+      "height_mm": 40,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 129
+    }
+  },
+  {
+    "id": "ram-gskill-ripjaws-6000-32gb",
+    "name": "G.Skill Ripjaws S5 32GB (2x16GB) DDR5-6000 CL30",
+    "manufacturer": "G.Skill",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 6000,
+      "cas_latency": 30,
+      "voltage": 1.35,
+      "height_mm": 38,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 134
+    }
+  },
+  {
+    "id": "ram-corsair-dominator-6400-32gb",
+    "name": "Corsair Dominator Platinum RGB 32GB (2x16GB) DDR5-6400 CL32",
+    "manufacturer": "Corsair",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 6400,
+      "cas_latency": 32,
+      "voltage": 1.4,
+      "height_mm": 56,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "5v_argb",
+      "price_usd": 229
+    }
+  },
+  {
+    "id": "ram-gskill-trident-3600-16gb",
+    "name": "G.Skill Trident Z RGB 16GB (2x8GB) DDR4-3600 CL16",
+    "manufacturer": "G.Skill",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 16,
+      "sticks": 2,
+      "speed_mt": 3600,
+      "cas_latency": 16,
+      "voltage": 1.35,
+      "height_mm": 44,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "5v_argb",
+      "price_usd": 69
+    }
+  },
+  {
+    "id": "ram-gskill-trident-3600-32gb",
+    "name": "G.Skill Trident Z RGB 32GB (2x16GB) DDR4-3600 CL16",
+    "manufacturer": "G.Skill",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 3600,
+      "cas_latency": 16,
+      "voltage": 1.35,
+      "height_mm": 44,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "5v_argb",
+      "price_usd": 109
+    }
+  },
+  {
+    "id": "ram-gskill-ripjaws-3600-32gb",
+    "name": "G.Skill Ripjaws V 32GB (2x16GB) DDR4-3600 CL16",
+    "manufacturer": "G.Skill",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 3600,
+      "cas_latency": 16,
+      "voltage": 1.35,
+      "height_mm": 42,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 89
+    }
+  },
+  {
+    "id": "ram-gskill-ripjaws-3600-16gb",
+    "name": "G.Skill Ripjaws V 16GB (2x8GB) DDR4-3600 CL16",
+    "manufacturer": "G.Skill",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 16,
+      "sticks": 2,
+      "speed_mt": 3600,
+      "cas_latency": 16,
+      "voltage": 1.35,
+      "height_mm": 42,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 54
+    }
+  },
+  {
+    "id": "ram-corsair-vengeance-lpx-3600-16gb",
+    "name": "Corsair Vengeance LPX 16GB (2x8GB) DDR4-3600 CL18",
+    "manufacturer": "Corsair",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 16,
+      "sticks": 2,
+      "speed_mt": 3600,
+      "cas_latency": 18,
+      "voltage": 1.35,
+      "height_mm": 31,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 59
+    }
+  },
+  {
+    "id": "ram-corsair-vengeance-lpx-3600-32gb",
+    "name": "Corsair Vengeance LPX 32GB (2x16GB) DDR4-3600 CL18",
+    "manufacturer": "Corsair",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 3600,
+      "cas_latency": 18,
+      "voltage": 1.35,
+      "height_mm": 31,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 94
+    }
+  },
+  {
+    "id": "ram-corsair-vengeance-rgb-3600-32gb",
+    "name": "Corsair Vengeance RGB Pro 32GB (2x16GB) DDR4-3600 CL18",
+    "manufacturer": "Corsair",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 3600,
+      "cas_latency": 18,
+      "voltage": 1.35,
+      "height_mm": 51,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "5v_argb",
+      "price_usd": 114
+    }
+  },
+  {
+    "id": "ram-kingston-fury-3600-16gb",
+    "name": "Kingston FURY Beast 16GB (2x8GB) DDR4-3600 CL17",
+    "manufacturer": "Kingston",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 16,
+      "sticks": 2,
+      "speed_mt": 3600,
+      "cas_latency": 17,
+      "voltage": 1.35,
+      "height_mm": 41,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 56
+    }
+  },
+  {
+    "id": "ram-kingston-fury-3600-32gb",
+    "name": "Kingston FURY Beast 32GB (2x16GB) DDR4-3600 CL17",
+    "manufacturer": "Kingston",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 3600,
+      "cas_latency": 17,
+      "voltage": 1.35,
+      "height_mm": 41,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 92
+    }
+  },
+  {
+    "id": "ram-kingston-fury-rgb-3600-32gb",
+    "name": "Kingston FURY Beast RGB 32GB (2x16GB) DDR4-3600 CL18",
+    "manufacturer": "Kingston",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 3600,
+      "cas_latency": 18,
+      "voltage": 1.35,
+      "height_mm": 41,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "5v_argb",
+      "price_usd": 109
+    }
+  },
+  {
+    "id": "ram-crucial-ballistix-3600-32gb",
+    "name": "Crucial Ballistix 32GB (2x16GB) DDR4-3600 CL16",
+    "manufacturer": "Crucial",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 3600,
+      "cas_latency": 16,
+      "voltage": 1.35,
+      "height_mm": 40,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 94
+    }
+  },
+  {
+    "id": "ram-crucial-ballistix-3200-32gb",
+    "name": "Crucial Ballistix 32GB (2x16GB) DDR4-3200 CL16",
+    "manufacturer": "Crucial",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 3200,
+      "cas_latency": 16,
+      "voltage": 1.35,
+      "height_mm": 40,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 79
+    }
+  },
+  {
+    "id": "ram-crucial-ballistix-3200-16gb",
+    "name": "Crucial Ballistix 16GB (2x8GB) DDR4-3200 CL16",
+    "manufacturer": "Crucial",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 16,
+      "sticks": 2,
+      "speed_mt": 3200,
+      "cas_latency": 16,
+      "voltage": 1.35,
+      "height_mm": 40,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 49
+    }
+  },
+  {
+    "id": "ram-teamgroup-delta-3600-16gb",
+    "name": "Team T-Force Delta RGB 16GB (2x8GB) DDR4-3600 CL18",
+    "manufacturer": "Team Group",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 16,
+      "sticks": 2,
+      "speed_mt": 3600,
+      "cas_latency": 18,
+      "voltage": 1.35,
+      "height_mm": 45,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "5v_argb",
+      "price_usd": 64
+    }
+  },
+  {
+    "id": "ram-teamgroup-delta-3600-32gb",
+    "name": "Team T-Force Delta RGB 32GB (2x16GB) DDR4-3600 CL18",
+    "manufacturer": "Team Group",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 3600,
+      "cas_latency": 18,
+      "voltage": 1.35,
+      "height_mm": 45,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "5v_argb",
+      "price_usd": 104
+    }
+  },
+  {
+    "id": "ram-corsair-vengeance-3200-16gb",
+    "name": "Corsair Vengeance LPX 16GB (2x8GB) DDR4-3200 CL16",
+    "manufacturer": "Corsair",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 16,
+      "sticks": 2,
+      "speed_mt": 3200,
+      "cas_latency": 16,
+      "voltage": 1.35,
+      "height_mm": 31,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 52
+    }
+  },
+  {
+    "id": "ram-corsair-vengeance-3200-32gb",
+    "name": "Corsair Vengeance LPX 32GB (2x16GB) DDR4-3200 CL16",
+    "manufacturer": "Corsair",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 3200,
+      "cas_latency": 16,
+      "voltage": 1.35,
+      "height_mm": 31,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 84
+    }
+  },
+  {
+    "id": "ram-kingston-fury-3200-16gb",
+    "name": "Kingston FURY Beast 16GB (2x8GB) DDR4-3200 CL16",
+    "manufacturer": "Kingston",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 16,
+      "sticks": 2,
+      "speed_mt": 3200,
+      "cas_latency": 16,
+      "voltage": 1.35,
+      "height_mm": 41,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 49
+    }
+  },
+  {
+    "id": "ram-kingston-fury-3200-32gb",
+    "name": "Kingston FURY Beast 32GB (2x16GB) DDR4-3200 CL16",
+    "manufacturer": "Kingston",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 3200,
+      "cas_latency": 16,
+      "voltage": 1.35,
+      "height_mm": 41,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 82
+    }
+  },
+  {
+    "id": "ram-gskill-ripjaws-3200-16gb",
+    "name": "G.Skill Ripjaws V 16GB (2x8GB) DDR4-3200 CL16",
+    "manufacturer": "G.Skill",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 16,
+      "sticks": 2,
+      "speed_mt": 3200,
+      "cas_latency": 16,
+      "voltage": 1.35,
+      "height_mm": 42,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 48
+    }
+  },
+  {
+    "id": "ram-gskill-ripjaws-3200-32gb",
+    "name": "G.Skill Ripjaws V 32GB (2x16GB) DDR4-3200 CL16",
+    "manufacturer": "G.Skill",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 3200,
+      "cas_latency": 16,
+      "voltage": 1.35,
+      "height_mm": 42,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 79
+    }
+  },
+  {
+    "id": "ram-crucial-3200-16gb",
+    "name": "Crucial 16GB (2x8GB) DDR4-3200 CL22",
+    "manufacturer": "Crucial",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 16,
+      "sticks": 2,
+      "speed_mt": 3200,
+      "cas_latency": 22,
+      "voltage": 1.2,
+      "height_mm": 31,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 44
+    }
+  },
+  {
+    "id": "ram-crucial-3200-32gb",
+    "name": "Crucial 32GB (2x16GB) DDR4-3200 CL22",
+    "manufacturer": "Crucial",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 3200,
+      "cas_latency": 22,
+      "voltage": 1.2,
+      "height_mm": 31,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 74
+    }
+  },
+  {
+    "id": "ram-kingston-server-ecc-32gb",
+    "name": "Kingston Server Premier 32GB (2x16GB) DDR5-4800 ECC",
+    "manufacturer": "Kingston",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 4800,
+      "cas_latency": 40,
+      "voltage": 1.1,
+      "height_mm": 31,
+      "is_ecc": true,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 189
+    }
+  },
+  {
+    "id": "ram-kingston-server-ecc-64gb",
+    "name": "Kingston Server Premier 64GB (2x32GB) DDR5-4800 ECC",
+    "manufacturer": "Kingston",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 64,
+      "sticks": 2,
+      "speed_mt": 4800,
+      "cas_latency": 40,
+      "voltage": 1.1,
+      "height_mm": 31,
+      "is_ecc": true,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 349
+    }
+  },
+  {
+    "id": "ram-crucial-ecc-32gb",
+    "name": "Crucial 32GB (2x16GB) DDR4-3200 ECC",
+    "manufacturer": "Crucial",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 3200,
+      "cas_latency": 22,
+      "voltage": 1.2,
+      "height_mm": 31,
+      "is_ecc": true,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 164
+    }
+  },
+  {
+    "id": "ram-corsair-vengeance-64gb-kit",
+    "name": "Corsair Vengeance 64GB (4x16GB) DDR4-3600 CL18",
+    "manufacturer": "Corsair",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 64,
+      "sticks": 4,
+      "speed_mt": 3600,
+      "cas_latency": 18,
+      "voltage": 1.35,
+      "height_mm": 31,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "none",
+      "price_usd": 179
+    }
+  },
+  {
+    "id": "ram-gskill-trident-64gb-kit",
+    "name": "G.Skill Trident Z RGB 64GB (4x16GB) DDR4-3600 CL16",
+    "manufacturer": "G.Skill",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr4",
+      "capacity_gb": 64,
+      "sticks": 4,
+      "speed_mt": 3600,
+      "cas_latency": 16,
+      "voltage": 1.35,
+      "height_mm": 44,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "5v_argb",
+      "price_usd": 209
+    }
+  },
+  {
+    "id": "ram-corsair-dominator-64gb",
+    "name": "Corsair Dominator Platinum RGB 64GB (2x32GB) DDR5-6000 CL30",
+    "manufacturer": "Corsair",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 64,
+      "sticks": 2,
+      "speed_mt": 6000,
+      "cas_latency": 30,
+      "voltage": 1.35,
+      "height_mm": 56,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "5v_argb",
+      "price_usd": 319
+    }
+  },
+  {
+    "id": "ram-gskill-trident-z5-neo-6000-32gb",
+    "name": "G.Skill Trident Z5 Neo RGB 32GB (2x16GB) DDR5-6000 CL30",
+    "manufacturer": "G.Skill",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 32,
+      "sticks": 2,
+      "speed_mt": 6000,
+      "cas_latency": 30,
+      "voltage": 1.35,
+      "height_mm": 44,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "5v_argb",
+      "price_usd": 154
+    }
+  },
+  {
+    "id": "ram-corsair-vengeance-rgb-6000-64gb",
+    "name": "Corsair Vengeance RGB 64GB (2x32GB) DDR5-6000 CL30",
+    "manufacturer": "Corsair",
+    "category": "ram",
+    "specs": {
+      "memory_type": "ddr5",
+      "capacity_gb": 64,
+      "sticks": 2,
+      "speed_mt": 6000,
+      "cas_latency": 30,
+      "voltage": 1.35,
+      "height_mm": 51,
+      "is_ecc": false,
+      "is_registered": false,
+      "rgb_type": "5v_argb",
+      "price_usd": 259
+    }
+  }
+]

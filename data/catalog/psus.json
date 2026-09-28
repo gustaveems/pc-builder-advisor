@@ -1,0 +1,626 @@
+[
+  {
+    "id": "psu-corsair-rm1000e-2023",
+    "name": "Corsair RM1000e (2023) 1000W 80+ Gold",
+    "manufacturer": "Corsair",
+    "category": "psu",
+    "specs": {
+      "wattage": 1000,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "3.0",
+      "pcie_12vhpwr": true,
+      "pcie_8pin_connectors": 6,
+      "sata_connectors": 12,
+      "price_usd": 169
+    }
+  },
+  {
+    "id": "psu-corsair-rm850e-2023",
+    "name": "Corsair RM850e (2023) 850W 80+ Gold",
+    "manufacturer": "Corsair",
+    "category": "psu",
+    "specs": {
+      "wattage": 850,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "3.0",
+      "pcie_12vhpwr": true,
+      "pcie_8pin_connectors": 5,
+      "sata_connectors": 10,
+      "price_usd": 129
+    }
+  },
+  {
+    "id": "psu-corsair-rm750e-2023",
+    "name": "Corsair RM750e (2023) 750W 80+ Gold",
+    "manufacturer": "Corsair",
+    "category": "psu",
+    "specs": {
+      "wattage": 750,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "3.0",
+      "pcie_12vhpwr": true,
+      "pcie_8pin_connectors": 4,
+      "sata_connectors": 9,
+      "price_usd": 109
+    }
+  },
+  {
+    "id": "psu-evga-supernova-1000gt",
+    "name": "EVGA SuperNOVA 1000 GT 1000W 80+ Gold",
+    "manufacturer": "EVGA",
+    "category": "psu",
+    "specs": {
+      "wattage": 1000,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 6,
+      "sata_connectors": 12,
+      "price_usd": 159
+    }
+  },
+  {
+    "id": "psu-evga-supernova-850gt",
+    "name": "EVGA SuperNOVA 850 GT 850W 80+ Gold",
+    "manufacturer": "EVGA",
+    "category": "psu",
+    "specs": {
+      "wattage": 850,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 5,
+      "sata_connectors": 10,
+      "price_usd": 129
+    }
+  },
+  {
+    "id": "psu-seasonic-focus-gx-1000",
+    "name": "Seasonic FOCUS GX-1000 1000W 80+ Gold",
+    "manufacturer": "Seasonic",
+    "category": "psu",
+    "specs": {
+      "wattage": 1000,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 6,
+      "sata_connectors": 12,
+      "price_usd": 179
+    }
+  },
+  {
+    "id": "psu-seasonic-focus-gx-850",
+    "name": "Seasonic FOCUS GX-850 850W 80+ Gold",
+    "manufacturer": "Seasonic",
+    "category": "psu",
+    "specs": {
+      "wattage": 850,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 5,
+      "sata_connectors": 10,
+      "price_usd": 149
+    }
+  },
+  {
+    "id": "psu-seasonic-focus-gx-750",
+    "name": "Seasonic FOCUS GX-750 750W 80+ Gold",
+    "manufacturer": "Seasonic",
+    "category": "psu",
+    "specs": {
+      "wattage": 750,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 4,
+      "sata_connectors": 9,
+      "price_usd": 119
+    }
+  },
+  {
+    "id": "psu-msi-mag-a850gl",
+    "name": "MSI MAG A850GL 850W 80+ Gold",
+    "manufacturer": "MSI",
+    "category": "psu",
+    "specs": {
+      "wattage": 850,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "3.0",
+      "pcie_12vhpwr": true,
+      "pcie_8pin_connectors": 5,
+      "sata_connectors": 10,
+      "price_usd": 129
+    }
+  },
+  {
+    "id": "psu-msi-mag-a750gl",
+    "name": "MSI MAG A750GL 750W 80+ Gold",
+    "manufacturer": "MSI",
+    "category": "psu",
+    "specs": {
+      "wattage": 750,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "3.0",
+      "pcie_12vhpwr": true,
+      "pcie_8pin_connectors": 4,
+      "sata_connectors": 9,
+      "price_usd": 109
+    }
+  },
+  {
+    "id": "psu-thermaltake-toughpower-gf3-850",
+    "name": "Thermaltake Toughpower GF3 850W 80+ Gold",
+    "manufacturer": "Thermaltake",
+    "category": "psu",
+    "specs": {
+      "wattage": 850,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "3.0",
+      "pcie_12vhpwr": true,
+      "pcie_8pin_connectors": 5,
+      "sata_connectors": 10,
+      "price_usd": 134
+    }
+  },
+  {
+    "id": "psu-thermaltake-toughpower-gf3-750",
+    "name": "Thermaltake Toughpower GF3 750W 80+ Gold",
+    "manufacturer": "Thermaltake",
+    "category": "psu",
+    "specs": {
+      "wattage": 750,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "3.0",
+      "pcie_12vhpwr": true,
+      "pcie_8pin_connectors": 4,
+      "sata_connectors": 9,
+      "price_usd": 114
+    }
+  },
+  {
+    "id": "psu-be-quiet-straight-power-11-850",
+    "name": "be quiet! Straight Power 11 850W 80+ Platinum",
+    "manufacturer": "be quiet!",
+    "category": "psu",
+    "specs": {
+      "wattage": 850,
+      "efficiency_rating": "80_plus_platinum",
+      "modular": "full",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 5,
+      "sata_connectors": 10,
+      "price_usd": 159
+    }
+  },
+  {
+    "id": "psu-be-quiet-straight-power-11-750",
+    "name": "be quiet! Straight Power 11 750W 80+ Platinum",
+    "manufacturer": "be quiet!",
+    "category": "psu",
+    "specs": {
+      "wattage": 750,
+      "efficiency_rating": "80_plus_platinum",
+      "modular": "full",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 4,
+      "sata_connectors": 9,
+      "price_usd": 139
+    }
+  },
+  {
+    "id": "psu-corsair-hx1000",
+    "name": "Corsair HX1000 1000W 80+ Platinum",
+    "manufacturer": "Corsair",
+    "category": "psu",
+    "specs": {
+      "wattage": 1000,
+      "efficiency_rating": "80_plus_platinum",
+      "modular": "full",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 6,
+      "sata_connectors": 12,
+      "price_usd": 219
+    }
+  },
+  {
+    "id": "psu-corsair-hx850",
+    "name": "Corsair HX850 850W 80+ Platinum",
+    "manufacturer": "Corsair",
+    "category": "psu",
+    "specs": {
+      "wattage": 850,
+      "efficiency_rating": "80_plus_platinum",
+      "modular": "full",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 5,
+      "sata_connectors": 10,
+      "price_usd": 169
+    }
+  },
+  {
+    "id": "psu-seasonic-prime-tx-1000",
+    "name": "Seasonic PRIME TX-1000 1000W 80+ Titanium",
+    "manufacturer": "Seasonic",
+    "category": "psu",
+    "specs": {
+      "wattage": 1000,
+      "efficiency_rating": "80_plus_titanium",
+      "modular": "full",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 6,
+      "sata_connectors": 12,
+      "price_usd": 299
+    }
+  },
+  {
+    "id": "psu-seasonic-prime-tx-850",
+    "name": "Seasonic PRIME TX-850 850W 80+ Titanium",
+    "manufacturer": "Seasonic",
+    "category": "psu",
+    "specs": {
+      "wattage": 850,
+      "efficiency_rating": "80_plus_titanium",
+      "modular": "full",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 5,
+      "sata_connectors": 10,
+      "price_usd": 249
+    }
+  },
+  {
+    "id": "psu-evga-supernova-750g7",
+    "name": "EVGA SuperNOVA 750 G7 750W 80+ Gold",
+    "manufacturer": "EVGA",
+    "category": "psu",
+    "specs": {
+      "wattage": 750,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "3.0",
+      "pcie_12vhpwr": true,
+      "pcie_8pin_connectors": 4,
+      "sata_connectors": 9,
+      "price_usd": 119
+    }
+  },
+  {
+    "id": "psu-corsair-rmx-shift-1000",
+    "name": "Corsair RMx SHIFT 1000W 80+ Gold",
+    "manufacturer": "Corsair",
+    "category": "psu",
+    "specs": {
+      "wattage": 1000,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "3.0",
+      "pcie_12vhpwr": true,
+      "pcie_8pin_connectors": 6,
+      "sata_connectors": 12,
+      "price_usd": 199
+    }
+  },
+  {
+    "id": "psu-corsair-rmx-shift-850",
+    "name": "Corsair RMx SHIFT 850W 80+ Gold",
+    "manufacturer": "Corsair",
+    "category": "psu",
+    "specs": {
+      "wattage": 850,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "3.0",
+      "pcie_12vhpwr": true,
+      "pcie_8pin_connectors": 5,
+      "sata_connectors": 10,
+      "price_usd": 159
+    }
+  },
+  {
+    "id": "psu-coolermaster-v850-gold",
+    "name": "Cooler Master V850 Gold V2 850W 80+ Gold",
+    "manufacturer": "Cooler Master",
+    "category": "psu",
+    "specs": {
+      "wattage": 850,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 5,
+      "sata_connectors": 10,
+      "price_usd": 119
+    }
+  },
+  {
+    "id": "psu-coolermaster-v750-gold",
+    "name": "Cooler Master V750 Gold V2 750W 80+ Gold",
+    "manufacturer": "Cooler Master",
+    "category": "psu",
+    "specs": {
+      "wattage": 750,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 4,
+      "sata_connectors": 9,
+      "price_usd": 99
+    }
+  },
+  {
+    "id": "psu-nzxt-c850",
+    "name": "NZXT C850 850W 80+ Gold",
+    "manufacturer": "NZXT",
+    "category": "psu",
+    "specs": {
+      "wattage": 850,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 5,
+      "sata_connectors": 10,
+      "price_usd": 139
+    }
+  },
+  {
+    "id": "psu-nzxt-c750",
+    "name": "NZXT C750 750W 80+ Gold",
+    "manufacturer": "NZXT",
+    "category": "psu",
+    "specs": {
+      "wattage": 750,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 4,
+      "sata_connectors": 9,
+      "price_usd": 119
+    }
+  },
+  {
+    "id": "psu-corsair-cx750f",
+    "name": "Corsair CX750F RGB 750W 80+ Bronze",
+    "manufacturer": "Corsair",
+    "category": "psu",
+    "specs": {
+      "wattage": 750,
+      "efficiency_rating": "80_plus_bronze",
+      "modular": "full",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 4,
+      "sata_connectors": 9,
+      "price_usd": 89
+    }
+  },
+  {
+    "id": "psu-corsair-cx650f",
+    "name": "Corsair CX650F RGB 650W 80+ Bronze",
+    "manufacturer": "Corsair",
+    "category": "psu",
+    "specs": {
+      "wattage": 650,
+      "efficiency_rating": "80_plus_bronze",
+      "modular": "full",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 4,
+      "sata_connectors": 8,
+      "price_usd": 79
+    }
+  },
+  {
+    "id": "psu-evga-600w-br",
+    "name": "EVGA 600 BR 600W 80+ Bronze",
+    "manufacturer": "EVGA",
+    "category": "psu",
+    "specs": {
+      "wattage": 600,
+      "efficiency_rating": "80_plus_bronze",
+      "modular": "non-modular",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 2,
+      "sata_connectors": 6,
+      "price_usd": 54
+    }
+  },
+  {
+    "id": "psu-evga-500w-br",
+    "name": "EVGA 500 BR 500W 80+ Bronze",
+    "manufacturer": "EVGA",
+    "category": "psu",
+    "specs": {
+      "wattage": 500,
+      "efficiency_rating": "80_plus_bronze",
+      "modular": "non-modular",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 2,
+      "sata_connectors": 6,
+      "price_usd": 49
+    }
+  },
+  {
+    "id": "psu-thermaltake-smart-600",
+    "name": "Thermaltake Smart 600W 80+ Certified",
+    "manufacturer": "Thermaltake",
+    "category": "psu",
+    "specs": {
+      "wattage": 600,
+      "efficiency_rating": "80_plus",
+      "modular": "non-modular",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 2,
+      "sata_connectors": 6,
+      "price_usd": 49
+    }
+  },
+  {
+    "id": "psu-corsair-cv650",
+    "name": "Corsair CV650 650W 80+ Bronze",
+    "manufacturer": "Corsair",
+    "category": "psu",
+    "specs": {
+      "wattage": 650,
+      "efficiency_rating": "80_plus_bronze",
+      "modular": "non-modular",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 2,
+      "sata_connectors": 6,
+      "price_usd": 59
+    }
+  },
+  {
+    "id": "psu-corsair-cv550",
+    "name": "Corsair CV550 550W 80+ Bronze",
+    "manufacturer": "Corsair",
+    "category": "psu",
+    "specs": {
+      "wattage": 550,
+      "efficiency_rating": "80_plus_bronze",
+      "modular": "non-modular",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 2,
+      "sata_connectors": 6,
+      "price_usd": 54
+    }
+  },
+  {
+    "id": "psu-seasonic-focus-gm-650",
+    "name": "Seasonic FOCUS GM-650 650W 80+ Gold",
+    "manufacturer": "Seasonic",
+    "category": "psu",
+    "specs": {
+      "wattage": 650,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "semi",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 4,
+      "sata_connectors": 8,
+      "price_usd": 89
+    }
+  },
+  {
+    "id": "psu-seasonic-focus-gm-550",
+    "name": "Seasonic FOCUS GM-550 550W 80+ Gold",
+    "manufacturer": "Seasonic",
+    "category": "psu",
+    "specs": {
+      "wattage": 550,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "semi",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 2,
+      "sata_connectors": 6,
+      "price_usd": 79
+    }
+  },
+  {
+    "id": "psu-be-quiet-pure-power-11-700",
+    "name": "be quiet! Pure Power 11 700W 80+ Gold",
+    "manufacturer": "be quiet!",
+    "category": "psu",
+    "specs": {
+      "wattage": 700,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "semi",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 4,
+      "sata_connectors": 8,
+      "price_usd": 99
+    }
+  },
+  {
+    "id": "psu-be-quiet-pure-power-11-600",
+    "name": "be quiet! Pure Power 11 600W 80+ Gold",
+    "manufacturer": "be quiet!",
+    "category": "psu",
+    "specs": {
+      "wattage": 600,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "semi",
+      "atx_version": "2.4",
+      "pcie_12vhpwr": false,
+      "pcie_8pin_connectors": 2,
+      "sata_connectors": 6,
+      "price_usd": 84
+    }
+  },
+  {
+    "id": "psu-msi-mpg-a850gf",
+    "name": "MSI MPG A850GF 850W 80+ Gold",
+    "manufacturer": "MSI",
+    "category": "psu",
+    "specs": {
+      "wattage": 850,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "3.0",
+      "pcie_12vhpwr": true,
+      "pcie_8pin_connectors": 5,
+      "sata_connectors": 10,
+      "price_usd": 139
+    }
+  },
+  {
+    "id": "psu-msi-mpg-a750gf",
+    "name": "MSI MPG A750GF 750W 80+ Gold",
+    "manufacturer": "MSI",
+    "category": "psu",
+    "specs": {
+      "wattage": 750,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "3.0",
+      "pcie_12vhpwr": true,
+      "pcie_8pin_connectors": 4,
+      "sata_connectors": 9,
+      "price_usd": 119
+    }
+  },
+  {
+    "id": "psu-lian-li-sp850",
+    "name": "Lian Li SP850 850W 80+ Gold",
+    "manufacturer": "Lian Li",
+    "category": "psu",
+    "specs": {
+      "wattage": 850,
+      "efficiency_rating": "80_plus_gold",
+      "modular": "full",
+      "atx_version": "3.0",
+      "pcie_12vhpwr": true,
+      "pcie_8pin_connectors": 5,
+      "sata_connectors": 10,
+      "price_usd": 149
+    }
+  }
+]

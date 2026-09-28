@@ -1,0 +1,816 @@
+[
+  {
+    "id": "psu-corsair-hx1500i",
+    "name": "Corsair HX1500i",
+    "manufacturer": "Corsair",
+    "price_usd": 399,
+    "specs": {
+      "wattage_w": 1500,
+      "efficiency": "80+ Platinum",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 150,
+      "atx_standard": "ATX3.1",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 6,
+        "pin_16_12vhpwr": 1,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-corsair-rm1000x-atx3",
+    "name": "Corsair RM1000x (ATX 3.0)",
+    "manufacturer": "Corsair",
+    "price_usd": 189,
+    "specs": {
+      "wattage_w": 1000,
+      "efficiency": "80+ Gold",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 160,
+      "atx_standard": "ATX3.0",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 1,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-seasonic-prime-tx-1600",
+    "name": "Seasonic PRIME TX-1600",
+    "manufacturer": "Seasonic",
+    "price_usd": 449,
+    "specs": {
+      "wattage_w": 1600,
+      "efficiency": "80+ Titanium",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 170,
+      "atx_standard": "ATX3.1",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 8,
+        "pin_16_12vhpwr": 1,
+        "sata": 12
+      }
+    }
+  },
+  {
+    "id": "psu-be-quiet-dark-power-13-1000w",
+    "name": "be quiet! Dark Power 13 1000W",
+    "manufacturer": "be quiet!",
+    "price_usd": 279,
+    "specs": {
+      "wattage_w": 1000,
+      "efficiency": "80+ Titanium",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 175,
+      "atx_standard": "ATX3.1",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 6,
+        "pin_16_12vhpwr": 1,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-msi-meg-ai1300p-pcie5",
+    "name": "MSI MEG Ai1300P PCIe 5",
+    "manufacturer": "MSI",
+    "price_usd": 329,
+    "specs": {
+      "wattage_w": 1300,
+      "efficiency": "80+ Platinum",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 160,
+      "atx_standard": "ATX3.0",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 6,
+        "pin_16_12vhpwr": 1,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-corsair-rm850x-2024",
+    "name": "Corsair RM850x (2024)",
+    "manufacturer": "Corsair",
+    "price_usd": 139,
+    "specs": {
+      "wattage_w": 850,
+      "efficiency": "80+ Gold",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 160,
+      "atx_standard": "ATX3.0",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 1,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-corsair-rm1000e",
+    "name": "Corsair RM1000e",
+    "manufacturer": "Corsair",
+    "price_usd": 159,
+    "specs": {
+      "wattage_w": 1000,
+      "efficiency": "80+ Gold",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 150,
+      "atx_standard": "ATX3.0",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 1,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-msi-mag-a850gl-gold",
+    "name": "MSI MAG A850GL PCIE5",
+    "manufacturer": "MSI",
+    "price_usd": 119,
+    "specs": {
+      "wattage_w": 850,
+      "efficiency": "80+ Gold",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 140,
+      "atx_standard": "ATX3.0",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 1,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-nzxt-c1200-gold",
+    "name": "NZXT C1200 Gold",
+    "manufacturer": "NZXT",
+    "price_usd": 179,
+    "specs": {
+      "wattage_w": 1200,
+      "efficiency": "80+ Gold",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 150,
+      "atx_standard": "ATX3.0",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 6,
+        "pin_16_12vhpwr": 1,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-corsair-rm750",
+    "name": "Corsair RM750",
+    "manufacturer": "Corsair",
+    "price_usd": 109,
+    "specs": {
+      "wattage_w": 750,
+      "efficiency": "80+ Gold",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": false,
+      "length_mm": 160,
+      "atx_standard": "ATX2.x",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 0,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-corsair-rm650",
+    "name": "Corsair RM650",
+    "manufacturer": "Corsair",
+    "price_usd": 99,
+    "specs": {
+      "wattage_w": 650,
+      "efficiency": "80+ Gold",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": false,
+      "length_mm": 160,
+      "atx_standard": "ATX2.x",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 0,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-be-quiet-pure-power-12-m-750w",
+    "name": "be quiet! Pure Power 12 M 750W",
+    "manufacturer": "be quiet!",
+    "price_usd": 109,
+    "specs": {
+      "wattage_w": 750,
+      "efficiency": "80+ Gold",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 160,
+      "atx_standard": "ATX3.0",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 1,
+        "sata": 6
+      }
+    }
+  },
+  {
+    "id": "psu-seasonic-focus-gx-850",
+    "name": "Seasonic Focus GX-850",
+    "manufacturer": "Seasonic",
+    "price_usd": 119,
+    "specs": {
+      "wattage_w": 850,
+      "efficiency": "80+ Gold",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": false,
+      "length_mm": 140,
+      "atx_standard": "ATX2.x",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 0,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-corsair-cv650",
+    "name": "Corsair CV650",
+    "manufacturer": "Corsair",
+    "price_usd": 69,
+    "specs": {
+      "wattage_w": 650,
+      "efficiency": "80+ Bronze",
+      "form_factor": "ATX",
+      "modular": "Non-modular",
+      "pcie_5_ready": false,
+      "length_mm": 125,
+      "atx_standard": "ATX2.x",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 1,
+        "pin_8_pcie": 2,
+        "pin_16_12vhpwr": 0,
+        "sata": 6
+      }
+    }
+  },
+  {
+    "id": "psu-thermaltake-smart-600w",
+    "name": "Thermaltake Smart 600W",
+    "manufacturer": "Thermaltake",
+    "price_usd": 50,
+    "specs": {
+      "wattage_w": 600,
+      "efficiency": "80+ Bronze",
+      "form_factor": "ATX",
+      "modular": "Non-modular",
+      "pcie_5_ready": false,
+      "length_mm": 140,
+      "atx_standard": "ATX2.x",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 1,
+        "pin_8_pcie": 2,
+        "pin_16_12vhpwr": 0,
+        "sata": 6
+      }
+    }
+  },
+  {
+    "id": "psu-evga-600-bq",
+    "name": "EVGA 600 BQ",
+    "manufacturer": "EVGA",
+    "price_usd": 59,
+    "specs": {
+      "wattage_w": 600,
+      "efficiency": "80+ Bronze",
+      "form_factor": "ATX",
+      "modular": "Semi-modular",
+      "pcie_5_ready": false,
+      "length_mm": 140,
+      "atx_standard": "ATX2.x",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 1,
+        "pin_8_pcie": 2,
+        "pin_16_12vhpwr": 0,
+        "sata": 6
+      }
+    }
+  },
+  {
+    "id": "psu-cooler-master-mwe-gold-650-v2",
+    "name": "Cooler Master MWE Gold 650 V2",
+    "manufacturer": "Cooler Master",
+    "price_usd": 79,
+    "specs": {
+      "wattage_w": 650,
+      "efficiency": "80+ Gold",
+      "form_factor": "ATX",
+      "modular": "Semi-modular",
+      "pcie_5_ready": false,
+      "length_mm": 140,
+      "atx_standard": "ATX2.x",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 1,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 0,
+        "sata": 6
+      }
+    }
+  },
+  {
+    "id": "psu-corsair-sf750-platinum",
+    "name": "Corsair SF750 Platinum",
+    "manufacturer": "Corsair",
+    "price_usd": 179,
+    "specs": {
+      "wattage_w": 750,
+      "efficiency": "80+ Platinum",
+      "form_factor": "SFX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 100,
+      "atx_standard": "ATX3.0",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 1,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 1,
+        "sata": 4
+      }
+    }
+  },
+  {
+    "id": "psu-corsair-sf600-gold",
+    "name": "Corsair SF600 Gold",
+    "manufacturer": "Corsair",
+    "price_usd": 129,
+    "specs": {
+      "wattage_w": 600,
+      "efficiency": "80+ Gold",
+      "form_factor": "SFX",
+      "modular": "Fully modular",
+      "pcie_5_ready": false,
+      "length_mm": 100,
+      "atx_standard": "ATX2.x",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 1,
+        "pin_8_pcie": 3,
+        "pin_16_12vhpwr": 0,
+        "sata": 4
+      }
+    }
+  },
+  {
+    "id": "psu-cooler-master-v850-sfx-gold",
+    "name": "Cooler Master V850 SFX Gold",
+    "manufacturer": "Cooler Master",
+    "price_usd": 149,
+    "specs": {
+      "wattage_w": 850,
+      "efficiency": "80+ Gold",
+      "form_factor": "SFX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 125,
+      "atx_standard": "ATX3.0",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 1,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 1,
+        "sata": 4
+      }
+    }
+  },
+  {
+    "id": "psu-corsair-hx1200",
+    "name": "Corsair HX1200",
+    "manufacturer": "Corsair",
+    "price_usd": 249,
+    "specs": {
+      "wattage_w": 1200,
+      "efficiency": "80+ Platinum",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 150,
+      "atx_standard": "ATX3.0",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 6,
+        "pin_16_12vhpwr": 1,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-seasonic-prime-tx-1300",
+    "name": "Seasonic PRIME TX-1300",
+    "manufacturer": "Seasonic",
+    "price_usd": 349,
+    "specs": {
+      "wattage_w": 1300,
+      "efficiency": "80+ Titanium",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 170,
+      "atx_standard": "ATX3.0",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 6,
+        "pin_16_12vhpwr": 1,
+        "sata": 10
+      }
+    }
+  },
+  {
+    "id": "psu-thermaltake-toughpower-gf3-1650w",
+    "name": "Thermaltake Toughpower GF3 1650W",
+    "manufacturer": "Thermaltake",
+    "price_usd": 399,
+    "specs": {
+      "wattage_w": 1650,
+      "efficiency": "80+ Gold",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 180,
+      "atx_standard": "ATX3.0",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 8,
+        "pin_16_12vhpwr": 1,
+        "sata": 12
+      }
+    }
+  },
+  {
+    "id": "psu-super-flower-leadex-vii-gold-850",
+    "name": "Super Flower Leadex VII Gold 850W",
+    "manufacturer": "Super Flower",
+    "price_usd": 119,
+    "specs": {
+      "wattage_w": 850,
+      "efficiency": "80+ Gold",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 150,
+      "atx_standard": "ATX3.0",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 1,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-nzxt-c750-gold",
+    "name": "NZXT C750 Gold",
+    "manufacturer": "NZXT",
+    "price_usd": 99,
+    "specs": {
+      "wattage_w": 750,
+      "efficiency": "80+ Gold",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 150,
+      "atx_standard": "ATX3.0",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 1,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-seasonic-vertex-gx-1200",
+    "name": "Seasonic Vertex GX-1200",
+    "manufacturer": "Seasonic",
+    "price_usd": 219,
+    "specs": {
+      "wattage_w": 1200,
+      "efficiency": "80+ Gold",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 160,
+      "atx_standard": "ATX3.0",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 6,
+        "pin_16_12vhpwr": 1,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-be-quiet-straight-power-12-1200w",
+    "name": "be quiet! Straight Power 12 1200W",
+    "manufacturer": "be quiet!",
+    "price_usd": 219,
+    "specs": {
+      "wattage_w": 1200,
+      "efficiency": "80+ Platinum",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 175,
+      "atx_standard": "ATX3.0",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 6,
+        "pin_16_12vhpwr": 1,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-msi-mpg-a1000g-pcie5",
+    "name": "MSI MPG A1000G PCIE5",
+    "manufacturer": "MSI",
+    "price_usd": 159,
+    "specs": {
+      "wattage_w": 1000,
+      "efficiency": "80+ Gold",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 150,
+      "atx_standard": "ATX3.0",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 1,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-corsair-rm850e",
+    "name": "Corsair RM850e",
+    "manufacturer": "Corsair",
+    "price_usd": 119,
+    "specs": {
+      "wattage_w": 850,
+      "efficiency": "80+ Gold",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 140,
+      "atx_standard": "ATX3.0",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 1,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-evga-supernova-750-gt",
+    "name": "EVGA SuperNOVA 750 GT",
+    "manufacturer": "EVGA",
+    "price_usd": 99,
+    "specs": {
+      "wattage_w": 750,
+      "efficiency": "80+ Gold",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": false,
+      "length_mm": 150,
+      "atx_standard": "ATX2.x",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 0,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-thermaltake-toughpower-gf-a3-850w",
+    "name": "Thermaltake Toughpower GF A3 850W",
+    "manufacturer": "Thermaltake",
+    "price_usd": 109,
+    "specs": {
+      "wattage_w": 850,
+      "efficiency": "80+ Gold",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 160,
+      "atx_standard": "ATX3.0",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 1,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-cooler-master-mwe-gold-750-v2",
+    "name": "Cooler Master MWE Gold 750 V2",
+    "manufacturer": "Cooler Master",
+    "price_usd": 89,
+    "specs": {
+      "wattage_w": 750,
+      "efficiency": "80+ Gold",
+      "form_factor": "ATX",
+      "modular": "Semi-modular",
+      "pcie_5_ready": false,
+      "length_mm": 140,
+      "atx_standard": "ATX2.x",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 0,
+        "sata": 6
+      }
+    }
+  },
+  {
+    "id": "psu-nzxt-c650-bronze",
+    "name": "NZXT C650 Bronze",
+    "manufacturer": "NZXT",
+    "price_usd": 69,
+    "specs": {
+      "wattage_w": 650,
+      "efficiency": "80+ Bronze",
+      "form_factor": "ATX",
+      "modular": "Non-modular",
+      "pcie_5_ready": false,
+      "length_mm": 140,
+      "atx_standard": "ATX2.x",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 1,
+        "pin_8_pcie": 2,
+        "pin_16_12vhpwr": 0,
+        "sata": 6
+      }
+    }
+  },
+  {
+    "id": "psu-seasonic-focus-sgx-650",
+    "name": "Seasonic Focus SGX-650",
+    "manufacturer": "Seasonic",
+    "price_usd": 119,
+    "specs": {
+      "wattage_w": 650,
+      "efficiency": "80+ Gold",
+      "form_factor": "SFX-L",
+      "modular": "Fully modular",
+      "pcie_5_ready": false,
+      "length_mm": 125,
+      "atx_standard": "ATX2.x",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 1,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 0,
+        "sata": 4
+      }
+    }
+  },
+  {
+    "id": "psu-super-flower-leadex-platinum-se-1000",
+    "name": "Super Flower Leadex Platinum SE 1000W",
+    "manufacturer": "Super Flower",
+    "price_usd": 169,
+    "specs": {
+      "wattage_w": 1000,
+      "efficiency": "80+ Platinum",
+      "form_factor": "ATX",
+      "modular": "Fully modular",
+      "pcie_5_ready": true,
+      "length_mm": 160,
+      "atx_standard": "ATX3.0",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 2,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 1,
+        "sata": 8
+      }
+    }
+  },
+  {
+    "id": "psu-be-quiet-system-power-10-650w",
+    "name": "be quiet! System Power 10 650W",
+    "manufacturer": "be quiet!",
+    "price_usd": 65,
+    "specs": {
+      "wattage_w": 650,
+      "efficiency": "80+ Bronze",
+      "form_factor": "ATX",
+      "modular": "Non-modular",
+      "pcie_5_ready": false,
+      "length_mm": 140,
+      "atx_standard": "ATX2.x",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 1,
+        "pin_8_pcie": 2,
+        "pin_16_12vhpwr": 0,
+        "sata": 6
+      }
+    }
+  },
+  {
+    "id": "psu-corsair-cx750m",
+    "name": "Corsair CX750M",
+    "manufacturer": "Corsair",
+    "price_usd": 79,
+    "specs": {
+      "wattage_w": 750,
+      "efficiency": "80+ Bronze",
+      "form_factor": "ATX",
+      "modular": "Semi-modular",
+      "pcie_5_ready": false,
+      "length_mm": 140,
+      "atx_standard": "ATX2.x",
+      "connectors": {
+        "pin_24_main": 1,
+        "pin_8_cpu": 1,
+        "pin_8_pcie": 4,
+        "pin_16_12vhpwr": 0,
+        "sata": 6
+      }
+    }
+  }
+]

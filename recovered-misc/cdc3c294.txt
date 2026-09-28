@@ -1,0 +1,384 @@
+/**
+ * Database seeding script
+ *
+ * Usage:
+ *   npx ts-node scripts/seed-database.ts
+ *
+ * This script populates the local JSON catalog with real component data
+ * from various sources (TechPowerUp, PassMark, curated JSON, etc.).
+ */
+
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+function loadDataSource(filename: string): any[] {
+  const filePath = path.join(__dirname, "data-sources", filename);
+  try {
+    if (!fs.existsSync(filePath)) return [];
+    const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+    return Array.isArray(data) ? data : [];
+  } catch {
+    return [];
+  }
+}
+
+const gpuData = loadDataSource("techpowerup-gpus.json");
+const cpuData = loadDataSource("passmark-cpus.json");
+const curatedCpuData = loadDataSource("curated-cpus.json");
+const curatedGpuData = loadDataSource("curated-gpus.json");
+const motherboardData = loadDataSource("curated-motherboards.json");
+const caseData = loadDataSource("curated-cases.json");
+const psuData = loadDataSource("curated-psus.json");
+const coolerData = loadDataSource("curated-coolers.json");
+const ramData = loadDataSource("curated-ram.json");
+const storageData = loadDataSource("curated-storage.json");
+
+interface ComponentData {
+  cpus: any[];
+  gpus: any[];
+  motherboards: any[];
+  cases: any[];
+  psus: any[];
+  coolers: any[];
+  ram: any[];
+  storage: any[];
+}
+
+/**
+ * Normalize GPU data from TechPowerUp format
+ */
+function normalizeGpuData(rawGpus: any[]): any[] {
+  return rawGpus.map((gpu) => ({
+    id: `gpu-${gpu.id}`,
+    name: gpu.name,
+    manufacturer: extractManufacturer(gpu.name),
+    category: "gpu",
+    specs: {
+      chip: gpu.gpu_chip,
+      vram_gb: parseVram(gpu.memory_size),
+      memory_type: gpu.memory_type,
+      memory_bus_width: parseInt(gpu.memory_bus, 10) || undefined,
+      base_clock_mhz: parseInt(gpu.core_clock, 10) || undefined,
+      boost_clock_mhz: parseInt(gpu.boost_clock, 10) || undefined,
+      shader_count: parseInt(gpu.shaders, 10) || undefined,
+      tdp_w: parseInt(gpu.tdp, 10) || undefined,
+      power_connectors: parsePowerConnectors(gpu.power_connectors ?? ""),
+      pcie_version: gpu.pcie_version,
+      length_mm: parseLength(gpu.length ?? ""),
+      thickness_slots: parseThickness(gpu.slot_width ?? ""),
+      outputs: parseOutputs(gpu.outputs ?? ""),
+      tier: calculateGpuTier(gpu),
+      price_usd: gpu.price || estimatePrice(gpu.name, "gpu"),
+      release_date: gpu.release_date,
+    },
+  }));
+}
+
+/**
+ * Normalize CPU data from PassMark format
+ */
+function normalizeCpuData(rawCpus: any[]): any[] {
+  return rawCpus.map((cpu) => ({
+    id: `cpu-${cpu.id}`,
+    name: cpu.name,
+    manufacturer: cpu.name?.includes("Intel") ? "Intel" : "AMD",
+    category: "cpu",
+    specs: {
+      cores: parseInt(cpu.cores, 10) || undefined,
+      threads: parseInt(cpu.threads, 10) || undefined,
+      base_clock_ghz: parseFloat(cpu.base_clock) || undefined,
+      boost_clock_ghz: parseFloat(cpu.turbo_clock) || undefined,
+      tdp_w: parseInt(cpu.tdp, 10) || undefined,
+      socket: cpu.socket,
+      pcie_version: cpu.pcie_version || determinePcieVersion(cpu.socket ?? ""),
+      max_mem_speed_mhz: parseInt(cpu.max_memory_speed, 10) || undefined,
+      has_igpu: cpu.has_igpu === "Yes",
+      tier: calculateCpuTier(cpu),
+      price_usd: cpu.price || estimatePrice(cpu.name, "cpu"),
+      release_date: cpu.release_date,
+    },
+  }));
+}
+
+/**
+ * Calculate GPU tier (1-10) based on specs
+ */
+function calculateGpuTier(gpu: any): number {
+  const vram = parseVram(gpu.memory_size ?? "");
+  const tdp = parseInt(gpu.tdp ?? "0", 10) || 0;
+  const shaders = parseInt(gpu.shaders ?? "0", 10) || 0;
+
+  let score = 0;
+
+  // VRAM contribution (0-30 points)
+  if (vram >= 24) score += 30;
+  else if (vram >= 16) score += 25;
+  else if (vram >= 12) score += 20;
+  else if (vram >= 8) score += 15;
+  else if (vram >= 6) score += 10;
+  else score += 5;
+
+  // TDP contribution (0-30 points)
+  if (tdp >= 400) score += 30;
+  else if (tdp >= 300) score += 25;
+  else if (tdp >= 250) score += 20;
+  else if (tdp >= 200) score += 15;
+  else if (tdp >= 150) score += 10;
+  else score += 5;
+
+  // Shader count contribution (0-40 points)
+  if (shaders >= 16000) score += 40;
+  else if (shaders >= 10000) score += 30;
+  else if (shaders >= 7000) score += 25;
+  else if (shaders >= 4000) score += 20;
+  else if (shaders >= 2000) score += 15;
+  else score += 10;
+
+  return Math.max(1, Math.min(10, Math.ceil(score / 10)));
+}
+
+/**
+ * Calculate CPU tier (1-10) based on specs
+ */
+function calculateCpuTier(cpu: any): number {
+  const cores = parseInt(cpu.cores ?? "0", 10) || 0;
+  const boost = parseFloat(cpu.turbo_clock ?? "0") || 0;
+  const tdp = parseInt(cpu.tdp ?? "0", 10) || 0;
+
+  let score = 0;
+
+  // Core count (0-40 points)
+  if (cores >= 16) score += 40;
+  else if (cores >= 12) score += 30;
+  else if (cores >= 8) score += 25;
+  else if (cores >= 6) score += 20;
+  else if (cores >= 4) score += 15;
+  else score += 10;
+
+  // Clock speed (0-30 points)
+  if (boost >= 5.5) score += 30;
+  else if (boost >= 5.0) score += 25;
+  else if (boost >= 4.5) score += 20;
+  else if (boost >= 4.0) score += 15;
+  else score += 10;
+
+  // TDP (0-30 points) - higher TDP usually means higher performance
+  if (tdp >= 125) score += 30;
+  else if (tdp >= 95) score += 25;
+  else if (tdp >= 65) score += 20;
+  else score += 15;
+
+  return Math.max(1, Math.min(10, Math.ceil(score / 10)));
+}
+
+/**
+ * Estimate price based on component name and tier
+ */
+function estimatePrice(name: string, category: "gpu" | "cpu"): number {
+  const nameLower = name.toLowerCase();
+
+  if (category === "gpu") {
+    if (nameLower.includes("4090") || nameLower.includes("7900 xtx")) return 1599;
+    if (nameLower.includes("4080") || nameLower.includes("7900 xt")) return 1199;
+    if (nameLower.includes("4070 ti") || nameLower.includes("7800 xt")) return 799;
+    if (nameLower.includes("4070") || nameLower.includes("7700 xt")) return 599;
+    if (nameLower.includes("4060 ti") || nameLower.includes("7600 xt")) return 499;
+    if (nameLower.includes("4060") || nameLower.includes("7600")) return 299;
+    if (nameLower.includes("3060") || nameLower.includes("6600")) return 249;
+    return 199;
+  }
+
+  if (category === "cpu") {
+    if (nameLower.includes("i9") || nameLower.includes("ryzen 9")) return 499;
+    if (nameLower.includes("i7") || nameLower.includes("ryzen 7")) return 349;
+    if (nameLower.includes("i5") || nameLower.includes("ryzen 5")) return 249;
+    if (nameLower.includes("i3") || nameLower.includes("ryzen 3")) return 149;
+    return 99;
+  }
+
+  return 0;
+}
+
+/**
+ * Helper functions
+ */
+function parseVram(memSize: string): number {
+  const match = memSize.match(/(\d+)\s*GB/i);
+  return match ? parseInt(match[1], 10) : 0;
+}
+
+function parsePowerConnectors(connectors: string): { pcie_8pin: number; pcie_6pin: number } {
+  const pcie8 = connectors.match(/(\d+)x?\s*8-pin/i)?.[1] ?? "0";
+  const pcie6 = connectors.match(/(\d+)x?\s*6-pin/i)?.[1] ?? "0";
+  return {
+    pcie_8pin: parseInt(pcie8, 10) || 0,
+    pcie_6pin: parseInt(pcie6, 10) || 0,
+  };
+}
+
+function parseLength(length: string): number {
+  const match = length.match(/(\d+)\s*mm/i);
+  return match ? parseInt(match[1], 10) : 0;
+}
+
+function parseThickness(slots: string): number {
+  const match = slots.match(/(\d+(\.\d+)?)\s*slot/i);
+  return match ? parseFloat(match[1]) : 2;
+}
+
+function parseOutputs(outputs: string): string[] {
+  if (!outputs) return [];
+  return outputs.split(",").map((o) => o.trim());
+}
+
+function extractManufacturer(name: string): string {
+  const manufacturers = [
+    "ASUS",
+    "MSI",
+    "Gigabyte",
+    "EVGA",
+    "Zotac",
+    "PNY",
+    "Palit",
+    "NVIDIA",
+    "AMD",
+    "Intel",
+    "Sapphire",
+    "XFX",
+    "PowerColor",
+  ];
+  for (const mfg of manufacturers) {
+    if (name.includes(mfg)) return mfg;
+  }
+  return "Generic";
+}
+
+function determinePcieVersion(socket: string): string {
+  if (socket.includes("LGA1700") || socket.includes("AM5")) return "5.0";
+  if (socket.includes("LGA1200") || socket.includes("AM4")) return "4.0";
+  return "3.0";
+}
+
+function mergeById(existing: any[], incoming: any[]): any[] {
+  const map = new Map<string, any>();
+  for (const item of existing) {
+    if (item.id) map.set(item.id, item);
+  }
+  for (const item of incoming) {
+    if (item.id) map.set(item.id, { ...map.get(item.id), ...item });
+  }
+  return Array.from(map.values());
+}
+
+function loadExistingCatalog(filePath: string): any[] {
+  try {
+    if (fs.existsSync(filePath)) {
+      const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+      return Array.isArray(data) ? data : [];
+    }
+  } catch { /* empty */ }
+  return [];
+}
+
+/**
+ * Main seeding function. Merges new data with existing catalog entries
+ * so hand-curated entries are preserved.
+ */
+async function seedDatabase() {
+  // eslint-disable-next-line no-console
+  console.log("🌱 Starting database seed (merge mode)...");
+
+  const dataDir = path.join(__dirname, "../data/catalog");
+  if (!fs.existsSync(dataDir)) {
+    fs.mkdirSync(dataDir, { recursive: true });
+  }
+
+  const incoming: ComponentData = {
+    cpus: [],
+    gpus: [],
+    motherboards: [],
+    cases: [],
+    psus: [],
+    coolers: [],
+    ram: [],
+    storage: [],
+  };
+
+  // Process scraped GPUs (from TechPowerUp scraper)
+  const scrapedGpus = (gpuData as any[]).length > 0
+    ? normalizeGpuData(gpuData as any[])
+    : [];
+  if (scrapedGpus.length > 0) {
+    console.log(`✅ Processed ${scrapedGpus.length} scraped GPUs from TechPowerUp`);
+  }
+
+  // Process scraped CPUs (from PassMark CSV)
+  const scrapedCpus = (cpuData as any[]).length > 0
+    ? normalizeCpuData(cpuData as any[])
+    : [];
+  if (scrapedCpus.length > 0) {
+    console.log(`✅ Processed ${scrapedCpus.length} scraped CPUs from PassMark`);
+  }
+
+  // Merge curated + scraped data (curated takes priority via order)
+  incoming.cpus = [...scrapedCpus, ...(curatedCpuData as any[])];
+  incoming.gpus = [...scrapedGpus, ...(curatedGpuData as any[])];
+  incoming.motherboards = motherboardData as any[];
+  incoming.cases = caseData as any[];
+  incoming.psus = psuData as any[];
+  incoming.coolers = coolerData as any[];
+  incoming.ram = ramData as any[];
+  incoming.storage = storageData as any[];
+
+  console.log(`✅ CPUs: ${incoming.cpus.length} (${scrapedCpus.length} scraped + ${(curatedCpuData as any[]).length} curated)`);
+  console.log(`✅ GPUs: ${incoming.gpus.length} (${scrapedGpus.length} scraped + ${(curatedGpuData as any[]).length} curated)`);
+  console.log(`✅ Loaded ${incoming.motherboards.length} curated motherboards`);
+  console.log(`✅ Loaded ${incoming.cases.length} curated cases`);
+  console.log(`✅ Loaded ${incoming.psus.length} curated PSUs`);
+  console.log(`✅ Loaded ${incoming.coolers.length} curated coolers`);
+  console.log(`✅ Loaded ${incoming.ram.length} curated RAM kits`);
+  console.log(`✅ Loaded ${incoming.storage.length} curated storage devices`);
+
+  // Merge incoming with existing catalog data
+  const fileMap: Record<string, string> = {
+    cpus: "cpus.json",
+    gpus: "gpus.json",
+    motherboards: "motherboards.json",
+    cases: "cases.json",
+    psus: "psus.json",
+    coolers: "coolers.json",
+    ram: "ram.json",
+    storage: "storage.json",
+  };
+
+  let total = 0;
+
+  Object.entries(incoming).forEach(([category, items]) => {
+    const filePath = path.join(dataDir, fileMap[category]);
+    const existing = loadExistingCatalog(filePath);
+    const merged = mergeById(existing, items);
+
+    fs.writeFileSync(filePath, JSON.stringify(merged, null, 2), "utf8");
+    total += merged.length;
+    // eslint-disable-next-line no-console
+    console.log(
+      `💾 ${category}: ${existing.length} existing + ${items.length} incoming = ${merged.length} merged → ${fileMap[category]}`
+    );
+  });
+
+  // eslint-disable-next-line no-console
+  console.log("\n✅ Database seed complete!");
+  // eslint-disable-next-line no-console
+  console.log(`📊 Total components: ${total}`);
+}
+
+seedDatabase().catch((err) => {
+  // eslint-disable-next-line no-console
+  console.error("Seed failed:", err);
+  process.exit(1);
+});
+

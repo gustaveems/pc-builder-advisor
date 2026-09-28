@@ -1,0 +1,54 @@
+import { NextRequest, NextResponse } from "next/server";
+import { getSubmission, reviewSubmission } from "@/lib/submissions";
+
+export async function GET(
+  _request: NextRequest,
+  { params }: { params: Promise<{ id: string }> }
+) {
+  const { id } = await params;
+  try {
+    const submission = getSubmission(id);
+    if (!submission) {
+      return NextResponse.json({ error: "Not found" }, { status: 404 });
+    }
+    return NextResponse.json(submission);
+  } catch (err) {
+    return NextResponse.json(
+      { error: err instanceof Error ? err.message : "Failed to get submission" },
+      { status: 500 }
+    );
+  }
+}
+
+export async function PATCH(
+  request: NextRequest,
+  { params }: { params: Promise<{ id: string }> }
+) {
+  const { id } = await params;
+  try {
+    const body = await request.json();
+    const { action, note } = body as {
+      action: "approved" | "rejected";
+      note?: string;
+    };
+
+    if (action !== "approved" && action !== "rejected") {
+      return NextResponse.json(
+        { error: "action must be 'approved' or 'rejected'" },
+        { status: 400 }
+      );
+    }
+
+    const updated = reviewSubmission(id, action, note);
+    if (!updated) {
+      return NextResponse.json({ error: "Submission not found" }, { status: 404 });
+    }
+
+    return NextResponse.json(updated);
+  } catch (err) {
+    return NextResponse.json(
+      { error: err instanceof Error ? err.message : "Failed to review submission" },
+      { status: 500 }
+    );
+  }
+}

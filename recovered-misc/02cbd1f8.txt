@@ -1,0 +1,833 @@
+[
+  {
+    "id": "case-lian-li-o11-dynamic-evo",
+    "name": "Lian Li O11 Dynamic EVO",
+    "manufacturer": "Lian Li",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 420,
+      "max_cpu_cooler_height_mm": 167,
+      "max_psu_length_mm": 225,
+      "preinstalled_fans": 0,
+      "max_radiator_top": "360mm",
+      "max_radiator_front": "360mm",
+      "max_radiator_side": "360mm",
+      "supports_vertical_gpu": true,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "price_usd": 159
+    }
+  },
+  {
+    "id": "case-lian-li-o11-dynamic-mini",
+    "name": "Lian Li O11 Dynamic Mini",
+    "manufacturer": "Lian Li",
+    "category": "case",
+    "specs": {
+      "form_factor": "mATX",
+      "max_gpu_length_mm": 360,
+      "max_cpu_cooler_height_mm": 165,
+      "max_psu_length_mm": 200,
+      "preinstalled_fans": 0,
+      "max_radiator_top": "280mm",
+      "max_radiator_front": "280mm",
+      "max_radiator_side": "280mm",
+      "supports_vertical_gpu": true,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "price_usd": 119
+    }
+  },
+  {
+    "id": "case-fractal-torrent",
+    "name": "Fractal Design Torrent",
+    "manufacturer": "Fractal Design",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 461,
+      "max_cpu_cooler_height_mm": 188,
+      "max_psu_length_mm": 230,
+      "preinstalled_fans": 5,
+      "max_radiator_top": "420mm",
+      "max_radiator_front": "360mm",
+      "supports_vertical_gpu": true,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "price_usd": 199
+    }
+  },
+  {
+    "id": "case-fractal-torrent-compact",
+    "name": "Fractal Design Torrent Compact",
+    "manufacturer": "Fractal Design",
+    "category": "case",
+    "specs": {
+      "form_factor": "mATX",
+      "max_gpu_length_mm": 355,
+      "max_cpu_cooler_height_mm": 176,
+      "max_psu_length_mm": 200,
+      "preinstalled_fans": 3,
+      "max_radiator_top": "280mm",
+      "max_radiator_front": "280mm",
+      "supports_vertical_gpu": false,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "price_usd": 149
+    }
+  },
+  {
+    "id": "case-fractal-meshify-2",
+    "name": "Fractal Design Meshify 2",
+    "manufacturer": "Fractal Design",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 467,
+      "max_cpu_cooler_height_mm": 185,
+      "max_psu_length_mm": 250,
+      "preinstalled_fans": 3,
+      "max_radiator_top": "420mm",
+      "max_radiator_front": "360mm",
+      "supports_vertical_gpu": true,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "price_usd": 149
+    }
+  },
+  {
+    "id": "case-fractal-pop-air",
+    "name": "Fractal Design Pop Air",
+    "manufacturer": "Fractal Design",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 403,
+      "max_cpu_cooler_height_mm": 167,
+      "max_psu_length_mm": 215,
+      "preinstalled_fans": 3,
+      "max_radiator_top": "360mm",
+      "max_radiator_front": "360mm",
+      "supports_vertical_gpu": false,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "price_usd": 99
+    }
+  },
+  {
+    "id": "case-nzxt-h9-flow",
+    "name": "NZXT H9 Flow",
+    "manufacturer": "NZXT",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 400,
+      "max_cpu_cooler_height_mm": 185,
+      "max_psu_length_mm": 225,
+      "preinstalled_fans": 3,
+      "max_radiator_top": "360mm",
+      "max_radiator_front": "360mm",
+      "supports_vertical_gpu": true,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "price_usd": 159
+    }
+  },
+  {
+    "id": "case-nzxt-h7-flow",
+    "name": "NZXT H7 Flow",
+    "manufacturer": "NZXT",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 400,
+      "max_cpu_cooler_height_mm": 185,
+      "max_psu_length_mm": 225,
+      "preinstalled_fans": 3,
+      "max_radiator_top": "360mm",
+      "max_radiator_front": "360mm",
+      "supports_vertical_gpu": true,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "price_usd": 129
+    }
+  },
+  {
+    "id": "case-nzxt-h6-flow",
+    "name": "NZXT H6 Flow",
+    "manufacturer": "NZXT",
+    "category": "case",
+    "specs": {
+      "form_factor": "mATX",
+      "max_gpu_length_mm": 365,
+      "max_cpu_cooler_height_mm": 167,
+      "max_psu_length_mm": 200,
+      "preinstalled_fans": 2,
+      "max_radiator_top": "280mm",
+      "max_radiator_front": "280mm",
+      "supports_vertical_gpu": false,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "price_usd": 99
+    }
+  },
+  {
+    "id": "case-nzxt-h5-flow",
+    "name": "NZXT H5 Flow",
+    "manufacturer": "NZXT",
+    "category": "case",
+    "specs": {
+      "form_factor": "mATX",
+      "max_gpu_length_mm": 365,
+      "max_cpu_cooler_height_mm": 167,
+      "max_psu_length_mm": 200,
+      "preinstalled_fans": 2,
+      "max_radiator_top": "240mm",
+      "max_radiator_front": "280mm",
+      "supports_vertical_gpu": false,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "price_usd": 89
+    }
+  },
+  {
+    "id": "case-corsair-4000d-airflow",
+    "name": "Corsair 4000D Airflow",
+    "manufacturer": "Corsair",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 360,
+      "max_cpu_cooler_height_mm": 170,
+      "max_psu_length_mm": 220,
+      "preinstalled_fans": 2,
+      "max_radiator_top": "280mm",
+      "max_radiator_front": "360mm",
+      "supports_vertical_gpu": false,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "price_usd": 104
+    }
+  },
+  {
+    "id": "case-corsair-5000d-airflow",
+    "name": "Corsair 5000D Airflow",
+    "manufacturer": "Corsair",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 420,
+      "max_cpu_cooler_height_mm": 170,
+      "max_psu_length_mm": 225,
+      "preinstalled_fans": 2,
+      "max_radiator_top": "360mm",
+      "max_radiator_front": "360mm",
+      "supports_vertical_gpu": true,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "price_usd": 169
+    }
+  },
+  {
+    "id": "case-corsair-3000d-airflow",
+    "name": "Corsair 3000D Airflow",
+    "manufacturer": "Corsair",
+    "category": "case",
+    "specs": {
+      "form_factor": "mATX",
+      "max_gpu_length_mm": 360,
+      "max_cpu_cooler_height_mm": 170,
+      "max_psu_length_mm": 180,
+      "preinstalled_fans": 2,
+      "max_radiator_top": "240mm",
+      "max_radiator_front": "280mm",
+      "supports_vertical_gpu": false,
+      "mesh_front": true,
+      "has_usb_c": false,
+      "tempered_glass": true,
+      "price_usd": 79
+    }
+  },
+  {
+    "id": "case-corsair-2500d-airflow",
+    "name": "Corsair 2500D Airflow",
+    "manufacturer": "Corsair",
+    "category": "case",
+    "specs": {
+      "form_factor": "mATX",
+      "max_gpu_length_mm": 360,
+      "max_cpu_cooler_height_mm": 170,
+      "max_psu_length_mm": 200,
+      "preinstalled_fans": 2,
+      "max_radiator_top": "280mm",
+      "max_radiator_front": "280mm",
+      "supports_vertical_gpu": false,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "price_usd": 94
+    }
+  },
+  {
+    "id": "case-phanteks-p500a",
+    "name": "Phanteks Eclipse P500A D-RGB",
+    "manufacturer": "Phanteks",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 435,
+      "max_cpu_cooler_height_mm": 190,
+      "max_psu_length_mm": 280,
+      "preinstalled_fans": 3,
+      "max_radiator_top": "420mm",
+      "max_radiator_front": "420mm",
+      "supports_vertical_gpu": true,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "rgb_type": "5v_argb",
+      "price_usd": 139
+    }
+  },
+  {
+    "id": "case-phanteks-p400a",
+    "name": "Phanteks Eclipse P400A D-RGB",
+    "manufacturer": "Phanteks",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 420,
+      "max_cpu_cooler_height_mm": 160,
+      "max_psu_length_mm": 220,
+      "preinstalled_fans": 3,
+      "max_radiator_top": "280mm",
+      "max_radiator_front": "360mm",
+      "supports_vertical_gpu": false,
+      "mesh_front": true,
+      "has_usb_c": false,
+      "tempered_glass": true,
+      "rgb_type": "5v_argb",
+      "price_usd": 99
+    }
+  },
+  {
+    "id": "case-phanteks-p360a",
+    "name": "Phanteks Eclipse P360A D-RGB",
+    "manufacturer": "Phanteks",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 360,
+      "max_cpu_cooler_height_mm": 160,
+      "max_psu_length_mm": 220,
+      "preinstalled_fans": 2,
+      "max_radiator_top": "280mm",
+      "max_radiator_front": "360mm",
+      "supports_vertical_gpu": false,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "rgb_type": "5v_argb",
+      "price_usd": 89
+    }
+  },
+  {
+    "id": "case-bequiet-pure-base-500dx",
+    "name": "be quiet! Pure Base 500DX",
+    "manufacturer": "be quiet!",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 369,
+      "max_cpu_cooler_height_mm": 190,
+      "max_psu_length_mm": 285,
+      "preinstalled_fans": 3,
+      "max_radiator_top": "280mm",
+      "max_radiator_front": "360mm",
+      "supports_vertical_gpu": false,
+      "mesh_front": true,
+      "has_usb_c": false,
+      "tempered_glass": true,
+      "rgb_type": "5v_argb",
+      "price_usd": 109
+    }
+  },
+  {
+    "id": "case-bequiet-silent-base-802",
+    "name": "be quiet! Silent Base 802",
+    "manufacturer": "be quiet!",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 435,
+      "max_cpu_cooler_height_mm": 183,
+      "max_psu_length_mm": 285,
+      "preinstalled_fans": 3,
+      "max_radiator_top": "420mm",
+      "max_radiator_front": "420mm",
+      "supports_vertical_gpu": true,
+      "mesh_front": false,
+      "noise_dampening": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "price_usd": 179
+    }
+  },
+  {
+    "id": "case-coolermaster-masterbox-td500-mesh",
+    "name": "Cooler Master MasterBox TD500 Mesh",
+    "manufacturer": "Cooler Master",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 410,
+      "max_cpu_cooler_height_mm": 165,
+      "max_psu_length_mm": 180,
+      "preinstalled_fans": 3,
+      "max_radiator_top": "240mm",
+      "max_radiator_front": "360mm",
+      "supports_vertical_gpu": true,
+      "mesh_front": true,
+      "has_usb_c": false,
+      "tempered_glass": true,
+      "rgb_type": "5v_argb",
+      "price_usd": 99
+    }
+  },
+  {
+    "id": "case-coolermaster-nr200p",
+    "name": "Cooler Master NR200P",
+    "manufacturer": "Cooler Master",
+    "category": "case",
+    "specs": {
+      "form_factor": "ITX",
+      "max_gpu_length_mm": 330,
+      "max_cpu_cooler_height_mm": 155,
+      "max_psu_length_mm": 180,
+      "preinstalled_fans": 2,
+      "max_radiator_top": "240mm",
+      "max_radiator_side": "280mm",
+      "supports_vertical_gpu": true,
+      "mesh_front": true,
+      "has_usb_c": false,
+      "tempered_glass": true,
+      "price_usd": 99
+    }
+  },
+  {
+    "id": "case-lian-li-a3-matx",
+    "name": "Lian Li A3-mATX",
+    "manufacturer": "Lian Li",
+    "category": "case",
+    "specs": {
+      "form_factor": "mATX",
+      "max_gpu_length_mm": 385,
+      "max_cpu_cooler_height_mm": 169,
+      "max_psu_length_mm": 200,
+      "preinstalled_fans": 2,
+      "max_radiator_top": "280mm",
+      "max_radiator_front": "280mm",
+      "supports_vertical_gpu": false,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "price_usd": 99
+    }
+  },
+  {
+    "id": "case-lian-li-lancool-216",
+    "name": "Lian Li LANCOOL 216",
+    "manufacturer": "Lian Li",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 400,
+      "max_cpu_cooler_height_mm": 177,
+      "max_psu_length_mm": 220,
+      "preinstalled_fans": 2,
+      "max_radiator_top": "360mm",
+      "max_radiator_front": "360mm",
+      "supports_vertical_gpu": true,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "price_usd": 119
+    }
+  },
+  {
+    "id": "case-lian-li-lancool-205-mesh",
+    "name": "Lian Li LANCOOL 205 Mesh",
+    "manufacturer": "Lian Li",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 384,
+      "max_cpu_cooler_height_mm": 176,
+      "max_psu_length_mm": 200,
+      "preinstalled_fans": 3,
+      "max_radiator_top": "280mm",
+      "max_radiator_front": "360mm",
+      "supports_vertical_gpu": false,
+      "mesh_front": true,
+      "has_usb_c": false,
+      "tempered_glass": true,
+      "price_usd": 89
+    }
+  },
+  {
+    "id": "case-thermaltake-v250-tg",
+    "name": "Thermaltake V250 TG ARGB",
+    "manufacturer": "Thermaltake",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 330,
+      "max_cpu_cooler_height_mm": 160,
+      "max_psu_length_mm": 200,
+      "preinstalled_fans": 3,
+      "max_radiator_top": "240mm",
+      "max_radiator_front": "360mm",
+      "supports_vertical_gpu": false,
+      "mesh_front": true,
+      "has_usb_c": false,
+      "tempered_glass": true,
+      "rgb_type": "5v_argb",
+      "price_usd": 79
+    }
+  },
+  {
+    "id": "case-thermaltake-core-p3",
+    "name": "Thermaltake Core P3 TG",
+    "manufacturer": "Thermaltake",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 300,
+      "max_cpu_cooler_height_mm": 185,
+      "max_psu_length_mm": 220,
+      "preinstalled_fans": 0,
+      "max_radiator_top": "360mm",
+      "max_radiator_front": "360mm",
+      "supports_vertical_gpu": true,
+      "mesh_front": false,
+      "has_usb_c": false,
+      "tempered_glass": true,
+      "open_frame": true,
+      "price_usd": 139
+    }
+  },
+  {
+    "id": "case-montech-air-903-max",
+    "name": "Montech AIR 903 MAX",
+    "manufacturer": "Montech",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 380,
+      "max_cpu_cooler_height_mm": 165,
+      "max_psu_length_mm": 220,
+      "preinstalled_fans": 4,
+      "max_radiator_top": "360mm",
+      "max_radiator_front": "360mm",
+      "supports_vertical_gpu": false,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "rgb_type": "5v_argb",
+      "price_usd": 89
+    }
+  },
+  {
+    "id": "case-silverstone-fara-r1",
+    "name": "SilverStone FARA R1",
+    "manufacturer": "SilverStone",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 370,
+      "max_cpu_cooler_height_mm": 163,
+      "max_psu_length_mm": 220,
+      "preinstalled_fans": 3,
+      "max_radiator_top": "280mm",
+      "max_radiator_front": "360mm",
+      "supports_vertical_gpu": false,
+      "mesh_front": true,
+      "has_usb_c": false,
+      "tempered_glass": true,
+      "price_usd": 69
+    }
+  },
+  {
+    "id": "case-ssupd-meshlicious",
+    "name": "SSUPD Meshlicious",
+    "manufacturer": "SSUPD",
+    "category": "case",
+    "specs": {
+      "form_factor": "ITX",
+      "max_gpu_length_mm": 334,
+      "max_cpu_cooler_height_mm": 73,
+      "max_psu_length_mm": 150,
+      "preinstalled_fans": 0,
+      "max_radiator_side": "280mm",
+      "supports_vertical_gpu": true,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "price_usd": 119
+    }
+  },
+  {
+    "id": "case-dan-a4-h2o",
+    "name": "Dan Cases A4-H2O",
+    "manufacturer": "Dan Cases",
+    "category": "case",
+    "specs": {
+      "form_factor": "ITX",
+      "max_gpu_length_mm": 328,
+      "max_cpu_cooler_height_mm": 70,
+      "max_psu_length_mm": 150,
+      "preinstalled_fans": 0,
+      "max_radiator_side": "240mm",
+      "supports_vertical_gpu": true,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": false,
+      "price_usd": 199
+    }
+  },
+  {
+    "id": "case-ncase-m1",
+    "name": "NCASE M1 V6.1",
+    "manufacturer": "NCASE",
+    "category": "case",
+    "specs": {
+      "form_factor": "ITX",
+      "max_gpu_length_mm": 322,
+      "max_cpu_cooler_height_mm": 130,
+      "max_psu_length_mm": 160,
+      "preinstalled_fans": 0,
+      "max_radiator_side": "240mm",
+      "max_radiator_bottom": "240mm",
+      "supports_vertical_gpu": false,
+      "mesh_front": true,
+      "has_usb_c": false,
+      "tempered_glass": false,
+      "price_usd": 249
+    }
+  },
+  {
+    "id": "case-lian-li-q58",
+    "name": "Lian Li Q58",
+    "manufacturer": "Lian Li",
+    "category": "case",
+    "specs": {
+      "form_factor": "ITX",
+      "max_gpu_length_mm": 320,
+      "max_cpu_cooler_height_mm": 139,
+      "max_psu_length_mm": 200,
+      "preinstalled_fans": 0,
+      "max_radiator_top": "240mm",
+      "max_radiator_bottom": "240mm",
+      "supports_vertical_gpu": false,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "price_usd": 149
+    }
+  },
+  {
+    "id": "case-fractal-node-202",
+    "name": "Fractal Design Node 202",
+    "manufacturer": "Fractal Design",
+    "category": "case",
+    "specs": {
+      "form_factor": "ITX",
+      "max_gpu_length_mm": 310,
+      "max_cpu_cooler_height_mm": 56,
+      "max_psu_length_mm": 150,
+      "preinstalled_fans": 0,
+      "supports_vertical_gpu": false,
+      "mesh_front": false,
+      "has_usb_c": false,
+      "tempered_glass": false,
+      "price_usd": 89
+    }
+  },
+  {
+    "id": "case-silverstone-sg13",
+    "name": "SilverStone Sugo SG13",
+    "manufacturer": "SilverStone",
+    "category": "case",
+    "specs": {
+      "form_factor": "ITX",
+      "max_gpu_length_mm": 267,
+      "max_cpu_cooler_height_mm": 61,
+      "max_psu_length_mm": 150,
+      "preinstalled_fans": 0,
+      "max_radiator_front": "120mm",
+      "supports_vertical_gpu": false,
+      "mesh_front": true,
+      "has_usb_c": false,
+      "tempered_glass": false,
+      "price_usd": 59
+    }
+  },
+  {
+    "id": "case-jonsbo-d31-mesh",
+    "name": "Jonsbo D31 Mesh",
+    "manufacturer": "Jonsbo",
+    "category": "case",
+    "specs": {
+      "form_factor": "mATX",
+      "max_gpu_length_mm": 380,
+      "max_cpu_cooler_height_mm": 175,
+      "max_psu_length_mm": 200,
+      "preinstalled_fans": 4,
+      "max_radiator_top": "240mm",
+      "max_radiator_front": "280mm",
+      "supports_vertical_gpu": false,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "rgb_type": "5v_argb",
+      "price_usd": 99
+    }
+  },
+  {
+    "id": "case-jonsbo-n2",
+    "name": "Jonsbo N2",
+    "manufacturer": "Jonsbo",
+    "category": "case",
+    "specs": {
+      "form_factor": "ITX",
+      "max_gpu_length_mm": 320,
+      "max_cpu_cooler_height_mm": 128,
+      "max_psu_length_mm": 200,
+      "preinstalled_fans": 0,
+      "max_radiator_top": "240mm",
+      "supports_vertical_gpu": false,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "price_usd": 129
+    }
+  },
+  {
+    "id": "case-asus-rog-hyperion-gr701",
+    "name": "ASUS ROG Hyperion GR701",
+    "manufacturer": "ASUS",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 460,
+      "max_cpu_cooler_height_mm": 190,
+      "max_psu_length_mm": 250,
+      "preinstalled_fans": 4,
+      "max_radiator_top": "420mm",
+      "max_radiator_front": "420mm",
+      "supports_vertical_gpu": true,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "rgb_type": "5v_argb",
+      "price_usd": 599
+    }
+  },
+  {
+    "id": "case-asus-tuf-gt502",
+    "name": "ASUS TUF Gaming GT502",
+    "manufacturer": "ASUS",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 400,
+      "max_cpu_cooler_height_mm": 180,
+      "max_psu_length_mm": 220,
+      "preinstalled_fans": 3,
+      "max_radiator_top": "360mm",
+      "max_radiator_front": "360mm",
+      "supports_vertical_gpu": true,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "rgb_type": "5v_argb",
+      "price_usd": 189
+    }
+  },
+  {
+    "id": "case-msi-mpg-velox-100r",
+    "name": "MSI MPG VELOX 100R",
+    "manufacturer": "MSI",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 400,
+      "max_cpu_cooler_height_mm": 175,
+      "max_psu_length_mm": 200,
+      "preinstalled_fans": 4,
+      "max_radiator_top": "360mm",
+      "max_radiator_front": "360mm",
+      "supports_vertical_gpu": true,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "rgb_type": "5v_argb",
+      "price_usd": 129
+    }
+  },
+  {
+    "id": "case-hyte-y60",
+    "name": "HYTE Y60",
+    "manufacturer": "HYTE",
+    "category": "case",
+    "specs": {
+      "form_factor": "ATX",
+      "max_gpu_length_mm": 380,
+      "max_cpu_cooler_height_mm": 165,
+      "max_psu_length_mm": 200,
+      "preinstalled_fans": 3,
+      "max_radiator_top": "280mm",
+      "max_radiator_front": "280mm",
+      "supports_vertical_gpu": true,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "rgb_type": "5v_argb",
+      "price_usd": 199
+    }
+  },
+  {
+    "id": "case-hyte-y40",
+    "name": "HYTE Y40",
+    "manufacturer": "HYTE",
+    "category": "case",
+    "specs": {
+      "form_factor": "mATX",
+      "max_gpu_length_mm": 350,
+      "max_cpu_cooler_height_mm": 165,
+      "max_psu_length_mm": 200,
+      "preinstalled_fans": 2,
+      "max_radiator_top": "240mm",
+      "max_radiator_front": "240mm",
+      "supports_vertical_gpu": true,
+      "mesh_front": true,
+      "has_usb_c": true,
+      "tempered_glass": true,
+      "rgb_type": "5v_argb",
+      "price_usd": 169
+    }
+  }
+]

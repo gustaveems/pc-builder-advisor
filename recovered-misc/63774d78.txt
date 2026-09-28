@@ -1,0 +1,849 @@
+[
+  {
+    "id": "storage-samsung-990-pro-2tb",
+    "name": "Samsung 990 PRO 2TB NVMe SSD",
+    "manufacturer": "Samsung",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 2000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "4.0",
+      "read_speed_mbps": 7450,
+      "write_speed_mbps": 6900,
+      "physical_size": "m.2",
+      "price_usd": 159
+    }
+  },
+  {
+    "id": "storage-samsung-990-pro-1tb",
+    "name": "Samsung 990 PRO 1TB NVMe SSD",
+    "manufacturer": "Samsung",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 1000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "4.0",
+      "read_speed_mbps": 7450,
+      "write_speed_mbps": 6900,
+      "physical_size": "m.2",
+      "price_usd": 99
+    }
+  },
+  {
+    "id": "storage-samsung-990-pro-4tb",
+    "name": "Samsung 990 PRO 4TB NVMe SSD",
+    "manufacturer": "Samsung",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 4000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "4.0",
+      "read_speed_mbps": 7450,
+      "write_speed_mbps": 6900,
+      "physical_size": "m.2",
+      "price_usd": 299
+    }
+  },
+  {
+    "id": "storage-wd-black-sn850x-2tb",
+    "name": "WD Black SN850X 2TB NVMe SSD",
+    "manufacturer": "Western Digital",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 2000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "4.0",
+      "read_speed_mbps": 7300,
+      "write_speed_mbps": 6600,
+      "physical_size": "m.2",
+      "price_usd": 149
+    }
+  },
+  {
+    "id": "storage-wd-black-sn850x-1tb",
+    "name": "WD Black SN850X 1TB NVMe SSD",
+    "manufacturer": "Western Digital",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 1000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "4.0",
+      "read_speed_mbps": 7300,
+      "write_speed_mbps": 6300,
+      "physical_size": "m.2",
+      "price_usd": 89
+    }
+  },
+  {
+    "id": "storage-wd-black-sn850x-4tb",
+    "name": "WD Black SN850X 4TB NVMe SSD",
+    "manufacturer": "Western Digital",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 4000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "4.0",
+      "read_speed_mbps": 7300,
+      "write_speed_mbps": 6600,
+      "physical_size": "m.2",
+      "price_usd": 289
+    }
+  },
+  {
+    "id": "storage-crucial-t700-2tb",
+    "name": "Crucial T700 2TB PCIe Gen5 NVMe SSD",
+    "manufacturer": "Crucial",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 2000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "5.0",
+      "read_speed_mbps": 12400,
+      "write_speed_mbps": 11800,
+      "physical_size": "m.2",
+      "price_usd": 279
+    }
+  },
+  {
+    "id": "storage-crucial-t700-1tb",
+    "name": "Crucial T700 1TB PCIe Gen5 NVMe SSD",
+    "manufacturer": "Crucial",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 1000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "5.0",
+      "read_speed_mbps": 11700,
+      "write_speed_mbps": 9500,
+      "physical_size": "m.2",
+      "price_usd": 169
+    }
+  },
+  {
+    "id": "storage-samsung-980-pro-2tb",
+    "name": "Samsung 980 PRO 2TB NVMe SSD",
+    "manufacturer": "Samsung",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 2000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "4.0",
+      "read_speed_mbps": 7000,
+      "write_speed_mbps": 5100,
+      "physical_size": "m.2",
+      "price_usd": 139
+    }
+  },
+  {
+    "id": "storage-samsung-980-pro-1tb",
+    "name": "Samsung 980 PRO 1TB NVMe SSD",
+    "manufacturer": "Samsung",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 1000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "4.0",
+      "read_speed_mbps": 7000,
+      "write_speed_mbps": 5000,
+      "physical_size": "m.2",
+      "price_usd": 79
+    }
+  },
+  {
+    "id": "storage-kingston-fury-2tb",
+    "name": "Kingston FURY Renegade 2TB NVMe SSD",
+    "manufacturer": "Kingston",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 2000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "4.0",
+      "read_speed_mbps": 7300,
+      "write_speed_mbps": 7000,
+      "physical_size": "m.2",
+      "price_usd": 154
+    }
+  },
+  {
+    "id": "storage-kingston-fury-1tb",
+    "name": "Kingston FURY Renegade 1TB NVMe SSD",
+    "manufacturer": "Kingston",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 1000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "4.0",
+      "read_speed_mbps": 7300,
+      "write_speed_mbps": 6000,
+      "physical_size": "m.2",
+      "price_usd": 84
+    }
+  },
+  {
+    "id": "storage-corsair-mp600-pro-2tb",
+    "name": "Corsair MP600 PRO XT 2TB NVMe SSD",
+    "manufacturer": "Corsair",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 2000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "4.0",
+      "read_speed_mbps": 7100,
+      "write_speed_mbps": 6800,
+      "physical_size": "m.2",
+      "price_usd": 144
+    }
+  },
+  {
+    "id": "storage-seagate-firecuda-530-2tb",
+    "name": "Seagate FireCuda 530 2TB NVMe SSD",
+    "manufacturer": "Seagate",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 2000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "4.0",
+      "read_speed_mbps": 7300,
+      "write_speed_mbps": 6900,
+      "physical_size": "m.2",
+      "price_usd": 159
+    }
+  },
+  {
+    "id": "storage-wd-blue-sn580-1tb",
+    "name": "WD Blue SN580 1TB NVMe SSD",
+    "manufacturer": "Western Digital",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 1000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "4.0",
+      "read_speed_mbps": 4150,
+      "write_speed_mbps": 4150,
+      "physical_size": "m.2",
+      "price_usd": 64
+    }
+  },
+  {
+    "id": "storage-wd-blue-sn580-2tb",
+    "name": "WD Blue SN580 2TB NVMe SSD",
+    "manufacturer": "Western Digital",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 2000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "4.0",
+      "read_speed_mbps": 4150,
+      "write_speed_mbps": 4150,
+      "physical_size": "m.2",
+      "price_usd": 109
+    }
+  },
+  {
+    "id": "storage-crucial-p3-plus-1tb",
+    "name": "Crucial P3 Plus 1TB NVMe SSD",
+    "manufacturer": "Crucial",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 1000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "4.0",
+      "read_speed_mbps": 5000,
+      "write_speed_mbps": 3600,
+      "physical_size": "m.2",
+      "price_usd": 59
+    }
+  },
+  {
+    "id": "storage-crucial-p3-plus-2tb",
+    "name": "Crucial P3 Plus 2TB NVMe SSD",
+    "manufacturer": "Crucial",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 2000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "4.0",
+      "read_speed_mbps": 5000,
+      "write_speed_mbps": 4200,
+      "physical_size": "m.2",
+      "price_usd": 99
+    }
+  },
+  {
+    "id": "storage-crucial-p3-plus-4tb",
+    "name": "Crucial P3 Plus 4TB NVMe SSD",
+    "manufacturer": "Crucial",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 4000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "4.0",
+      "read_speed_mbps": 5000,
+      "write_speed_mbps": 4200,
+      "physical_size": "m.2",
+      "price_usd": 189
+    }
+  },
+  {
+    "id": "storage-teamgroup-mp34-1tb",
+    "name": "Team MP34 1TB NVMe SSD",
+    "manufacturer": "Team Group",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 1000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "3.0",
+      "read_speed_mbps": 3500,
+      "write_speed_mbps": 3000,
+      "physical_size": "m.2",
+      "price_usd": 49
+    }
+  },
+  {
+    "id": "storage-kingston-nv2-1tb",
+    "name": "Kingston NV2 1TB NVMe SSD",
+    "manufacturer": "Kingston",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 1000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "4.0",
+      "read_speed_mbps": 3500,
+      "write_speed_mbps": 2100,
+      "physical_size": "m.2",
+      "price_usd": 54
+    }
+  },
+  {
+    "id": "storage-kingston-nv2-2tb",
+    "name": "Kingston NV2 2TB NVMe SSD",
+    "manufacturer": "Kingston",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 2000,
+      "interface": "m2",
+      "form_factor": "m2_2280",
+      "nvme_version": "4.0",
+      "read_speed_mbps": 3500,
+      "write_speed_mbps": 2800,
+      "physical_size": "m.2",
+      "price_usd": 94
+    }
+  },
+  {
+    "id": "storage-samsung-870-evo-1tb",
+    "name": "Samsung 870 EVO 1TB 2.5\" SATA SSD",
+    "manufacturer": "Samsung",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 1000,
+      "interface": "sata",
+      "form_factor": "2.5_inch",
+      "read_speed_mbps": 560,
+      "write_speed_mbps": 530,
+      "physical_size": "2.5",
+      "price_usd": 89
+    }
+  },
+  {
+    "id": "storage-samsung-870-evo-2tb",
+    "name": "Samsung 870 EVO 2TB 2.5\" SATA SSD",
+    "manufacturer": "Samsung",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 2000,
+      "interface": "sata",
+      "form_factor": "2.5_inch",
+      "read_speed_mbps": 560,
+      "write_speed_mbps": 530,
+      "physical_size": "2.5",
+      "price_usd": 149
+    }
+  },
+  {
+    "id": "storage-samsung-870-evo-4tb",
+    "name": "Samsung 870 EVO 4TB 2.5\" SATA SSD",
+    "manufacturer": "Samsung",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 4000,
+      "interface": "sata",
+      "form_factor": "2.5_inch",
+      "read_speed_mbps": 560,
+      "write_speed_mbps": 530,
+      "physical_size": "2.5",
+      "price_usd": 269
+    }
+  },
+  {
+    "id": "storage-crucial-mx500-1tb",
+    "name": "Crucial MX500 1TB 2.5\" SATA SSD",
+    "manufacturer": "Crucial",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 1000,
+      "interface": "sata",
+      "form_factor": "2.5_inch",
+      "read_speed_mbps": 560,
+      "write_speed_mbps": 510,
+      "physical_size": "2.5",
+      "price_usd": 74
+    }
+  },
+  {
+    "id": "storage-crucial-mx500-2tb",
+    "name": "Crucial MX500 2TB 2.5\" SATA SSD",
+    "manufacturer": "Crucial",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 2000,
+      "interface": "sata",
+      "form_factor": "2.5_inch",
+      "read_speed_mbps": 560,
+      "write_speed_mbps": 510,
+      "physical_size": "2.5",
+      "price_usd": 129
+    }
+  },
+  {
+    "id": "storage-crucial-mx500-4tb",
+    "name": "Crucial MX500 4TB 2.5\" SATA SSD",
+    "manufacturer": "Crucial",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 4000,
+      "interface": "sata",
+      "form_factor": "2.5_inch",
+      "read_speed_mbps": 560,
+      "write_speed_mbps": 510,
+      "physical_size": "2.5",
+      "price_usd": 229
+    }
+  },
+  {
+    "id": "storage-wd-blue-1tb-sata",
+    "name": "WD Blue 1TB 2.5\" SATA SSD",
+    "manufacturer": "Western Digital",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 1000,
+      "interface": "sata",
+      "form_factor": "2.5_inch",
+      "read_speed_mbps": 560,
+      "write_speed_mbps": 530,
+      "physical_size": "2.5",
+      "price_usd": 69
+    }
+  },
+  {
+    "id": "storage-wd-blue-2tb-sata",
+    "name": "WD Blue 2TB 2.5\" SATA SSD",
+    "manufacturer": "Western Digital",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 2000,
+      "interface": "sata",
+      "form_factor": "2.5_inch",
+      "read_speed_mbps": 560,
+      "write_speed_mbps": 530,
+      "physical_size": "2.5",
+      "price_usd": 119
+    }
+  },
+  {
+    "id": "storage-kingston-a400-480gb",
+    "name": "Kingston A400 480GB 2.5\" SATA SSD",
+    "manufacturer": "Kingston",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 480,
+      "interface": "sata",
+      "form_factor": "2.5_inch",
+      "read_speed_mbps": 500,
+      "write_speed_mbps": 450,
+      "physical_size": "2.5",
+      "price_usd": 39
+    }
+  },
+  {
+    "id": "storage-kingston-a400-960gb",
+    "name": "Kingston A400 960GB 2.5\" SATA SSD",
+    "manufacturer": "Kingston",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 960,
+      "interface": "sata",
+      "form_factor": "2.5_inch",
+      "read_speed_mbps": 500,
+      "write_speed_mbps": 450,
+      "physical_size": "2.5",
+      "price_usd": 64
+    }
+  },
+  {
+    "id": "storage-seagate-barracuda-2tb",
+    "name": "Seagate BarraCuda 2TB 7200RPM HDD",
+    "manufacturer": "Seagate",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 2000,
+      "interface": "sata",
+      "form_factor": "3.5_inch",
+      "rpm": 7200,
+      "physical_size": "3.5",
+      "price_usd": 54
+    }
+  },
+  {
+    "id": "storage-seagate-barracuda-4tb",
+    "name": "Seagate BarraCuda 4TB 5400RPM HDD",
+    "manufacturer": "Seagate",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 4000,
+      "interface": "sata",
+      "form_factor": "3.5_inch",
+      "rpm": 5400,
+      "physical_size": "3.5",
+      "price_usd": 84
+    }
+  },
+  {
+    "id": "storage-seagate-barracuda-8tb",
+    "name": "Seagate BarraCuda 8TB 5400RPM HDD",
+    "manufacturer": "Seagate",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 8000,
+      "interface": "sata",
+      "form_factor": "3.5_inch",
+      "rpm": 5400,
+      "physical_size": "3.5",
+      "price_usd": 139
+    }
+  },
+  {
+    "id": "storage-wd-blue-1tb-hdd",
+    "name": "WD Blue 1TB 7200RPM HDD",
+    "manufacturer": "Western Digital",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 1000,
+      "interface": "sata",
+      "form_factor": "3.5_inch",
+      "rpm": 7200,
+      "physical_size": "3.5",
+      "price_usd": 39
+    }
+  },
+  {
+    "id": "storage-wd-blue-2tb-hdd",
+    "name": "WD Blue 2TB 7200RPM HDD",
+    "manufacturer": "Western Digital",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 2000,
+      "interface": "sata",
+      "form_factor": "3.5_inch",
+      "rpm": 7200,
+      "physical_size": "3.5",
+      "price_usd": 49
+    }
+  },
+  {
+    "id": "storage-wd-blue-4tb-hdd",
+    "name": "WD Blue 4TB 5400RPM HDD",
+    "manufacturer": "Western Digital",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 4000,
+      "interface": "sata",
+      "form_factor": "3.5_inch",
+      "rpm": 5400,
+      "physical_size": "3.5",
+      "price_usd": 79
+    }
+  },
+  {
+    "id": "storage-wd-black-4tb-hdd",
+    "name": "WD Black 4TB 7200RPM HDD",
+    "manufacturer": "Western Digital",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 4000,
+      "interface": "sata",
+      "form_factor": "3.5_inch",
+      "rpm": 7200,
+      "physical_size": "3.5",
+      "price_usd": 119
+    }
+  },
+  {
+    "id": "storage-seagate-ironwolf-4tb",
+    "name": "Seagate IronWolf 4TB 5900RPM NAS HDD",
+    "manufacturer": "Seagate",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 4000,
+      "interface": "sata",
+      "form_factor": "3.5_inch",
+      "rpm": 5900,
+      "physical_size": "3.5",
+      "price_usd": 99
+    }
+  },
+  {
+    "id": "storage-seagate-ironwolf-8tb",
+    "name": "Seagate IronWolf 8TB 7200RPM NAS HDD",
+    "manufacturer": "Seagate",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 8000,
+      "interface": "sata",
+      "form_factor": "3.5_inch",
+      "rpm": 7200,
+      "physical_size": "3.5",
+      "price_usd": 169
+    }
+  },
+  {
+    "id": "storage-seagate-ironwolf-12tb",
+    "name": "Seagate IronWolf 12TB 7200RPM NAS HDD",
+    "manufacturer": "Seagate",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 12000,
+      "interface": "sata",
+      "form_factor": "3.5_inch",
+      "rpm": 7200,
+      "physical_size": "3.5",
+      "price_usd": 249
+    }
+  },
+  {
+    "id": "storage-wd-red-plus-4tb",
+    "name": "WD Red Plus 4TB 5400RPM NAS HDD",
+    "manufacturer": "Western Digital",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 4000,
+      "interface": "sata",
+      "form_factor": "3.5_inch",
+      "rpm": 5400,
+      "physical_size": "3.5",
+      "price_usd": 94
+    }
+  },
+  {
+    "id": "storage-wd-red-plus-8tb",
+    "name": "WD Red Plus 8TB 5400RPM NAS HDD",
+    "manufacturer": "Western Digital",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 8000,
+      "interface": "sata",
+      "form_factor": "3.5_inch",
+      "rpm": 5400,
+      "physical_size": "3.5",
+      "price_usd": 164
+    }
+  },
+  {
+    "id": "storage-wd-red-plus-12tb",
+    "name": "WD Red Plus 12TB 5400RPM NAS HDD",
+    "manufacturer": "Western Digital",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 12000,
+      "interface": "sata",
+      "form_factor": "3.5_inch",
+      "rpm": 5400,
+      "physical_size": "3.5",
+      "price_usd": 239
+    }
+  },
+  {
+    "id": "storage-toshiba-x300-4tb",
+    "name": "Toshiba X300 4TB 7200RPM HDD",
+    "manufacturer": "Toshiba",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 4000,
+      "interface": "sata",
+      "form_factor": "3.5_inch",
+      "rpm": 7200,
+      "physical_size": "3.5",
+      "price_usd": 109
+    }
+  },
+  {
+    "id": "storage-toshiba-x300-6tb",
+    "name": "Toshiba X300 6TB 7200RPM HDD",
+    "manufacturer": "Toshiba",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 6000,
+      "interface": "sata",
+      "form_factor": "3.5_inch",
+      "rpm": 7200,
+      "physical_size": "3.5",
+      "price_usd": 139
+    }
+  },
+  {
+    "id": "storage-samsung-870-qvo-1tb",
+    "name": "Samsung 870 QVO 1TB 2.5\" SATA SSD",
+    "manufacturer": "Samsung",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 1000,
+      "interface": "sata",
+      "form_factor": "2.5_inch",
+      "read_speed_mbps": 560,
+      "write_speed_mbps": 530,
+      "physical_size": "2.5",
+      "price_usd": 79
+    }
+  },
+  {
+    "id": "storage-samsung-870-qvo-2tb",
+    "name": "Samsung 870 QVO 2TB 2.5\" SATA SSD",
+    "manufacturer": "Samsung",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 2000,
+      "interface": "sata",
+      "form_factor": "2.5_inch",
+      "read_speed_mbps": 560,
+      "write_speed_mbps": 530,
+      "physical_size": "2.5",
+      "price_usd": 139
+    }
+  },
+  {
+    "id": "storage-samsung-870-qvo-4tb",
+    "name": "Samsung 870 QVO 4TB 2.5\" SATA SSD",
+    "manufacturer": "Samsung",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 4000,
+      "interface": "sata",
+      "form_factor": "2.5_inch",
+      "read_speed_mbps": 560,
+      "write_speed_mbps": 530,
+      "physical_size": "2.5",
+      "price_usd": 249
+    }
+  },
+  {
+    "id": "storage-samsung-870-qvo-8tb",
+    "name": "Samsung 870 QVO 8TB 2.5\" SATA SSD",
+    "manufacturer": "Samsung",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 8000,
+      "interface": "sata",
+      "form_factor": "2.5_inch",
+      "read_speed_mbps": 560,
+      "write_speed_mbps": 530,
+      "physical_size": "2.5",
+      "price_usd": 499
+    }
+  },
+  {
+    "id": "storage-crucial-bx500-1tb",
+    "name": "Crucial BX500 1TB 2.5\" SATA SSD",
+    "manufacturer": "Crucial",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 1000,
+      "interface": "sata",
+      "form_factor": "2.5_inch",
+      "read_speed_mbps": 540,
+      "write_speed_mbps": 500,
+      "physical_size": "2.5",
+      "price_usd": 64
+    }
+  },
+  {
+    "id": "storage-crucial-bx500-2tb",
+    "name": "Crucial BX500 2TB 2.5\" SATA SSD",
+    "manufacturer": "Crucial",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 2000,
+      "interface": "sata",
+      "form_factor": "2.5_inch",
+      "read_speed_mbps": 540,
+      "write_speed_mbps": 500,
+      "physical_size": "2.5",
+      "price_usd": 119
+    }
+  },
+  {
+    "id": "storage-teamgroup-vulcan-z-1tb",
+    "name": "Team Vulcan Z 1TB 2.5\" SATA SSD",
+    "manufacturer": "Team Group",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 1000,
+      "interface": "sata",
+      "form_factor": "2.5_inch",
+      "read_speed_mbps": 550,
+      "write_speed_mbps": 500,
+      "physical_size": "2.5",
+      "price_usd": 59
+    }
+  },
+  {
+    "id": "storage-teamgroup-vulcan-z-2tb",
+    "name": "Team Vulcan Z 2TB 2.5\" SATA SSD",
+    "manufacturer": "Team Group",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 2000,
+      "interface": "sata",
+      "form_factor": "2.5_inch",
+      "read_speed_mbps": 550,
+      "write_speed_mbps": 500,
+      "physical_size": "2.5",
+      "price_usd": 109
+    }
+  },
+  {
+    "id": "storage-pny-cs900-1tb",
+    "name": "PNY CS900 1TB 2.5\" SATA SSD",
+    "manufacturer": "PNY",
+    "category": "storage",
+    "specs": {
+      "capacity_gb": 1000,
+      "interface": "sata",
+      "form_factor": "2.5_inch",
+      "read_speed_mbps": 550,
+      "write_speed_mbps": 515,
+      "physical_size": "2.5",
+      "price_usd": 62
+    }
+  }
+]

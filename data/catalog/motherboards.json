@@ -1,0 +1,1028 @@
+[
+  {
+    "id": "mobo-asus-rog-x670e-e",
+    "name": "ASUS ROG STRIX X670E-E GAMING WIFI",
+    "manufacturer": "ASUS",
+    "category": "motherboard",
+    "specs": {
+      "socket": "AM5",
+      "chipset": "X670E",
+      "form_factor": "ATX",
+      "memory_type": "ddr5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 4800,
+      "max_memory_speed_oc": 6400,
+      "supports_xmp": false,
+      "supports_expo": true,
+      "m2_slots": 4,
+      "sata_ports": 4,
+      "pcie_x16_slots": 2,
+      "pcie_version": "5.0",
+      "has_wifi": true,
+      "has_bluetooth": true,
+      "has_bios_flashback": true,
+      "headers": {
+        "argb_5v": 3,
+        "rgb_12v": 2,
+        "fan_4pin": 7
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 1,
+        "usb_31_gen2_typea": 4,
+        "usb_31_gen1": 4,
+        "usb_20": 2
+      },
+      "price_usd": 449,
+      "tier": 9
+    }
+  },
+  {
+    "id": "mobo-msi-mag-x670e",
+    "name": "MSI MAG X670E TOMAHAWK WIFI",
+    "manufacturer": "MSI",
+    "category": "motherboard",
+    "specs": {
+      "socket": "AM5",
+      "chipset": "X670E",
+      "form_factor": "ATX",
+      "memory_type": "ddr5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 4800,
+      "max_memory_speed_oc": 6600,
+      "supports_xmp": false,
+      "supports_expo": true,
+      "m2_slots": 5,
+      "sata_ports": 4,
+      "pcie_x16_slots": 2,
+      "pcie_version": "5.0",
+      "has_wifi": true,
+      "has_bluetooth": true,
+      "has_bios_flashback": true,
+      "headers": {
+        "argb_5v": 2,
+        "rgb_12v": 2,
+        "fan_4pin": 6
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 1,
+        "usb_31_gen2_typea": 3,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 389,
+      "tier": 8
+    }
+  },
+  {
+    "id": "mobo-gigabyte-x670-elite",
+    "name": "Gigabyte X670 AORUS ELITE AX",
+    "manufacturer": "Gigabyte",
+    "category": "motherboard",
+    "specs": {
+      "socket": "AM5",
+      "chipset": "X670",
+      "form_factor": "ATX",
+      "memory_type": "ddr5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 4800,
+      "max_memory_speed_oc": 6400,
+      "supports_xmp": false,
+      "supports_expo": true,
+      "m2_slots": 4,
+      "sata_ports": 4,
+      "pcie_x16_slots": 2,
+      "pcie_version": "5.0",
+      "has_wifi": true,
+      "has_bluetooth": true,
+      "has_bios_flashback": true,
+      "headers": {
+        "argb_5v": 3,
+        "rgb_12v": 2,
+        "fan_4pin": 6
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 1,
+        "usb_31_gen2_typea": 2,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 289,
+      "tier": 7
+    }
+  },
+  {
+    "id": "mobo-asrock-b650e-steel",
+    "name": "ASRock B650E Steel Legend WiFi",
+    "manufacturer": "ASRock",
+    "category": "motherboard",
+    "specs": {
+      "socket": "AM5",
+      "chipset": "B650E",
+      "form_factor": "ATX",
+      "memory_type": "ddr5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 4800,
+      "max_memory_speed_oc": 6400,
+      "supports_xmp": false,
+      "supports_expo": true,
+      "m2_slots": 3,
+      "sata_ports": 4,
+      "pcie_x16_slots": 2,
+      "pcie_version": "5.0",
+      "has_wifi": true,
+      "has_bluetooth": true,
+      "has_bios_flashback": true,
+      "headers": {
+        "argb_5v": 2,
+        "rgb_12v": 2,
+        "fan_4pin": 5
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 1,
+        "usb_31_gen2_typea": 2,
+        "usb_31_gen1": 4,
+        "usb_20": 2
+      },
+      "price_usd": 229,
+      "tier": 7
+    }
+  },
+  {
+    "id": "mobo-msi-b650-tomahawk",
+    "name": "MSI MAG B650 TOMAHAWK WIFI",
+    "manufacturer": "MSI",
+    "category": "motherboard",
+    "specs": {
+      "socket": "AM5",
+      "chipset": "B650",
+      "form_factor": "ATX",
+      "memory_type": "ddr5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 4800,
+      "max_memory_speed_oc": 6000,
+      "supports_xmp": false,
+      "supports_expo": true,
+      "m2_slots": 3,
+      "sata_ports": 4,
+      "pcie_x16_slots": 2,
+      "pcie_version": "4.0",
+      "has_wifi": true,
+      "has_bluetooth": true,
+      "has_bios_flashback": true,
+      "headers": {
+        "argb_5v": 2,
+        "rgb_12v": 1,
+        "fan_4pin": 5
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 1,
+        "usb_31_gen2_typea": 2,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 199,
+      "tier": 6
+    }
+  },
+  {
+    "id": "mobo-asus-b650-plus",
+    "name": "ASUS TUF GAMING B650-PLUS WIFI",
+    "manufacturer": "ASUS",
+    "category": "motherboard",
+    "specs": {
+      "socket": "AM5",
+      "chipset": "B650",
+      "form_factor": "ATX",
+      "memory_type": "ddr5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 4800,
+      "max_memory_speed_oc": 6000,
+      "supports_xmp": false,
+      "supports_expo": true,
+      "m2_slots": 2,
+      "sata_ports": 4,
+      "pcie_x16_slots": 2,
+      "pcie_version": "4.0",
+      "has_wifi": true,
+      "has_bluetooth": true,
+      "has_bios_flashback": true,
+      "headers": {
+        "argb_5v": 2,
+        "rgb_12v": 2,
+        "fan_4pin": 5
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 1,
+        "usb_31_gen2_typea": 1,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 189,
+      "tier": 6
+    }
+  },
+  {
+    "id": "mobo-gigabyte-b650m-ds3h",
+    "name": "Gigabyte B650M DS3H",
+    "manufacturer": "Gigabyte",
+    "category": "motherboard",
+    "specs": {
+      "socket": "AM5",
+      "chipset": "B650",
+      "form_factor": "mATX",
+      "memory_type": "ddr5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 4800,
+      "max_memory_speed_oc": 5600,
+      "supports_xmp": false,
+      "supports_expo": true,
+      "m2_slots": 2,
+      "sata_ports": 4,
+      "pcie_x16_slots": 2,
+      "pcie_version": "4.0",
+      "has_wifi": false,
+      "has_bluetooth": false,
+      "has_bios_flashback": false,
+      "headers": {
+        "argb_5v": 1,
+        "rgb_12v": 1,
+        "fan_4pin": 4
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 0,
+        "usb_31_gen2_typea": 1,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 149,
+      "tier": 5
+    }
+  },
+  {
+    "id": "mobo-asrock-b650m-hdv",
+    "name": "ASRock B650M-HDV/M.2",
+    "manufacturer": "ASRock",
+    "category": "motherboard",
+    "specs": {
+      "socket": "AM5",
+      "chipset": "B650",
+      "form_factor": "mATX",
+      "memory_type": "ddr5",
+      "ram_slots": 4,
+      "max_ram_gb": 96,
+      "max_memory_speed_stock": 4800,
+      "max_memory_speed_oc": 5600,
+      "supports_xmp": false,
+      "supports_expo": true,
+      "m2_slots": 2,
+      "sata_ports": 4,
+      "pcie_x16_slots": 1,
+      "pcie_version": "4.0",
+      "has_wifi": false,
+      "has_bluetooth": false,
+      "has_bios_flashback": false,
+      "headers": {
+        "argb_5v": 1,
+        "rgb_12v": 1,
+        "fan_4pin": 4
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 0,
+        "usb_31_gen2_typea": 1,
+        "usb_31_gen1": 2,
+        "usb_20": 4
+      },
+      "price_usd": 129,
+      "tier": 4
+    }
+  },
+  {
+    "id": "mobo-asus-rog-z790-e",
+    "name": "ASUS ROG STRIX Z790-E GAMING WIFI",
+    "manufacturer": "ASUS",
+    "category": "motherboard",
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "Z790",
+      "form_factor": "ATX",
+      "memory_type": "ddr5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 4800,
+      "max_memory_speed_oc": 7800,
+      "supports_xmp": true,
+      "supports_expo": false,
+      "m2_slots": 5,
+      "sata_ports": 4,
+      "pcie_x16_slots": 2,
+      "pcie_version": "5.0",
+      "has_wifi": true,
+      "has_bluetooth": true,
+      "has_bios_flashback": true,
+      "headers": {
+        "argb_5v": 3,
+        "rgb_12v": 2,
+        "fan_4pin": 7
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 2,
+        "usb_31_gen2_typea": 4,
+        "usb_31_gen1": 4,
+        "usb_20": 2
+      },
+      "price_usd": 469,
+      "tier": 9
+    }
+  },
+  {
+    "id": "mobo-msi-mag-z790-tomahawk",
+    "name": "MSI MAG Z790 TOMAHAWK WIFI",
+    "manufacturer": "MSI",
+    "category": "motherboard",
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "Z790",
+      "form_factor": "ATX",
+      "memory_type": "ddr5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 4800,
+      "max_memory_speed_oc": 7200,
+      "supports_xmp": true,
+      "supports_expo": false,
+      "m2_slots": 5,
+      "sata_ports": 6,
+      "pcie_x16_slots": 2,
+      "pcie_version": "5.0",
+      "has_wifi": true,
+      "has_bluetooth": true,
+      "has_bios_flashback": true,
+      "headers": {
+        "argb_5v": 3,
+        "rgb_12v": 2,
+        "fan_4pin": 6
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 1,
+        "usb_31_gen2_typea": 3,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 329,
+      "tier": 8
+    }
+  },
+  {
+    "id": "mobo-gigabyte-z790-elite",
+    "name": "Gigabyte Z790 AORUS ELITE AX",
+    "manufacturer": "Gigabyte",
+    "category": "motherboard",
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "Z790",
+      "form_factor": "ATX",
+      "memory_type": "ddr5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 4800,
+      "max_memory_speed_oc": 7600,
+      "supports_xmp": true,
+      "supports_expo": false,
+      "m2_slots": 4,
+      "sata_ports": 4,
+      "pcie_x16_slots": 2,
+      "pcie_version": "5.0",
+      "has_wifi": true,
+      "has_bluetooth": true,
+      "has_bios_flashback": true,
+      "headers": {
+        "argb_5v": 2,
+        "rgb_12v": 2,
+        "fan_4pin": 6
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 1,
+        "usb_31_gen2_typea": 2,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 299,
+      "tier": 7
+    }
+  },
+  {
+    "id": "mobo-asrock-z790-lightning",
+    "name": "ASRock Z790 Pro RS WiFi",
+    "manufacturer": "ASRock",
+    "category": "motherboard",
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "Z790",
+      "form_factor": "ATX",
+      "memory_type": "ddr5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 4800,
+      "max_memory_speed_oc": 6800,
+      "supports_xmp": true,
+      "supports_expo": false,
+      "m2_slots": 4,
+      "sata_ports": 6,
+      "pcie_x16_slots": 2,
+      "pcie_version": "5.0",
+      "has_wifi": true,
+      "has_bluetooth": true,
+      "has_bios_flashback": true,
+      "headers": {
+        "argb_5v": 2,
+        "rgb_12v": 1,
+        "fan_4pin": 5
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 1,
+        "usb_31_gen2_typea": 2,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 249,
+      "tier": 7
+    }
+  },
+  {
+    "id": "mobo-asus-tuf-z790",
+    "name": "ASUS TUF GAMING Z790-PLUS WIFI",
+    "manufacturer": "ASUS",
+    "category": "motherboard",
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "Z790",
+      "form_factor": "ATX",
+      "memory_type": "ddr5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 4800,
+      "max_memory_speed_oc": 7200,
+      "supports_xmp": true,
+      "supports_expo": false,
+      "m2_slots": 4,
+      "sata_ports": 4,
+      "pcie_x16_slots": 2,
+      "pcie_version": "5.0",
+      "has_wifi": true,
+      "has_bluetooth": true,
+      "has_bios_flashback": true,
+      "headers": {
+        "argb_5v": 2,
+        "rgb_12v": 2,
+        "fan_4pin": 6
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 1,
+        "usb_31_gen2_typea": 2,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 289,
+      "tier": 7
+    }
+  },
+  {
+    "id": "mobo-msi-b760-tomahawk",
+    "name": "MSI MAG B760 TOMAHAWK WIFI",
+    "manufacturer": "MSI",
+    "category": "motherboard",
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "B760",
+      "form_factor": "ATX",
+      "memory_type": "ddr5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 4800,
+      "max_memory_speed_oc": 6800,
+      "supports_xmp": true,
+      "supports_expo": false,
+      "m2_slots": 3,
+      "sata_ports": 4,
+      "pcie_x16_slots": 2,
+      "pcie_version": "5.0",
+      "has_wifi": true,
+      "has_bluetooth": true,
+      "has_bios_flashback": true,
+      "headers": {
+        "argb_5v": 2,
+        "rgb_12v": 2,
+        "fan_4pin": 5
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 1,
+        "usb_31_gen2_typea": 2,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 219,
+      "tier": 6
+    }
+  },
+  {
+    "id": "mobo-gigabyte-b760-gaming",
+    "name": "Gigabyte B760 GAMING X AX",
+    "manufacturer": "Gigabyte",
+    "category": "motherboard",
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "B760",
+      "form_factor": "ATX",
+      "memory_type": "ddr5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 4800,
+      "max_memory_speed_oc": 6400,
+      "supports_xmp": true,
+      "supports_expo": false,
+      "m2_slots": 3,
+      "sata_ports": 4,
+      "pcie_x16_slots": 2,
+      "pcie_version": "4.0",
+      "has_wifi": true,
+      "has_bluetooth": true,
+      "has_bios_flashback": false,
+      "headers": {
+        "argb_5v": 2,
+        "rgb_12v": 1,
+        "fan_4pin": 5
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 1,
+        "usb_31_gen2_typea": 1,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 189,
+      "tier": 6
+    }
+  },
+  {
+    "id": "mobo-asrock-b760m-pro",
+    "name": "ASRock B760M Pro RS WiFi",
+    "manufacturer": "ASRock",
+    "category": "motherboard",
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "B760",
+      "form_factor": "mATX",
+      "memory_type": "ddr5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 4800,
+      "max_memory_speed_oc": 6000,
+      "supports_xmp": true,
+      "supports_expo": false,
+      "m2_slots": 2,
+      "sata_ports": 4,
+      "pcie_x16_slots": 2,
+      "pcie_version": "4.0",
+      "has_wifi": true,
+      "has_bluetooth": true,
+      "has_bios_flashback": false,
+      "headers": {
+        "argb_5v": 1,
+        "rgb_12v": 1,
+        "fan_4pin": 4
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 0,
+        "usb_31_gen2_typea": 1,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 159,
+      "tier": 5
+    }
+  },
+  {
+    "id": "mobo-asus-prime-b760m",
+    "name": "ASUS PRIME B760M-A WIFI",
+    "manufacturer": "ASUS",
+    "category": "motherboard",
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "B760",
+      "form_factor": "mATX",
+      "memory_type": "ddr5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 4800,
+      "max_memory_speed_oc": 5600,
+      "supports_xmp": true,
+      "supports_expo": false,
+      "m2_slots": 2,
+      "sata_ports": 4,
+      "pcie_x16_slots": 2,
+      "pcie_version": "4.0",
+      "has_wifi": true,
+      "has_bluetooth": true,
+      "has_bios_flashback": false,
+      "headers": {
+        "argb_5v": 2,
+        "rgb_12v": 1,
+        "fan_4pin": 4
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 0,
+        "usb_31_gen2_typea": 1,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 149,
+      "tier": 5
+    }
+  },
+  {
+    "id": "mobo-msi-b760m-mortar",
+    "name": "MSI MAG B760M MORTAR WIFI",
+    "manufacturer": "MSI",
+    "category": "motherboard",
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "B760",
+      "form_factor": "mATX",
+      "memory_type": "ddr5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 4800,
+      "max_memory_speed_oc": 6400,
+      "supports_xmp": true,
+      "supports_expo": false,
+      "m2_slots": 3,
+      "sata_ports": 4,
+      "pcie_x16_slots": 2,
+      "pcie_version": "4.0",
+      "has_wifi": true,
+      "has_bluetooth": true,
+      "has_bios_flashback": true,
+      "headers": {
+        "argb_5v": 2,
+        "rgb_12v": 2,
+        "fan_4pin": 5
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 1,
+        "usb_31_gen2_typea": 2,
+        "usb_31_gen1": 4,
+        "usb_20": 2
+      },
+      "price_usd": 199,
+      "tier": 6
+    }
+  },
+  {
+    "id": "mobo-gigabyte-b760m-ds3h",
+    "name": "Gigabyte B760M DS3H",
+    "manufacturer": "Gigabyte",
+    "category": "motherboard",
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "B760",
+      "form_factor": "mATX",
+      "memory_type": "ddr5",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 4800,
+      "max_memory_speed_oc": 5600,
+      "supports_xmp": true,
+      "supports_expo": false,
+      "m2_slots": 2,
+      "sata_ports": 4,
+      "pcie_x16_slots": 2,
+      "pcie_version": "4.0",
+      "has_wifi": false,
+      "has_bluetooth": false,
+      "has_bios_flashback": false,
+      "headers": {
+        "argb_5v": 1,
+        "rgb_12v": 1,
+        "fan_4pin": 4
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 0,
+        "usb_31_gen2_typea": 1,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 129,
+      "tier": 4
+    }
+  },
+  {
+    "id": "mobo-asus-rog-b550-e",
+    "name": "ASUS ROG STRIX B550-E GAMING",
+    "manufacturer": "ASUS",
+    "category": "motherboard",
+    "specs": {
+      "socket": "AM4",
+      "chipset": "B550",
+      "form_factor": "ATX",
+      "memory_type": "ddr4",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 3200,
+      "max_memory_speed_oc": 5100,
+      "supports_xmp": true,
+      "supports_expo": false,
+      "m2_slots": 2,
+      "sata_ports": 6,
+      "pcie_x16_slots": 2,
+      "pcie_version": "4.0",
+      "has_wifi": true,
+      "has_bluetooth": true,
+      "has_bios_flashback": true,
+      "headers": {
+        "argb_5v": 3,
+        "rgb_12v": 2,
+        "fan_4pin": 6
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 1,
+        "usb_31_gen2_typea": 2,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 249,
+      "tier": 7
+    }
+  },
+  {
+    "id": "mobo-msi-b550-tomahawk",
+    "name": "MSI MAG B550 TOMAHAWK",
+    "manufacturer": "MSI",
+    "category": "motherboard",
+    "specs": {
+      "socket": "AM4",
+      "chipset": "B550",
+      "form_factor": "ATX",
+      "memory_type": "ddr4",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 3200,
+      "max_memory_speed_oc": 4866,
+      "supports_xmp": true,
+      "supports_expo": false,
+      "m2_slots": 2,
+      "sata_ports": 6,
+      "pcie_x16_slots": 2,
+      "pcie_version": "4.0",
+      "has_wifi": false,
+      "has_bluetooth": false,
+      "has_bios_flashback": true,
+      "headers": {
+        "argb_5v": 2,
+        "rgb_12v": 2,
+        "fan_4pin": 5
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 1,
+        "usb_31_gen2_typea": 1,
+        "usb_31_gen1": 4,
+        "usb_20": 6
+      },
+      "price_usd": 179,
+      "tier": 6
+    }
+  },
+  {
+    "id": "mobo-gigabyte-b550-elite",
+    "name": "Gigabyte B550 AORUS ELITE V2",
+    "manufacturer": "Gigabyte",
+    "category": "motherboard",
+    "specs": {
+      "socket": "AM4",
+      "chipset": "B550",
+      "form_factor": "ATX",
+      "memory_type": "ddr4",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 3200,
+      "max_memory_speed_oc": 5400,
+      "supports_xmp": true,
+      "supports_expo": false,
+      "m2_slots": 2,
+      "sata_ports": 6,
+      "pcie_x16_slots": 2,
+      "pcie_version": "4.0",
+      "has_wifi": false,
+      "has_bluetooth": false,
+      "has_bios_flashback": true,
+      "headers": {
+        "argb_5v": 2,
+        "rgb_12v": 2,
+        "fan_4pin": 5
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 1,
+        "usb_31_gen2_typea": 1,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 159,
+      "tier": 6
+    }
+  },
+  {
+    "id": "mobo-asrock-b550-steel",
+    "name": "ASRock B550 Steel Legend",
+    "manufacturer": "ASRock",
+    "category": "motherboard",
+    "specs": {
+      "socket": "AM4",
+      "chipset": "B550",
+      "form_factor": "ATX",
+      "memory_type": "ddr4",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 3200,
+      "max_memory_speed_oc": 4733,
+      "supports_xmp": true,
+      "supports_expo": false,
+      "m2_slots": 2,
+      "sata_ports": 6,
+      "pcie_x16_slots": 2,
+      "pcie_version": "4.0",
+      "has_wifi": false,
+      "has_bluetooth": false,
+      "has_bios_flashback": false,
+      "headers": {
+        "argb_5v": 2,
+        "rgb_12v": 2,
+        "fan_4pin": 5
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 1,
+        "usb_31_gen2_typea": 1,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 149,
+      "tier": 5
+    }
+  },
+  {
+    "id": "mobo-asus-tuf-b550m",
+    "name": "ASUS TUF GAMING B550M-PLUS WIFI",
+    "manufacturer": "ASUS",
+    "category": "motherboard",
+    "specs": {
+      "socket": "AM4",
+      "chipset": "B550",
+      "form_factor": "mATX",
+      "memory_type": "ddr4",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 3200,
+      "max_memory_speed_oc": 4400,
+      "supports_xmp": true,
+      "supports_expo": false,
+      "m2_slots": 2,
+      "sata_ports": 4,
+      "pcie_x16_slots": 2,
+      "pcie_version": "4.0",
+      "has_wifi": true,
+      "has_bluetooth": true,
+      "has_bios_flashback": true,
+      "headers": {
+        "argb_5v": 2,
+        "rgb_12v": 1,
+        "fan_4pin": 4
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 0,
+        "usb_31_gen2_typea": 1,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 139,
+      "tier": 5
+    }
+  },
+  {
+    "id": "mobo-msi-b550m-mortar",
+    "name": "MSI MAG B550M MORTAR WIFI",
+    "manufacturer": "MSI",
+    "category": "motherboard",
+    "specs": {
+      "socket": "AM4",
+      "chipset": "B550",
+      "form_factor": "mATX",
+      "memory_type": "ddr4",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 3200,
+      "max_memory_speed_oc": 4866,
+      "supports_xmp": true,
+      "supports_expo": false,
+      "m2_slots": 2,
+      "sata_ports": 6,
+      "pcie_x16_slots": 2,
+      "pcie_version": "4.0",
+      "has_wifi": true,
+      "has_bluetooth": true,
+      "has_bios_flashback": true,
+      "headers": {
+        "argb_5v": 2,
+        "rgb_12v": 2,
+        "fan_4pin": 5
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 0,
+        "usb_31_gen2_typea": 1,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 159,
+      "tier": 6
+    }
+  },
+  {
+    "id": "mobo-gigabyte-b550m-ds3h",
+    "name": "Gigabyte B550M DS3H",
+    "manufacturer": "Gigabyte",
+    "category": "motherboard",
+    "specs": {
+      "socket": "AM4",
+      "chipset": "B550",
+      "form_factor": "mATX",
+      "memory_type": "ddr4",
+      "ram_slots": 4,
+      "max_ram_gb": 128,
+      "max_memory_speed_stock": 3200,
+      "max_memory_speed_oc": 4733,
+      "supports_xmp": true,
+      "supports_expo": false,
+      "m2_slots": 2,
+      "sata_ports": 4,
+      "pcie_x16_slots": 2,
+      "pcie_version": "4.0",
+      "has_wifi": false,
+      "has_bluetooth": false,
+      "has_bios_flashback": false,
+      "headers": {
+        "argb_5v": 1,
+        "rgb_12v": 1,
+        "fan_4pin": 4
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 0,
+        "usb_31_gen2_typea": 1,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 99,
+      "tier": 4
+    }
+  },
+  {
+    "id": "mobo-asrock-b550m-hdv",
+    "name": "ASRock B550M-HDV",
+    "manufacturer": "ASRock",
+    "category": "motherboard",
+    "specs": {
+      "socket": "AM4",
+      "chipset": "B550",
+      "form_factor": "mATX",
+      "memory_type": "ddr4",
+      "ram_slots": 4,
+      "max_ram_gb": 64,
+      "max_memory_speed_stock": 3200,
+      "max_memory_speed_oc": 4533,
+      "supports_xmp": true,
+      "supports_expo": false,
+      "m2_slots": 1,
+      "sata_ports": 4,
+      "pcie_x16_slots": 1,
+      "pcie_version": "4.0",
+      "has_wifi": false,
+      "has_bluetooth": false,
+      "has_bios_flashback": false,
+      "headers": {
+        "argb_5v": 1,
+        "rgb_12v": 1,
+        "fan_4pin": 3
+      },
+      "rear_usb": {
+        "usb_31_gen2_typec": 0,
+        "usb_31_gen2_typea": 0,
+        "usb_31_gen1": 4,
+        "usb_20": 4
+      },
+      "price_usd": 79,
+      "tier": 3
+    }
+  }
+]

@@ -1,0 +1,707 @@
+[
+  {
+    "id": "cooler-noctua-nhd15",
+    "name": "Noctua NH-D15 chromax.black",
+    "manufacturer": "Noctua",
+    "category": "cooler",
+    "specs": {
+      "type": "air",
+      "tdp_rating_w": 220,
+      "fan_count": 2,
+      "fan_size_mm": 140,
+      "height_mm": 165,
+      "rgb_type": "none",
+      "price_usd": 109
+    }
+  },
+  {
+    "id": "cooler-noctua-nhu12s",
+    "name": "Noctua NH-U12S chromax.black",
+    "manufacturer": "Noctua",
+    "category": "cooler",
+    "specs": {
+      "type": "air",
+      "tdp_rating_w": 165,
+      "fan_count": 1,
+      "fan_size_mm": 120,
+      "height_mm": 158,
+      "rgb_type": "none",
+      "price_usd": 79
+    }
+  },
+  {
+    "id": "cooler-noctua-nhu9s",
+    "name": "Noctua NH-U9S chromax.black",
+    "manufacturer": "Noctua",
+    "category": "cooler",
+    "specs": {
+      "type": "air",
+      "tdp_rating_w": 125,
+      "fan_count": 1,
+      "fan_size_mm": 92,
+      "height_mm": 125,
+      "rgb_type": "none",
+      "price_usd": 69
+    }
+  },
+  {
+    "id": "cooler-bequiet-dark-rock-pro-4",
+    "name": "be quiet! Dark Rock Pro 4",
+    "manufacturer": "be quiet!",
+    "category": "cooler",
+    "specs": {
+      "type": "air",
+      "tdp_rating_w": 250,
+      "fan_count": 2,
+      "fan_size_mm": 135,
+      "height_mm": 163,
+      "rgb_type": "none",
+      "price_usd": 89
+    }
+  },
+  {
+    "id": "cooler-bequiet-dark-rock-4",
+    "name": "be quiet! Dark Rock 4",
+    "manufacturer": "be quiet!",
+    "category": "cooler",
+    "specs": {
+      "type": "air",
+      "tdp_rating_w": 200,
+      "fan_count": 1,
+      "fan_size_mm": 135,
+      "height_mm": 159,
+      "rgb_type": "none",
+      "price_usd": 74
+    }
+  },
+  {
+    "id": "cooler-bequiet-pure-rock-2",
+    "name": "be quiet! Pure Rock 2",
+    "manufacturer": "be quiet!",
+    "category": "cooler",
+    "specs": {
+      "type": "air",
+      "tdp_rating_w": 150,
+      "fan_count": 1,
+      "fan_size_mm": 120,
+      "height_mm": 155,
+      "rgb_type": "none",
+      "price_usd": 44
+    }
+  },
+  {
+    "id": "cooler-deepcool-ak620",
+    "name": "DeepCool AK620",
+    "manufacturer": "DeepCool",
+    "category": "cooler",
+    "specs": {
+      "type": "air",
+      "tdp_rating_w": 260,
+      "fan_count": 2,
+      "fan_size_mm": 120,
+      "height_mm": 160,
+      "rgb_type": "none",
+      "price_usd": 64
+    }
+  },
+  {
+    "id": "cooler-deepcool-ak400",
+    "name": "DeepCool AK400",
+    "manufacturer": "DeepCool",
+    "category": "cooler",
+    "specs": {
+      "type": "air",
+      "tdp_rating_w": 220,
+      "fan_count": 1,
+      "fan_size_mm": 120,
+      "height_mm": 155,
+      "rgb_type": "none",
+      "price_usd": 34
+    }
+  },
+  {
+    "id": "cooler-deepcool-assassin-4",
+    "name": "DeepCool Assassin IV",
+    "manufacturer": "DeepCool",
+    "category": "cooler",
+    "specs": {
+      "type": "air",
+      "tdp_rating_w": 280,
+      "fan_count": 2,
+      "fan_size_mm": 140,
+      "height_mm": 168,
+      "rgb_type": "none",
+      "price_usd": 89
+    }
+  },
+  {
+    "id": "cooler-thermalright-peerless-assassin-120",
+    "name": "Thermalright Peerless Assassin 120 SE",
+    "manufacturer": "Thermalright",
+    "category": "cooler",
+    "specs": {
+      "type": "air",
+      "tdp_rating_w": 240,
+      "fan_count": 2,
+      "fan_size_mm": 120,
+      "height_mm": 158,
+      "rgb_type": "none",
+      "price_usd": 39
+    }
+  },
+  {
+    "id": "cooler-thermalright-phantom-spirit-120",
+    "name": "Thermalright Phantom Spirit 120 SE",
+    "manufacturer": "Thermalright",
+    "category": "cooler",
+    "specs": {
+      "type": "air",
+      "tdp_rating_w": 250,
+      "fan_count": 2,
+      "fan_size_mm": 120,
+      "height_mm": 157,
+      "rgb_type": "5v_argb",
+      "price_usd": 44
+    }
+  },
+  {
+    "id": "cooler-arctic-freezer-36",
+    "name": "Arctic Freezer 36",
+    "manufacturer": "Arctic",
+    "category": "cooler",
+    "specs": {
+      "type": "air",
+      "tdp_rating_w": 250,
+      "fan_count": 2,
+      "fan_size_mm": 120,
+      "height_mm": 166,
+      "rgb_type": "none",
+      "price_usd": 49
+    }
+  },
+  {
+    "id": "cooler-arctic-freezer-34-esports-duo",
+    "name": "Arctic Freezer 34 eSports DUO",
+    "manufacturer": "Arctic",
+    "category": "cooler",
+    "specs": {
+      "type": "air",
+      "tdp_rating_w": 210,
+      "fan_count": 2,
+      "fan_size_mm": 120,
+      "height_mm": 157,
+      "rgb_type": "none",
+      "price_usd": 44
+    }
+  },
+  {
+    "id": "cooler-coolermaster-hyper-212",
+    "name": "Cooler Master Hyper 212 Black Edition",
+    "manufacturer": "Cooler Master",
+    "category": "cooler",
+    "specs": {
+      "type": "air",
+      "tdp_rating_w": 180,
+      "fan_count": 1,
+      "fan_size_mm": 120,
+      "height_mm": 159,
+      "rgb_type": "none",
+      "price_usd": 44
+    }
+  },
+  {
+    "id": "cooler-coolermaster-hyper-212-rgb",
+    "name": "Cooler Master Hyper 212 RGB Black Edition",
+    "manufacturer": "Cooler Master",
+    "category": "cooler",
+    "specs": {
+      "type": "air",
+      "tdp_rating_w": 180,
+      "fan_count": 1,
+      "fan_size_mm": 120,
+      "height_mm": 159,
+      "rgb_type": "5v_argb",
+      "price_usd": 49
+    }
+  },
+  {
+    "id": "cooler-id-cooling-se-226-xt",
+    "name": "ID-COOLING SE-226-XT",
+    "manufacturer": "ID-COOLING",
+    "category": "cooler",
+    "specs": {
+      "type": "air",
+      "tdp_rating_w": 260,
+      "fan_count": 2,
+      "fan_size_mm": 120,
+      "height_mm": 158,
+      "rgb_type": "5v_argb",
+      "price_usd": 39
+    }
+  },
+  {
+    "id": "cooler-nzxt-kraken-360",
+    "name": "NZXT Kraken 360 RGB",
+    "manufacturer": "NZXT",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 280,
+      "fan_count": 3,
+      "fan_size_mm": 120,
+      "radiator_size": "360mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 159
+    }
+  },
+  {
+    "id": "cooler-nzxt-kraken-280",
+    "name": "NZXT Kraken 280 RGB",
+    "manufacturer": "NZXT",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 260,
+      "fan_count": 2,
+      "fan_size_mm": 140,
+      "radiator_size": "280mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 139
+    }
+  },
+  {
+    "id": "cooler-nzxt-kraken-240",
+    "name": "NZXT Kraken 240 RGB",
+    "manufacturer": "NZXT",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 240,
+      "fan_count": 2,
+      "fan_size_mm": 120,
+      "radiator_size": "240mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 119
+    }
+  },
+  {
+    "id": "cooler-corsair-h150i-elite",
+    "name": "Corsair iCUE H150i ELITE LCD XT",
+    "manufacturer": "Corsair",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 300,
+      "fan_count": 3,
+      "fan_size_mm": 120,
+      "radiator_size": "360mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 289
+    }
+  },
+  {
+    "id": "cooler-corsair-h100i-elite",
+    "name": "Corsair iCUE H100i ELITE LCD XT",
+    "manufacturer": "Corsair",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 260,
+      "fan_count": 2,
+      "fan_size_mm": 120,
+      "radiator_size": "240mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 239
+    }
+  },
+  {
+    "id": "cooler-corsair-h150i-rgb",
+    "name": "Corsair iCUE H150i RGB PRO XT",
+    "manufacturer": "Corsair",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 280,
+      "fan_count": 3,
+      "fan_size_mm": 120,
+      "radiator_size": "360mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 159
+    }
+  },
+  {
+    "id": "cooler-corsair-h100i-rgb",
+    "name": "Corsair iCUE H100i RGB PRO XT",
+    "manufacturer": "Corsair",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 250,
+      "fan_count": 2,
+      "fan_size_mm": 120,
+      "radiator_size": "240mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 119
+    }
+  },
+  {
+    "id": "cooler-lian-li-galahad-360",
+    "name": "Lian Li Galahad II Trinity 360",
+    "manufacturer": "Lian Li",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 300,
+      "fan_count": 3,
+      "fan_size_mm": 120,
+      "radiator_size": "360mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 169
+    }
+  },
+  {
+    "id": "cooler-lian-li-galahad-240",
+    "name": "Lian Li Galahad II Trinity 240",
+    "manufacturer": "Lian Li",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 260,
+      "fan_count": 2,
+      "fan_size_mm": 120,
+      "radiator_size": "240mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 139
+    }
+  },
+  {
+    "id": "cooler-arctic-liquid-freezer-360",
+    "name": "Arctic Liquid Freezer II 360",
+    "manufacturer": "Arctic",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 320,
+      "fan_count": 3,
+      "fan_size_mm": 120,
+      "radiator_size": "360mm",
+      "rgb_type": "none",
+      "price_usd": 119
+    }
+  },
+  {
+    "id": "cooler-arctic-liquid-freezer-280",
+    "name": "Arctic Liquid Freezer II 280",
+    "manufacturer": "Arctic",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 300,
+      "fan_count": 2,
+      "fan_size_mm": 140,
+      "radiator_size": "280mm",
+      "rgb_type": "none",
+      "price_usd": 99
+    }
+  },
+  {
+    "id": "cooler-arctic-liquid-freezer-240",
+    "name": "Arctic Liquid Freezer II 240",
+    "manufacturer": "Arctic",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 280,
+      "fan_count": 2,
+      "fan_size_mm": 120,
+      "radiator_size": "240mm",
+      "rgb_type": "none",
+      "price_usd": 89
+    }
+  },
+  {
+    "id": "cooler-ek-nucleus-360",
+    "name": "EK-Nucleus AIO CR360 Lux D-RGB",
+    "manufacturer": "EK",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 300,
+      "fan_count": 3,
+      "fan_size_mm": 120,
+      "radiator_size": "360mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 189
+    }
+  },
+  {
+    "id": "cooler-ek-nucleus-240",
+    "name": "EK-Nucleus AIO CR240 Lux D-RGB",
+    "manufacturer": "EK",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 260,
+      "fan_count": 2,
+      "fan_size_mm": 120,
+      "radiator_size": "240mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 149
+    }
+  },
+  {
+    "id": "cooler-msi-coreliquid-360",
+    "name": "MSI MAG CORELIQUID 360R V2",
+    "manufacturer": "MSI",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 280,
+      "fan_count": 3,
+      "fan_size_mm": 120,
+      "radiator_size": "360mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 139
+    }
+  },
+  {
+    "id": "cooler-msi-coreliquid-240",
+    "name": "MSI MAG CORELIQUID 240R V2",
+    "manufacturer": "MSI",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 250,
+      "fan_count": 2,
+      "fan_size_mm": 120,
+      "radiator_size": "240mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 109
+    }
+  },
+  {
+    "id": "cooler-deepcool-lt720",
+    "name": "DeepCool LT720",
+    "manufacturer": "DeepCool",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 300,
+      "fan_count": 3,
+      "fan_size_mm": 120,
+      "radiator_size": "360mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 124
+    }
+  },
+  {
+    "id": "cooler-deepcool-lt520",
+    "name": "DeepCool LT520",
+    "manufacturer": "DeepCool",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 260,
+      "fan_count": 2,
+      "fan_size_mm": 120,
+      "radiator_size": "240mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 99
+    }
+  },
+  {
+    "id": "cooler-coolermaster-ml360-illusion",
+    "name": "Cooler Master MasterLiquid 360 Illusion",
+    "manufacturer": "Cooler Master",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 280,
+      "fan_count": 3,
+      "fan_size_mm": 120,
+      "radiator_size": "360mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 134
+    }
+  },
+  {
+    "id": "cooler-coolermaster-ml240-illusion",
+    "name": "Cooler Master MasterLiquid 240 Illusion",
+    "manufacturer": "Cooler Master",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 250,
+      "fan_count": 2,
+      "fan_size_mm": 120,
+      "radiator_size": "240mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 104
+    }
+  },
+  {
+    "id": "cooler-thermaltake-th360-argb",
+    "name": "Thermaltake TH360 ARGB Sync",
+    "manufacturer": "Thermaltake",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 280,
+      "fan_count": 3,
+      "fan_size_mm": 120,
+      "radiator_size": "360mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 119
+    }
+  },
+  {
+    "id": "cooler-thermaltake-th240-argb",
+    "name": "Thermaltake TH240 ARGB Sync",
+    "manufacturer": "Thermaltake",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 250,
+      "fan_count": 2,
+      "fan_size_mm": 120,
+      "radiator_size": "240mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 94
+    }
+  },
+  {
+    "id": "cooler-id-cooling-frostflow-360",
+    "name": "ID-COOLING FROSTFLOW X 360",
+    "manufacturer": "ID-COOLING",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 280,
+      "fan_count": 3,
+      "fan_size_mm": 120,
+      "radiator_size": "360mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 89
+    }
+  },
+  {
+    "id": "cooler-id-cooling-frostflow-240",
+    "name": "ID-COOLING FROSTFLOW X 240",
+    "manufacturer": "ID-COOLING",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 250,
+      "fan_count": 2,
+      "fan_size_mm": 120,
+      "radiator_size": "240mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 69
+    }
+  },
+  {
+    "id": "cooler-asus-rog-ryujin-360",
+    "name": "ASUS ROG RYUJIN III 360 ARGB",
+    "manufacturer": "ASUS",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 320,
+      "fan_count": 3,
+      "fan_size_mm": 120,
+      "radiator_size": "360mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 279
+    }
+  },
+  {
+    "id": "cooler-asus-rog-strix-lc-360",
+    "name": "ASUS ROG STRIX LC II 360 ARGB",
+    "manufacturer": "ASUS",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 300,
+      "fan_count": 3,
+      "fan_size_mm": 120,
+      "radiator_size": "360mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 179
+    }
+  },
+  {
+    "id": "cooler-asus-rog-strix-lc-240",
+    "name": "ASUS ROG STRIX LC II 240 ARGB",
+    "manufacturer": "ASUS",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 260,
+      "fan_count": 2,
+      "fan_size_mm": 120,
+      "radiator_size": "240mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 149
+    }
+  },
+  {
+    "id": "cooler-gigabyte-aorus-360",
+    "name": "Gigabyte AORUS WATERFORCE X 360",
+    "manufacturer": "Gigabyte",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 300,
+      "fan_count": 3,
+      "fan_size_mm": 120,
+      "radiator_size": "360mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 189
+    }
+  },
+  {
+    "id": "cooler-gigabyte-aorus-240",
+    "name": "Gigabyte AORUS WATERFORCE X 240",
+    "manufacturer": "Gigabyte",
+    "category": "cooler",
+    "specs": {
+      "type": "aio",
+      "tdp_rating_w": 260,
+      "fan_count": 2,
+      "fan_size_mm": 120,
+      "radiator_size": "240mm",
+      "rgb_type": "5v_argb",
+      "price_usd": 149
+    }
+  },
+  {
+    "id": "cooler-noctua-nhl9i",
+    "name": "Noctua NH-L9i chromax.black",
+    "manufacturer": "Noctua",
+    "category": "cooler",
+    "specs": {
+      "type": "air",
+      "tdp_rating_w": 95,
+      "fan_count": 1,
+      "fan_size_mm": 92,
+      "height_mm": 37,
+      "rgb_type": "none",
+      "price_usd": 54
+    }
+  },
+  {
+    "id": "cooler-noctua-nhl12s",
+    "name": "Noctua NH-L12S",
+    "manufacturer": "Noctua",
+    "category": "cooler",
+    "specs": {
+      "type": "air",
+      "tdp_rating_w": 120,
+      "fan_count": 1,
+      "fan_size_mm": 120,
+      "height_mm": 70,
+      "rgb_type": "none",
+      "price_usd": 59
+    }
+  }
+]
